@@ -1,0 +1,806 @@
+package source;
+
+import org.apache.log4j.*;
+import java_cup.runtime.*;
+import util.ParserHelper;
+import util.GeneratorHelper;
+import rs.etf.pp1.symboltable.Tab;
+import rs.etf.pp1.symboltable.concepts.*;
+import rs.etf.pp1.mj.runtime.Code;
+
+parser code {:
+	Logger log = Logger.getLogger(getClass());
+
+	ParserHelper parserHelper = new ParserHelper(this);
+	GeneratorHelper genHelper = new GeneratorHelper(parserHelper);
+	
+	public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+    	parserHelper.errorDetected();
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+    	parserHelper.errorDetected();
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	parserHelper.errorDetected();
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+	}
+
+	public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+	}
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+init with {:
+	Tab.init();
+	parserHelper.initBool();
+:}
+
+action code {:
+	
+:}
+
+terminal PROGRAM, BREAK, CLASS, ELSE, CONST, IF, NEW, PRINT, READ, RETURN, VOID, FOR, EXTENDS, CONTINUE, STATIC;
+terminal String IDENT;
+terminal PLUS, MINUS, MUL, DIV, MOD, EQU, NOTEQU, GT, GTEQU, LE, LEQU, AND, OR, ASSIGN, PLUSASSIGN, MINUSASSIGN, MULASSIGN, DIVASSIGN, MODASSIGN, INCREMENT, DECREMENT, SEMICOLON, COMMA, DOT, LPAREN, RPAREN, LINDEX, RINDEX, LCURLYBRACE, RCURLYBRACE;
+terminal Integer NUMCONST;
+terminal Character CHARCONST;
+terminal Boolean BOOLCONST;
+
+non terminal Program, ProgramDeclarationListOpt, ProgramBody, ConcreteProgramDeclarations;
+non terminal ConstantDeclarationWrapper, ClassDeclaration, VariableDeclarationWrapper;
+non terminal Obj Type;
+non terminal ConstantDeclarationList, ConstantDeclaration;
+non terminal Obj Constant;
+non terminal ExtendsOpt, ClassBody;
+non terminal MethodDeclarationListOpt, MethodDeclaration, StaticOpt;
+non terminal Obj FormalParam;
+non terminal FormalParamListOpt, FormalParamList;
+non terminal Obj MethodReturnType;
+non terminal StatementListOpt, StatementList;
+non terminal VariableDeclarationWrapperListOpt, VariableDeclarationList, VariableDeclaration;
+non terminal Statement, DesignatorStatement, IfStatement, ForStatement, ReturnStatement, ReadStatement, PrintStatement;
+non terminal Obj Designator;
+non terminal Obj DesignatorOperation;
+non terminal Integer AssignOperator, AddOpRight, MulOpRight, AddOpLeft, MulOpLeft;
+non terminal Integer ExpressionList;
+non terminal Integer ActualParamListOpt, ActualParamList;
+non terminal Obj Expression;
+non terminal Integer NumConstOpt;
+non terminal Boolean MinusOpt;
+non terminal Obj Term, Factor;
+non terminal Obj RightAssocTermList, RightAssocFactorList, LeftAssocFactorList, LeftAssocTermList;
+non terminal Obj FunctionCall, ConstructorCall;
+non terminal Obj ObjectPropertyRef, ArrayElemRef, IndexingList;
+non terminal Condition, ElseOpt, ConditionTermList, ConditionTerm, ConditionFactorList, ConditionFactor, Relop;
+non terminal Obj DesignatorStatementOpt, ConditionOpt, ExpressionOpt, IndexingExpressionOpt;
+
+precedence left ELSE;
+
+Program ::= PROGRAM IDENT:ProgramName
+			{: 
+				parser.parserHelper.currentScopeStack.push(Tab.insert(Obj.Prog, ProgramName, Tab.noType));
+				Tab.openScope();
+			:}
+			 ProgramDeclarationListOpt LCURLYBRACE {: parser.parserHelper.enteringProgram(); :} ProgramBody 
+			{:
+				parser.parserHelper.exitingProgram();
+				Code.dataSize = Tab.currentScope().getnVars();
+				Tab.chainLocalSymbols(parser.parserHelper.currentScopeStack.pop());
+				Tab.closeScope();
+				if(!parser.parserHelper.isMainDefined())
+					parser.report_error("Main function not found!", null);
+			:} 
+			RCURLYBRACE;
+
+
+ProgramDeclarationListOpt ::=  ProgramDeclarationListOpt ConcreteProgramDeclarations | /* epsilon */;
+ConcreteProgramDeclarations ::= ConstantDeclarationWrapper | ClassDeclaration | VariableDeclarationWrapper | error:err {: parser.report_error("Recovered from syntax error at line " + errleft, null); :};
+ProgramBody ::= MethodDeclarationListOpt;
+
+ConstantDeclarationWrapper ::= CONST Type:TypeName {: parser.parserHelper.setCurrentTypeDeclaration(TypeName); :} //Potrebno za ubacivanje konstanti iz liste u tabelu simbola  
+								ConstantDeclarationList SEMICOLON {: parser.parserHelper.setCurrentTypeDeclaration(null); :};
+ConstantDeclarationList ::= ConstantDeclaration | ConstantDeclaration COMMA ConstantDeclarationList;
+ConstantDeclaration ::= IDENT:ConstName ASSIGN Constant:Const
+						{:
+							if(!parser.parserHelper.isInProgram())
+								parser.parserHelper.globalConstFound();
+							
+							Obj temp = Tab.find(ConstName);
+							if(temp == Tab.noObj) {
+								parser.report_info("Constant "+ ConstName+" declared on line "+ ConstNameleft, null);
+								if(Const.getType().assignableTo(parser.parserHelper.getCurrentTypeDeclaration().getType())) {
+									Obj myObj = Tab.insert(Obj.Con, ConstName, parser.parserHelper.getCurrentTypeDeclaration().getType());
+									myObj.setAdr(Const.getAdr());
+								}
+								else {
+									parser.report_error("Incompatible types", null);
+								}
+							} else if (temp.getKind() == Obj.Meth) {
+								parser.report_info("Constant "+ ConstName+" declared on line (has same name as a method)"+ ConstNameleft, null);
+								if(Const.getType().assignableTo(parser.parserHelper.getCurrentTypeDeclaration().getType())) {
+									Obj myObj = Tab.insert(Obj.Con, ConstName, parser.parserHelper.getCurrentTypeDeclaration().getType());
+									myObj.setAdr(Const.getAdr());
+								}
+								else {
+									parser.report_error("Incompatible types", null);	
+								}
+							} else {
+								parser.report_error("A constant or a variable with the same name as " + ConstName + " is already defined!", null);
+							}
+						:};
+
+Constant ::= NUMCONST:Const {: RESULT = parser.parserHelper.evaluateNumConst(Const); :}
+			| CHARCONST:Const {: RESULT = parser.parserHelper.evaluateCharConst(Const); :}
+			| BOOLCONST:Const {: RESULT = parser.parserHelper.evaluateBoolConst(Const); :};
+
+ClassDeclaration ::= CLASS IDENT:ClassName ExtendsOpt LCURLYBRACE VariableDeclarationWrapper ClassBody RCURLYBRACE;
+ExtendsOpt ::= EXTENDS Type | /* epsilon */;
+ClassBody ::= MethodDeclarationListOpt;
+
+MethodDeclarationListOpt ::= MethodDeclarationListOpt MethodDeclaration | /* epsilon */;
+MethodDeclaration ::= StaticOpt MethodReturnType:TypeName {: parser.parserHelper.setCurrentTypeDeclaration(TypeName); :} //Potrebna povratna vrednost za ubacivanje niza u tabelu simbola
+						IDENT:MethodName 
+					{: 
+						if(MethodName.equals("main")){
+							parser.parserHelper.enteringMain();
+							Code.mainPc = Code.pc;
+							if(parser.parserHelper.getCurrentTypeDeclaration() != Tab.noObj)
+								parser.report_error("Main function must have a void return type.", null);
+						}
+						
+						Obj currentMethod = Tab.noObj;
+						Obj temp = Tab.find(MethodName);
+						if(temp == Tab.noObj)
+						{
+							parser.report_info("Method "+ MethodName+" declared on line "+ MethodNameleft, null);
+							parser.parserHelper.currentScopeStack.push(currentMethod = Tab.insert(Obj.Meth, MethodName, parser.parserHelper.getCurrentTypeDeclaration().getType()));
+							Tab.openScope();
+						} else if (temp.getKind() != Obj.Meth) {
+							parser.report_info("Method "+ MethodName+" declared on line (has same name as a var/const)"+ MethodNameleft, null);
+							parser.parserHelper.currentScopeStack.push(currentMethod = Tab.insert(Obj.Meth, MethodName, parser.parserHelper.getCurrentTypeDeclaration().getType()));
+							Tab.openScope();
+						} else {
+							parser.report_error("A constant or a variable with the same name as " + MethodName + " is already defined!", null);
+						}
+						
+						Code.put(Code.enter);
+			   			Code.put(currentMethod.getLevel());
+			   			Code.put(Tab.currentScope().getnVars());
+
+						parser.parserHelper.setCurrentTypeDeclaration(null);
+					:} 
+					LPAREN FormalParamListOpt:FormalParams
+					{:
+						if(parser.parserHelper.isInMain() && parser.parserHelper.formalParamList.size() > 0)
+							parser.report_error("Main function must have zero arguments", null);
+
+						int formalParamPosition = 1;
+						for(Obj cur : parser.parserHelper.formalParamList)
+						{
+							Obj formalParamObj = Tab.insert(cur.getKind(), cur.getName(), cur.getType());
+							formalParamObj.setFpPos(formalParamPosition++);
+						}
+						Tab.find(MethodName).setLevel(parser.parserHelper.formalParamList.size());
+						parser.parserHelper.formalParamList.clear();
+					:}
+					RPAREN VariableDeclarationWrapperListOpt
+					LCURLYBRACE StatementListOpt RCURLYBRACE
+					{:
+						if(parser.parserHelper.getMethodReturnType() != Tab.noObj && !parser.parserHelper.isReturnFound())
+							parser.report_error("Method " + MethodName + " missing a return statement of type "+ parser.parserHelper.getMethodReturnType() + " (line " + MethodNameleft + ")", null);
+						parser.parserHelper.exitingMain();
+						Code.put(Code.exit);
+						Code.put(Code.return_);
+						Tab.chainLocalSymbols(parser.parserHelper.currentScopeStack.pop());
+						Tab.closeScope();
+					:};
+StaticOpt ::= STATIC:Static
+				{:
+					parser.report_error("Static modifier not allowed for global functions. Classes not supported (line " + Staticleft + ")", null);
+				:}
+				| /* epsilon */;
+
+MethodReturnType ::= VOID 
+					{:
+						parser.parserHelper.setMethodReturnType(Tab.noObj);
+						RESULT = Tab.noObj; 
+					:}
+					|
+					Type:TypeName
+					{:
+						parser.parserHelper.setMethodReturnType(TypeName);
+						RESULT = TypeName;
+					:};
+FormalParamListOpt ::= FormalParamList | /* epsilon */;
+FormalParamList ::= FormalParamList COMMA FormalParam | FormalParam;
+FormalParam ::= Type:ParamType IDENT:ParamName
+				{:
+					parser.parserHelper.formalParamList.add(new Obj(Obj.Var, ParamName, ParamType.getType()));
+				:}
+				|
+				Type:ParamType IDENT:ParamName LINDEX RINDEX
+				{:
+					parser.parserHelper.formalParamList.add(new Obj(Obj.Var, ParamName, new Struct(Struct.Array, ParamType.getType())));	
+				:};
+
+VariableDeclarationWrapperListOpt ::= VariableDeclarationWrapperListOpt VariableDeclarationWrapper | /* epsilon */;
+VariableDeclarationWrapper ::= Type:TypeName {: parser.parserHelper.setCurrentTypeDeclaration(TypeName); :} //Potrebno za ubacivanje promenljivih iz liste u tabelu simbola 
+								VariableDeclarationList SEMICOLON {: parser.parserHelper.setCurrentTypeDeclaration(null); :}
+								|
+								error:err SEMICOLON {: parser.report_error("Recovered from syntax error at variable declaration on line " + errleft, null); :};
+								
+									
+VariableDeclarationList ::= VariableDeclarationList COMMA VariableDeclaration 
+							| VariableDeclaration;
+
+VariableDeclaration ::= IDENT:VarName 
+						{:
+							if(!parser.parserHelper.isInProgram())
+								parser.parserHelper.globalVarFound();
+							else if(parser.parserHelper.isInMain())
+								parser.parserHelper.localVarFound();
+
+							if(!parser.parserHelper.isInProgram())
+								parser.parserHelper.globalConstFound();
+							
+							Obj temp = Tab.find(VarName);
+							if(temp == Tab.noObj) {
+								parser.report_info("Variable "+ VarName +" declared on line "+ VarNameleft, null);
+								Tab.insert(Obj.Var, VarName, parser.parserHelper.getCurrentTypeDeclaration().getType());
+							} else if (temp.getKind() == Obj.Meth) {
+								parser.report_info("Variable "+ VarName +" declared on line (has same name as a method)"+ VarNameleft, null);
+								Tab.insert(Obj.Var, VarName, parser.parserHelper.getCurrentTypeDeclaration().getType());
+							} else {
+								parser.report_error("A constant or a variable with the same name as " + VarName + " is already defined!", null);
+							}
+						:}
+						| IDENT:VarName LINDEX RINDEX
+						{:
+							if(!parser.parserHelper.isInProgram())
+								parser.parserHelper.globalArrayFound();
+
+							Obj temp = Tab.find(VarName);
+							if(temp == Tab.noObj) {
+								parser.report_info("Array "+ VarName +" declared on line "+ VarNameleft, null);
+								Tab.insert(Obj.Var, VarName, new Struct(Struct.Array, parser.parserHelper.getCurrentTypeDeclaration().getType()));
+							} else if (temp.getKind() == Obj.Meth) {
+								parser.report_info("Array "+ VarName +" declared on line (has same name as a method)"+ VarNameleft, null);
+								Tab.insert(Obj.Var, VarName, new Struct(Struct.Array, parser.parserHelper.getCurrentTypeDeclaration().getType()));
+							} else {
+								parser.report_error("A constant or a variable with the same name as " + VarName + " is already defined!", null);
+							}
+						:};
+
+Type ::= IDENT:TypeName {: RESULT = parser.parserHelper.typeNameToObj(TypeName); :};
+
+Statement ::= DesignatorStatement SEMICOLON
+				| Designator error:err SEMICOLON
+				{: parser.report_error("Recovered from syntax error at designator statement on line " + errleft, null); :}
+				| IfStatement
+				| ForStatement
+				| BREAK SEMICOLON
+				| CONTINUE SEMICOLON
+				| ReturnStatement SEMICOLON
+				| ReadStatement SEMICOLON
+				| PrintStatement SEMICOLON
+				| LCURLYBRACE StatementListOpt RCURLYBRACE;
+
+StatementListOpt ::= StatementList | /* epsilon */;
+StatementList ::= StatementList Statement | Statement;
+
+DesignatorStatementOpt ::= DesignatorStatement | /* epsilon */;
+DesignatorStatement ::= Designator:Designator
+						{:
+							parser.parserHelper.designatorStatementDesignator = Designator;
+							if(Designator.getType().getKind() != Struct.Array)
+								Code.put(Code.pop);
+						:}
+						DesignatorOperation:DesignatorOp
+						{:
+							if(Designator.getType().getKind() == Struct.Array) {
+								if(GeneratorHelper.constructorCall || DesignatorOp.getType().getKind() == Struct.Array) {
+									if(!DesignatorOp.getType().getElemType().assignableTo(Designator.getType().getElemType()))
+										parser.report_error("Type mismatch at designator statement. (line " + Designatorleft + ")", null);
+								} else {
+									if(!DesignatorOp.getType().assignableTo(Designator.getType().getElemType()))
+										parser.report_error("Type mismatch at designator statement. (line " + Designatorleft + ")", null);
+								}
+							} else {
+								if(DesignatorOp.getType().getKind() == Struct.Array) {
+									if(!DesignatorOp.getType().getElemType().assignableTo(Designator.getType()))
+										parser.report_error("Type mismatch at designator statement. (line " + Designatorleft + ")", null);
+								} else {
+									if(!DesignatorOp.getType().assignableTo(Designator.getType()))
+										parser.report_error("Type mismatch at designator statement. (line " + Designatorleft + ")", null);
+								}
+							}
+//							if(Designator.getType().getKind() == Struct.Array){
+//								if(!Designator.getType().getElemType().assignableTo(DesignatorOp.getType()) && !GeneratorHelper.constructorCall)
+//									parser.report_error("Type mismatch at designator statement. (line " + Designatorleft + ")", null);
+//								else if (GeneratorHelper.constructorCall && !Designator.getType().getElemType().assignableTo(DesignatorOp.getType().getElemType()))
+//									parser.report_error("Type mismatch at designator statement. (line " + Designatorleft + ")", null);
+//							} else {
+//								if(!Designator.getType().assignableTo(DesignatorOp.getType()))
+//									parser.report_error("Type mismatch at designator statement. (line " + Designatorleft + ")", null);
+//							}
+							GeneratorHelper.storeDesignator(Designator);
+							parser.parserHelper.designatorStatementDesignator = null;
+						:}
+						|
+						FunctionCall;
+
+DesignatorOperation ::= AssignOperator:AssignOpCode
+						{:
+							if(AssignOpCode != ParserHelper.ASSIGN && parser.parserHelper.designatorStatementDesignator.getType().getKind() == Struct.Array) {
+								Code.put(Code.dup2); 
+								Code.put(Code.aload);
+							} else if(AssignOpCode != ParserHelper.ASSIGN) {
+								Code.load(parser.parserHelper.designatorStatementDesignator);
+							}
+						:}
+						Expression:Expr
+						{:
+							switch(AssignOpCode)
+							{
+								case ParserHelper.ASSIGN:
+								break;
+								case ParserHelper.PLUSASSIGN:
+									Code.put(Code.add);
+								break;
+								case ParserHelper.MINUSASSIGN:
+									Code.put(Code.sub);
+								break;
+								case ParserHelper.MULASSIGN:
+									Code.put(Code.mul);
+								break;
+								case ParserHelper.DIVASSIGN:
+									Code.put(Code.div);
+								break;
+								case ParserHelper.MODASSIGN:
+									Code.put(Code.rem);
+								break;
+							}
+							RESULT = Expr;
+						:}
+						|
+						INCREMENT
+						{:
+							if(parser.parserHelper.designatorStatementDesignator.getType().getKind() == Struct.Array) {
+								Code.put(Code.dup2);
+								Code.put(Code.aload);
+							} else {
+								Code.load(parser.parserHelper.designatorStatementDesignator);
+							}
+							Code.put(Code.const_1);
+							Code.put(Code.add);
+							RESULT = new Obj(Obj.Con, "inc", Tab.intType);
+						:}
+						|
+						DECREMENT
+						{:
+							if(parser.parserHelper.designatorStatementDesignator.getType().getKind() == Struct.Array) {
+								Code.put(Code.dup2);
+								Code.put(Code.aload);
+							} else {
+								Code.load(parser.parserHelper.designatorStatementDesignator);
+							}
+							Code.put(Code.const_1);
+							Code.put(Code.sub);
+							RESULT = new Obj(Obj.Con, "inc", Tab.intType);
+						:};
+
+AssignOperator ::= ASSIGN
+				{:
+					RESULT = parser.parserHelper.ASSIGN;
+				:}
+				| AddOpRight:AddOp
+				{:
+					RESULT = AddOp;
+				:}
+				| MulOpRight:MulOp
+				{:
+					RESULT = MulOp;
+				:};
+
+AddOpRight ::= PLUSASSIGN
+				{:
+					RESULT = parser.parserHelper.PLUSASSIGN;
+				:}
+				|
+				MINUSASSIGN
+				{:
+					RESULT = parser.parserHelper.MINUSASSIGN;
+				:};
+
+MulOpRight ::= MULASSIGN
+				{:
+					RESULT = parser.parserHelper.MULASSIGN;
+				:}
+				| DIVASSIGN
+				{:
+					RESULT = parser.parserHelper.DIVASSIGN;
+				:}
+				| MODASSIGN
+				{:
+					RESULT = parser.parserHelper.MODASSIGN;
+				:};
+ActualParamListOpt ::= ActualParamList:ParamNumber
+						{: RESULT = ParamNumber; :}
+						|
+						/* epsilon */
+						{: RESULT = 0; :};
+
+ActualParamList ::= ExpressionList:ExprNumber
+					{: RESULT = ExprNumber; :};
+
+ExpressionList ::= ExpressionList:ParamNumber COMMA Expression:Expr 
+					{:
+						Obj formalParamType = parser.parserHelper.getFormalParamType();
+
+						if(!Expr.getType().assignableTo(formalParamType.getType()))
+							parser.report_error("Incompatible types at line " + Exprleft + " Found " + parser.parserHelper.objToString(Expr) + " expected " + parser.parserHelper.objToString(formalParamType), null);
+						RESULT = ParamNumber + 1; 
+					:}
+					|
+					Expression:Expr
+					{: 
+						Obj formalParamType = parser.parserHelper.getFormalParamType();
+						if(!Expr.getType().assignableTo(formalParamType.getType()))
+							parser.report_error("Incompatible types at line " + Exprleft + " Found " + parser.parserHelper.objToString(Expr) + " expected " + parser.parserHelper.objToString(formalParamType), null);
+						RESULT = 1;
+					:};
+
+ExpressionOpt ::= Expression:Expr
+					{:
+						RESULT = Expr;
+					:}
+					|
+					/* epsilon */
+					{:
+						RESULT = Tab.noObj;
+					:};
+Expression ::= MinusOpt:Minus
+				{:
+					GeneratorHelper.expressionNeg.push(Minus);
+				:}
+				RightAssocTermList:RightTermList
+				{:
+					if(RightTermList.getType().getKind() == Struct.Array && !GeneratorHelper.constructorCall) {
+						GeneratorHelper.removeIndicesAndResetTimes(RightTermList);
+					}
+
+					if(RightTermList.getType().getKind() != Struct.Array){
+						if(Minus && RightTermList.getType().getKind() != Struct.Int)
+							parser.report_error("Minus modifier can only be used with integers! (Line " + Minusleft + ")", null);
+					} else {
+						if(Minus && RightTermList.getType().getElemType().getKind() != Struct.Int)
+							parser.report_error("Minus modifier can only be used with integers! (Line " + Minusleft + ")", null);
+					}
+					RESULT = RightTermList;
+				:};
+
+MinusOpt ::= MINUS
+			{:
+				RESULT = true;
+			:}
+			| /* epsilon */
+			{:
+				RESULT = false;
+			:};
+
+//TermList ::= TermList:TermList AddOp:OpCode Term:Term
+//				{:
+//					if(TermList.getType() != Tab.intType || Term.getType() != Tab.intType)
+//						parser.report_error("Addition operations only available with int types! (line " + Termleft + ")", null);
+//					if(parser.parserHelper.isCombinedOperator(OpCode) && (TermList.getKind() != Obj.Elem && (TermList.getKind() != Obj.Var || (TermList.getKind() == Obj.Var && TermList.getType().getKind() == Struct.Array))))
+//						parser.report_error("Left operand of a combined assign operator must be an lvalue (line " + Termleft + ")\n" + parser.parserHelper.objToString(TermList), null);
+//
+//					RESULT = Term;
+//				:}
+//				|
+//				Term:Term
+//				{://Proveriti dal sme neg
+//					//Code.put(Code.neg);
+//					RESULT = Term;
+//				:};
+
+RightAssocTermList ::= Term:Term AddOpRight:OpCode RightAssocTermList:RightTermList
+						{:
+							if(RightTermList.getType().getKind() == Struct.Array) 
+								GeneratorHelper.removeIndicesAndResetTimes(RightTermList);
+							GeneratorHelper.executeOperation(OpCode);
+							GeneratorHelper.storeAndLoad(Term);
+							Term.setFpPos(Term.getFpPos() - 2);
+							RESULT = Term;
+						:}
+						|
+						LeftAssocTermList:LeftTermList
+						{:
+//							if(LeftTermList.getType().getKind() == Struct.Array && !GeneratorHelper.constructorCall && !GeneratorHelper.expressionHasParen.peek()){
+//								//GeneratorHelper.removeExcessIndices(2); ???? Mozda ovde additionalPops(additionalPopsNeeded)
+//							}
+							RESULT = LeftTermList;
+						:};
+
+LeftAssocTermList ::= LeftAssocTermList:LeftTermList AddOpLeft:OpCode Term:Term
+						{:
+							if(Term.getType().getKind() == Struct.Array)
+								GeneratorHelper.removeIndicesAndResetTimes(Term);
+							GeneratorHelper.executeOperation(OpCode);
+							RESULT = LeftTermList;
+						:}
+						|
+						Term:Term
+						{:
+							if(GeneratorHelper.expressionNeg.pop())
+								Code.put(Code.neg);
+							RESULT = Term;
+						:};
+
+Term ::= RightAssocFactorList:RightFactList
+		{: 
+			RESULT = RightFactList;
+		:};
+
+//FactorList ::= FactorList:FactList MulOp:OpCode Factor:Factor
+//				{:
+//					if(FactList.getType() != Tab.intType || Factor.getType() != Tab.intType)
+//						parser.report_error("Multiplication operations only available with int types! (line " + Factorleft + ")", null);
+//					if(parser.parserHelper.isCombinedOperator(OpCode) && (FactList.getKind() != Obj.Elem && (FactList.getKind() != Obj.Var || (FactList.getKind() == Obj.Var && FactList.getType().getKind() == Struct.Array))))
+//						parser.report_error("Left operand of a combined assign operator must be an lvalue (line " + Factorleft + ")\n" + parser.parserHelper.objToString(FactList), null);
+//					RESULT = Factor;
+//				:}
+//				|
+//				Factor:Factor
+//				{:
+//					RESULT = Factor;
+//				:};
+
+RightAssocFactorList ::= Factor:Factor MulOpRight:OpCode RightAssocFactorList:RightFactList
+						{:
+							if(RightFactList.getType().getKind() == Struct.Array)
+								GeneratorHelper.removeIndicesAndResetTimes(RightFactList);	//Indexi najlevljeg faktora ostaju na steku
+							GeneratorHelper.executeOperation(OpCode);
+							GeneratorHelper.storeAndLoad(Factor);
+							//GeneratorHelper.additionalPopsNeeded -= 2;
+							Factor.setFpPos(Factor.getFpPos() - 2);
+							RESULT = Factor;
+						:}
+						|
+						LeftAssocFactorList:LeftFactList
+						{:
+							RESULT = LeftFactList;
+						:};
+
+LeftAssocFactorList ::= LeftAssocFactorList:LeftFactList MulOpLeft:OpCode Factor:Factor
+						{:
+							if(Factor.getType().getKind() == Struct.Array)
+								GeneratorHelper.removeIndicesAndResetTimes(Factor);	//Indexi najlevljeg faktora ostaju na steku
+							GeneratorHelper.executeOperation(OpCode);
+							RESULT = LeftFactList;
+						:}
+						|
+						Factor:Factor
+						{:
+							RESULT = Factor;
+						:};
+
+Factor ::= Designator:Designator
+			{:
+				if(Designator.getType().getKind() == Struct.Array){
+					Code.put(Code.dup2);
+					Code.put(Code.dup2);
+					Code.put(Code.dup2);
+					Code.put(Code.dup2);//Double double double...
+					Designator.setFpPos(4);
+					if(Designator.getType().getElemType().getKind() == Struct.Int) 
+						Code.put(Code.aload);
+					else
+						Code.put(Code.baload);
+				}
+				RESULT = Designator;
+			:}
+			| FunctionCall:FunctionCall
+			{: RESULT = FunctionCall; :}
+			| NUMCONST:Num
+			{:
+				Code.loadConst(Num);
+				RESULT = parser.parserHelper.evaluateNumConst(Num);
+			:}
+			| CHARCONST:Char
+			{:
+				Code.loadConst(Char);
+				RESULT = parser.parserHelper.evaluateCharConst(Char);
+			:}
+			| BOOLCONST:Bool
+			{:
+				Code.loadConst(Bool?1:0);
+				RESULT = parser.parserHelper.evaluateBoolConst(Bool);
+			:}
+			| ConstructorCall:ArrayType
+			{:
+				RESULT = ArrayType;
+			:}
+			| LPAREN Expression:ExpressionObj RPAREN
+			{: RESULT = ExpressionObj; :};
+
+AddOpLeft ::= PLUS
+			{: RESULT = ParserHelper.PLUS; :}
+			|
+			MINUS
+			{: RESULT = ParserHelper.MINUS; :};
+
+MulOpLeft ::= MUL
+			{: RESULT = ParserHelper.MUL; :}
+			|
+			DIV
+			{: RESULT = ParserHelper.DIV; :}
+			|
+			MOD
+			{: RESULT = ParserHelper.MOD; :};
+
+Designator ::= IDENT:VarName
+				{:
+					Obj var = Tab.find(VarName);
+					if(var == Tab.noObj || (var.getKind() != Obj.Var && var.getKind() != Obj.Con && var.getKind() != Obj.Meth))
+						parser.report_error("Name " + VarName + " incorrectly used or not found on line " + VarNameleft, null);
+					Code.load(var);
+					RESULT = var;
+				:}
+				| ObjectPropertyRef 
+				| ArrayElemRef:ArrayObj
+				{:
+					RESULT = GeneratorHelper.copyObj(ArrayObj);
+				:};
+ObjectPropertyRef ::= Designator DOT IDENT:propertyName
+						{:
+							parser.report_error("Classes and objects have not been implemented!", null);
+						:};
+ArrayElemRef ::= Designator:ArrayObj
+					{:
+						if(ArrayObj == Tab.noObj || ArrayObj.getKind() != Obj.Var || ArrayObj.getType().getKind() != Struct.Array)
+							parser.report_error("Name " + ArrayObj.getName() + " incorrectly used or not found on line " + ArrayObjleft, null);
+					:}
+					IndexingList:Index
+					{:
+						if(Index.getType().getKind() != Struct.Array){
+							if(Index == Tab.noObj || Index.getType().getKind() != Struct.Int)
+								parser.report_error("Indexing expression of an array must return an integer! (line " + ArrayObjleft + ")", null);
+						} else {
+							if(Index == Tab.noObj || Index.getType().getElemType().getKind() != Struct.Int)
+								parser.report_error("Indexing expression of an array must return an integer! (line " + ArrayObjleft + ")", null);
+						}
+						RESULT = ArrayObj;
+					:};
+IndexingList ::= LINDEX Expression:IndexingExpression RINDEX
+					{:
+						RESULT = IndexingExpression;
+					:};
+
+IfStatement ::= IF LPAREN Condition RPAREN Statement ElseOpt;
+ElseOpt ::= ELSE Statement | /* epsilon */;
+
+ConditionOpt ::= Condition | /* epsilon */;
+Condition ::= ConditionTermList;
+ConditionTermList ::= ConditionTermList OR ConditionTerm | ConditionTerm;
+ConditionTerm ::= ConditionFactorList;
+ConditionFactorList ::= ConditionFactorList AND ConditionFactor | ConditionFactor;
+ConditionFactor ::= Expression | Expression Relop Expression;
+Relop ::= EQU | NOTEQU | GT | GTEQU | LE | LEQU;
+
+ForStatement ::= FOR LPAREN DesignatorStatementOpt SEMICOLON ConditionOpt SEMICOLON DesignatorStatementOpt RPAREN Statement;
+
+ReturnStatement ::= RETURN ExpressionOpt:RetExpr
+					{:
+						if(!RetExpr.getType().assignableTo(parser.parserHelper.getMethodReturnType().getType()))
+							parser.report_error("Incompatible types at return statement. (line " + RetExprleft + ")", null);
+
+						parser.parserHelper.setReturnFound(true);
+					:};
+
+ReadStatement ::= READ LPAREN Designator:Designator RPAREN
+					{:
+						if(Designator.getType().getKind() != Struct.Array) {
+							if(Designator.getType().getKind() != Struct.Int && Designator.getType().getKind() != Struct.Char && Designator.getType().getKind() != Struct.Bool)
+								parser.report_error("Read statement can only read int char or bool types (line "+ Designatorleft + ")", null);
+						}
+						GeneratorHelper.readDesignator(Designator);
+						RESULT = Designator; //Moze a ne mora bit'
+					:};
+
+PrintStatement ::= PRINT LPAREN Expression:Expr NumConstOpt:Width RPAREN
+					{:
+						if(Expr.getType().getKind() != Struct.Int && Expr.getType().getKind() != Struct.Char && Expr.getType().getKind() != Struct.Bool && Expr.getType().getKind() != Struct.Array)
+							parser.report_error("Print statement can only read int char or bool types (line "+ Exprleft + ")", null);
+
+						if(Width == 0)
+							Width = 5;
+
+						Code.loadConst(Width.intValue());
+						if(Expr.getType().getKind() != Struct.Array) {
+							if(Expr.getType() == Tab.charType)
+								Code.put(Code.bprint);
+							else
+								Code.put(Code.print);
+						} else {
+							if(Expr.getType().getElemType() == Tab.charType)
+								Code.put(Code.bprint);
+							else
+								Code.put(Code.print);
+						}
+					:};
+NumConstOpt ::= COMMA NUMCONST:Width
+				{:
+					RESULT = Width;
+				:}
+				| 
+				/* epsilon */
+				{:
+					RESULT = 0;
+				:};
+
+FunctionCall ::= Designator:FunctionObj
+				{:
+					if(FunctionObj == Tab.noObj || FunctionObj.getKind() != Obj.Meth)
+						parser.report_error(FunctionObj.getName() + " is not a method! (line "+ FunctionObjleft + ")", null);
+					parser.parserHelper.methodInvocationStack.push(FunctionObj);
+					parser.parserHelper.formalParameterPositionStack.push(1);
+				:}
+				LPAREN ActualParamListOpt:ParamNumber RPAREN
+				{:
+					Obj functionObj = parser.parserHelper.methodInvocationStack.pop();
+					parser.parserHelper.formalParameterPositionStack.pop();
+					if(ParamNumber != functionObj.getLevel())
+						parser.report_error("Parameter number mismatch at line " + ParamNumberleft, null);
+					RESULT = functionObj;
+				:};
+ConstructorCall ::= NEW Type:ArrayType IndexingExpressionOpt:IndexExpr
+					{:
+						if(IndexExpr.getType().getKind() != Struct.Array) {
+							if(IndexExpr.getType().getKind() != Struct.Int)
+								parser.report_error("Constructor indexing expression must return an integer. (line " + IndexExprleft + ")", null);
+						} else {
+							if(IndexExpr.getType().getElemType().getKind() != Struct.Int)
+								parser.report_error("Constructor indexing expression must return an integer. (line " + IndexExprleft + ")", null);
+						}
+						GeneratorHelper.constructorCall = true;
+						GeneratorHelper.removePretposlednji();
+						Code.put(Code.newarray);
+						if(ArrayType.getType().getKind() == Struct.Int)
+							Code.put(1);
+						else
+							Code.put(0);
+						RESULT = new Obj(Obj.Var, "TempArray", new Struct(Struct.Array, ArrayType.getType()));
+					:};
+IndexingExpressionOpt ::= LINDEX Expression:IndexExpr RINDEX 
+						{:
+							RESULT = IndexExpr;
+						:}
+						|
+						/* epsilon */
+						{:
+							parser.report_error("Operator new must construct an array. Classes not supported." , null);
+							RESULT = Tab.noObj;
+						:};

@@ -1,0 +1,130 @@
+INFO  14:04:32,734 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  14:04:32,749 - #2 program
+INFO  14:04:32,749 - #17 Prog
+INFO  14:04:32,749 - #6 const
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 jedan
+INFO  14:04:32,749 - #31 =
+INFO  14:04:32,749 - #48 5
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Constant jedan declared on line 2
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 niz
+INFO  14:04:32,749 - #44 [
+INFO  14:04:32,749 - #45 ]
+INFO  14:04:32,749 - #40 ,
+INFO  14:04:32,749 - Array niz declared on line 3
+INFO  14:04:32,749 - #17 t
+INFO  14:04:32,749 - #44 [
+INFO  14:04:32,749 - #45 ]
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Array t declared on line 3
+INFO  14:04:32,749 - #6 const
+INFO  14:04:32,749 - #17 bool
+INFO  14:04:32,749 - #17 prviBool
+INFO  14:04:32,749 - #31 =
+INFO  14:04:32,749 - #50 true
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Constant prviBool declared on line 4
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 prom
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Variable prom declared on line 5
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 broj
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Variable broj declared on line 6
+INFO  14:04:32,749 - #46 {
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 funkcija
+INFO  14:04:32,749 - #42 (
+INFO  14:04:32,749 - Method funkcija declared on line 8
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 a
+INFO  14:04:32,749 - #40 ,
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 b
+INFO  14:04:32,749 - #43 )
+INFO  14:04:32,749 - #46 {
+INFO  14:04:32,749 - #17 a
+INFO  14:04:32,749 - #31 =
+INFO  14:04:32,749 - #17 a
+INFO  14:04:32,749 - #18 +
+INFO  14:04:32,749 - #17 b
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - #9 print
+INFO  14:04:32,749 - #42 (
+INFO  14:04:32,749 - #48 45
+INFO  14:04:32,749 - #43 )
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - #47 }
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 drugaF
+INFO  14:04:32,749 - #42 (
+INFO  14:04:32,749 - Method drugaF declared on line 14
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 a
+INFO  14:04:32,749 - #40 ,
+INFO  14:04:32,749 - #17 char
+INFO  14:04:32,749 - #17 b
+INFO  14:04:32,749 - #43 )
+INFO  14:04:32,749 - #46 {
+INFO  14:04:32,749 - #47 }
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 funkcijaSaNizom
+INFO  14:04:32,749 - #42 (
+INFO  14:04:32,749 - Method funkcijaSaNizom declared on line 16
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 a
+INFO  14:04:32,749 - #44 [
+INFO  14:04:32,749 - #45 ]
+INFO  14:04:32,749 - #43 )
+INFO  14:04:32,749 - #46 {
+INFO  14:04:32,749 - #11 return
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - #47 }
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 fNoParam
+INFO  14:04:32,749 - #42 (
+INFO  14:04:32,749 - Method fNoParam declared on line 21
+INFO  14:04:32,749 - #43 )
+INFO  14:04:32,749 - #46 {
+INFO  14:04:32,749 - #47 }
+INFO  14:04:32,749 - #12 void
+INFO  14:04:32,749 - #17 voidF
+INFO  14:04:32,749 - #42 (
+INFO  14:04:32,749 - Method voidF declared on line 23
+INFO  14:04:32,749 - #43 )
+INFO  14:04:32,749 - #46 {
+INFO  14:04:32,749 - #47 }
+INFO  14:04:32,749 - #12 void
+INFO  14:04:32,749 - #17 main
+INFO  14:04:32,749 - #42 (
+INFO  14:04:32,749 - Method main declared on line 25
+INFO  14:04:32,749 - #43 )
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 a
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Variable a declared on line 25
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 b
+INFO  14:04:32,749 - #40 ,
+INFO  14:04:32,749 - Variable b declared on line 25
+INFO  14:04:32,749 - #17 c
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Variable c declared on line 25
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #17 drugiNiz
+INFO  14:04:32,749 - #44 [
+INFO  14:04:32,749 - #45 ]
+INFO  14:04:32,749 - #39 ;
+INFO  14:04:32,749 - Array drugiNiz declared on line 25
+INFO  14:04:32,749 - #46 {
+INFO  14:04:32,749 - #17 a
+INFO  14:04:32,749 - #31 =
+INFO  14:04:32,749 - #8 new
+INFO  14:04:32,749 - #17 int
+INFO  14:04:32,749 - #39 ;
+ERROR 14:04:32,749 - 
+Sintaksna greska na liniji 26
+ERROR 14:04:32,749 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 26

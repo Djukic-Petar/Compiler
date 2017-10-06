@@ -1,0 +1,32 @@
+program ispravan
+	const int pet = 5;
+	int b, c;
+	char ch;
+	int x;
+	int prvi[];
+	int drugi[];
+	char nizch[];
+	bool boolVal;
+{
+	void main() int a; {
+		a = 3;
+		c = -2;
+		b = a * (a * (-c));
+		print(b);	//b = 18
+		prvi = new int[b -= 8]; // prvi[10]; b = 10
+		prvi[7] = 9;
+		prvi[a += 1] = b -= prvi[6+1] *= c;
+		print(prvi[7]);
+		print(b);
+		print(prvi[4]);
+		print(a);
+		
+		read(ch);
+		print(ch);
+		
+		read(boolVal);
+		print(boolVal);
+		boolVal = false;
+		print(boolVal);
+	}
+}

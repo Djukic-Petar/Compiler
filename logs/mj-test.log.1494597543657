@@ -1,0 +1,48 @@
+INFO  15:58:36,157 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  15:58:36,164 - #2 program
+INFO  15:58:36,164 - #17 test301
+INFO  15:58:36,164 - #17 int
+INFO  15:58:36,164 - #17 a
+INFO  15:58:36,164 - #40 ,
+INFO  15:58:36,165 - Variable a declared on line 4
+INFO  15:58:36,165 - #17 b
+INFO  15:58:36,165 - #40 ,
+INFO  15:58:36,165 - Variable b declared on line 4
+INFO  15:58:36,165 - #17 c
+INFO  15:58:36,165 - #39 ;
+INFO  15:58:36,165 - Variable c declared on line 4
+INFO  15:58:36,165 - #46 {
+INFO  15:58:36,165 - #12 void
+INFO  15:58:36,165 - #17 main
+INFO  15:58:36,165 - #42 (
+INFO  15:58:36,166 - Method main declared on line 7
+INFO  15:58:36,166 - #43 )
+INFO  15:58:36,166 - #46 {
+INFO  15:58:36,166 - #17 a
+INFO  15:58:36,166 - #31 =
+INFO  15:58:36,166 - #48 5
+INFO  15:58:36,166 - #39 ;
+INFO  15:58:36,166 - #17 b
+INFO  15:58:36,166 - #31 =
+INFO  15:58:36,166 - #19 -
+INFO  15:58:36,166 - #17 a
+INFO  15:58:36,166 - #18 +
+INFO  15:58:36,166 - #42 (
+INFO  15:58:36,166 - #19 -
+INFO  15:58:36,166 - #48 7
+INFO  15:58:36,166 - #20 *
+INFO  15:58:36,166 - #48 5
+INFO  15:58:36,166 - #43 )
+INFO  15:58:36,167 - #39 ;
+INFO  15:58:36,167 - #9 print
+INFO  15:58:36,167 - #42 (
+INFO  15:58:36,167 - #17 a
+INFO  15:58:36,167 - #43 )
+INFO  15:58:36,167 - #39 ;
+INFO  15:58:36,167 - #9 print
+INFO  15:58:36,167 - #42 (
+INFO  15:58:36,167 - #17 b
+INFO  15:58:36,167 - #43 )
+INFO  15:58:36,167 - #39 ;
+INFO  15:58:36,167 - #47 }
+INFO  15:58:36,167 - #47 }

@@ -1,0 +1,153 @@
+INFO  20:30:42,637 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  20:30:42,644 - #2 program
+INFO  20:30:42,644 - #17 Prog
+INFO  20:30:42,644 - #6 const
+INFO  20:30:42,644 - #17 int
+INFO  20:30:42,644 - #17 jedan
+INFO  20:30:42,644 - #31 =
+INFO  20:30:42,644 - #48 50
+INFO  20:30:42,644 - #39 ;
+INFO  20:30:42,644 - Constant jedan declared on line 2
+INFO  20:30:42,644 - #17 int
+INFO  20:30:42,645 - #17 niz
+INFO  20:30:42,645 - #44 [
+INFO  20:30:42,645 - #45 ]
+INFO  20:30:42,645 - #40 ,
+INFO  20:30:42,645 - Array niz declared on line 3
+INFO  20:30:42,645 - #17 t
+INFO  20:30:42,645 - #44 [
+INFO  20:30:42,645 - #45 ]
+INFO  20:30:42,645 - #39 ;
+INFO  20:30:42,645 - Array t declared on line 3
+INFO  20:30:42,645 - #6 const
+INFO  20:30:42,645 - #17 bool
+INFO  20:30:42,645 - #17 prviBool
+INFO  20:30:42,645 - #31 =
+INFO  20:30:42,645 - #50 true
+INFO  20:30:42,645 - #39 ;
+INFO  20:30:42,645 - Constant prviBool declared on line 4
+INFO  20:30:42,645 - #17 int
+INFO  20:30:42,645 - #17 prom
+INFO  20:30:42,645 - #39 ;
+INFO  20:30:42,645 - Variable prom declared on line 5
+INFO  20:30:42,645 - #17 int
+INFO  20:30:42,645 - #17 broj
+INFO  20:30:42,645 - #39 ;
+INFO  20:30:42,645 - Variable broj declared on line 6
+INFO  20:30:42,645 - #46 {
+INFO  20:30:42,646 - #17 int
+INFO  20:30:42,646 - #17 funkcija
+INFO  20:30:42,646 - #42 (
+INFO  20:30:42,646 - Method funkcija declared on line 9
+INFO  20:30:42,646 - #17 int
+INFO  20:30:42,646 - #17 a
+INFO  20:30:42,646 - #40 ,
+INFO  20:30:42,646 - #17 int
+INFO  20:30:42,646 - #17 b
+INFO  20:30:42,646 - #43 )
+INFO  20:30:42,646 - #46 {
+INFO  20:30:42,646 - #17 a
+INFO  20:30:42,646 - #31 =
+INFO  20:30:42,646 - #17 a
+INFO  20:30:42,646 - #18 +
+INFO  20:30:42,646 - #17 b
+INFO  20:30:42,646 - #39 ;
+INFO  20:30:42,646 - #9 print
+INFO  20:30:42,646 - #42 (
+INFO  20:30:42,646 - #48 45
+INFO  20:30:42,646 - #43 )
+INFO  20:30:42,647 - #39 ;
+INFO  20:30:42,647 - #47 }
+INFO  20:30:42,647 - #17 int
+INFO  20:30:42,647 - #17 drugaF
+INFO  20:30:42,647 - #42 (
+INFO  20:30:42,647 - Method drugaF declared on line 15
+INFO  20:30:42,647 - #17 int
+INFO  20:30:42,647 - #17 a
+INFO  20:30:42,647 - #40 ,
+INFO  20:30:42,647 - #17 char
+INFO  20:30:42,647 - #17 b
+INFO  20:30:42,647 - #43 )
+INFO  20:30:42,647 - #46 {
+INFO  20:30:42,647 - #47 }
+INFO  20:30:42,647 - #12 void
+INFO  20:30:42,647 - #17 main
+INFO  20:30:42,647 - #42 (
+INFO  20:30:42,647 - Method main declared on line 17
+INFO  20:30:42,647 - #43 )
+INFO  20:30:42,647 - #17 int
+INFO  20:30:42,647 - #17 a
+INFO  20:30:42,647 - #39 ;
+INFO  20:30:42,647 - Variable a declared on line 17
+INFO  20:30:42,647 - #17 int
+INFO  20:30:42,647 - #17 b
+INFO  20:30:42,647 - #40 ,
+INFO  20:30:42,647 - Variable b declared on line 17
+INFO  20:30:42,647 - #17 c
+INFO  20:30:42,648 - #39 ;
+INFO  20:30:42,648 - Variable c declared on line 17
+INFO  20:30:42,648 - #17 int
+INFO  20:30:42,648 - #17 drugiNiz
+INFO  20:30:42,648 - #44 [
+INFO  20:30:42,648 - #45 ]
+INFO  20:30:42,648 - #39 ;
+INFO  20:30:42,648 - Array drugiNiz declared on line 17
+INFO  20:30:42,648 - #46 {
+INFO  20:30:42,648 - #17 a
+INFO  20:30:42,648 - #31 =
+INFO  20:30:42,648 - #17 broj
+INFO  20:30:42,648 - #39 ;
+INFO  20:30:42,648 - #9 print
+INFO  20:30:42,648 - #42 (
+INFO  20:30:42,648 - #17 broj
+INFO  20:30:42,648 - #43 )
+INFO  20:30:42,648 - #39 ;
+INFO  20:30:42,648 - #17 funkcija
+INFO  20:30:42,648 - #42 (
+INFO  20:30:42,648 - #17 a
+INFO  20:30:42,648 - #40 ,
+INFO  20:30:42,649 - #17 b
+INFO  20:30:42,649 - #43 )
+INFO  20:30:42,649 - #39 ;
+INFO  20:30:42,649 - #11 return
+INFO  20:30:42,649 - #17 broj
+INFO  20:30:42,649 - #39 ;
+INFO  20:30:42,649 - #17 b
+INFO  20:30:42,649 - #31 =
+INFO  20:30:42,649 - #17 niz
+INFO  20:30:42,649 - #44 [
+INFO  20:30:42,649 - #48 2
+INFO  20:30:42,649 - #45 ]
+INFO  20:30:42,649 - #39 ;
+INFO  20:30:42,649 - #17 b
+INFO  20:30:42,649 - #31 =
+INFO  20:30:42,649 - #17 niz
+INFO  20:30:42,649 - #44 [
+INFO  20:30:42,649 - #17 niz
+INFO  20:30:42,649 - #44 [
+INFO  20:30:42,649 - #48 7
+INFO  20:30:42,649 - #20 *
+INFO  20:30:42,649 - #48 2
+INFO  20:30:42,649 - #19 -
+INFO  20:30:42,649 - #42 (
+INFO  20:30:42,649 - #17 drugiNiz
+INFO  20:30:42,650 - #44 [
+INFO  20:30:42,650 - #48 2
+INFO  20:30:42,650 - #45 ]
+INFO  20:30:42,650 - #22 %
+INFO  20:30:42,650 - #48 4
+INFO  20:30:42,650 - #43 )
+INFO  20:30:42,650 - #45 ]
+INFO  20:30:42,650 - #45 ]
+INFO  20:30:42,650 - #39 ;
+INFO  20:30:42,650 - #17 c
+INFO  20:30:42,650 - #31 =
+INFO  20:30:42,650 - #17 funkcija
+INFO  20:30:42,650 - #42 (
+INFO  20:30:42,650 - #17 drugaF
+INFO  20:30:42,650 - #42 (
+INFO  20:30:42,650 - #48 2
+INFO  20:30:42,650 - #40 ,
+INFO  20:30:42,650 - #49 a
+INFO  20:30:42,650 - #43 )
+INFO  20:30:42,650 - #40 ,

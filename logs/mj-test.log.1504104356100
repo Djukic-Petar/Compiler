@@ -1,0 +1,65 @@
+INFO  16:45:36,891 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:45:36,900 - #2 program
+INFO  16:45:36,900 - #17 ispravan
+INFO  16:45:36,900 - #6 const
+INFO  16:45:36,900 - #17 int
+INFO  16:45:36,900 - #17 pet
+INFO  16:45:36,900 - #31 =
+INFO  16:45:36,900 - #48 5
+INFO  16:45:36,900 - #39 ;
+INFO  16:45:36,900 - Constant pet declared on line 2
+INFO  16:45:36,900 - #17 int
+INFO  16:45:36,900 - #17 b
+INFO  16:45:36,900 - #40 ,
+INFO  16:45:36,900 - Variable b declared on line 3
+INFO  16:45:36,900 - #17 c
+INFO  16:45:36,900 - #39 ;
+INFO  16:45:36,900 - Variable c declared on line 3
+INFO  16:45:36,900 - #17 char
+INFO  16:45:36,900 - #17 ch
+INFO  16:45:36,901 - #39 ;
+INFO  16:45:36,901 - Variable ch declared on line 4
+INFO  16:45:36,901 - #17 int
+INFO  16:45:36,901 - #17 x
+INFO  16:45:36,901 - #39 ;
+INFO  16:45:36,901 - Variable x declared on line 5
+INFO  16:45:36,901 - #17 int
+INFO  16:45:36,901 - #17 prvi
+INFO  16:45:36,901 - #44 [
+INFO  16:45:36,901 - #45 ]
+INFO  16:45:36,901 - #39 ;
+INFO  16:45:36,901 - Array prvi declared on line 6
+INFO  16:45:36,901 - #17 int
+INFO  16:45:36,901 - #17 drugi
+INFO  16:45:36,901 - #44 [
+INFO  16:45:36,901 - #45 ]
+INFO  16:45:36,901 - #39 ;
+INFO  16:45:36,901 - Array drugi declared on line 7
+INFO  16:45:36,901 - #17 char
+INFO  16:45:36,901 - #17 nizch
+INFO  16:45:36,901 - #44 [
+INFO  16:45:36,901 - #45 ]
+INFO  16:45:36,901 - #39 ;
+INFO  16:45:36,901 - Array nizch declared on line 8
+INFO  16:45:36,901 - #17 bool
+INFO  16:45:36,901 - #17 boolVal
+INFO  16:45:36,901 - #39 ;
+INFO  16:45:36,902 - Variable boolVal declared on line 9
+INFO  16:45:36,902 - #46 {
+INFO  16:45:36,902 - #12 void
+INFO  16:45:36,902 - #17 main
+INFO  16:45:36,902 - #42 (
+INFO  16:45:36,903 - Method main declared on line 11
+INFO  16:45:36,903 - #43 )
+INFO  16:45:36,903 - #17 int
+INFO  16:45:36,903 - #17 a
+INFO  16:45:36,903 - #39 ;
+INFO  16:45:36,903 - Variable a declared on line 11
+INFO  16:45:36,903 - #46 {
+INFO  16:45:36,903 - #17 chr
+INFO  16:45:36,903 - #42 (
+INFO  16:45:36,903 - #48 1
+INFO  16:45:36,903 - #43 )
+INFO  16:45:36,904 - #39 ;
+INFO  16:45:36,904 - #47 }
+INFO  16:45:36,904 - #47 }

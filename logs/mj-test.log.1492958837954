@@ -1,0 +1,92 @@
+INFO  16:47:12,117 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:47:12,133 - #2 program
+INFO  16:47:12,133 - #17 Prog
+INFO  16:47:12,133 - #6 const
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 jedan
+INFO  16:47:12,133 - #31 =
+INFO  16:47:12,133 - #48 5
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Constant jedan declared on line 2
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 niz
+INFO  16:47:12,133 - #44 [
+INFO  16:47:12,133 - #45 ]
+INFO  16:47:12,133 - #40 ,
+INFO  16:47:12,133 - Array niz declared on line 3
+INFO  16:47:12,133 - #17 t
+INFO  16:47:12,133 - #44 [
+INFO  16:47:12,133 - #45 ]
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Array t declared on line 3
+INFO  16:47:12,133 - #6 const
+INFO  16:47:12,133 - #17 bool
+INFO  16:47:12,133 - #17 prviBool
+INFO  16:47:12,133 - #31 =
+INFO  16:47:12,133 - #50 true
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Constant prviBool declared on line 4
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 prom
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Variable prom declared on line 5
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 broj
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Variable broj declared on line 6
+INFO  16:47:12,133 - #46 {
+INFO  16:47:12,133 - #12 void
+INFO  16:47:12,133 - #17 funkcija
+INFO  16:47:12,133 - #42 (
+INFO  16:47:12,133 - Method funkcija declared on line 8
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 a
+INFO  16:47:12,133 - #40 ,
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 b
+INFO  16:47:12,133 - #43 )
+INFO  16:47:12,133 - #46 {
+INFO  16:47:12,133 - #17 a
+INFO  16:47:12,133 - #31 =
+INFO  16:47:12,133 - #17 a
+INFO  16:47:12,133 - #18 +
+INFO  16:47:12,133 - #17 b
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - #9 print
+INFO  16:47:12,133 - #42 (
+INFO  16:47:12,133 - #48 45
+INFO  16:47:12,133 - #43 )
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - #47 }
+INFO  16:47:12,133 - #12 void
+INFO  16:47:12,133 - #17 voidF
+INFO  16:47:12,133 - #42 (
+INFO  16:47:12,133 - Method voidF declared on line 23
+INFO  16:47:12,133 - #43 )
+INFO  16:47:12,133 - #46 {
+INFO  16:47:12,133 - #47 }
+INFO  16:47:12,133 - #12 void
+INFO  16:47:12,133 - #17 main
+INFO  16:47:12,133 - #42 (
+INFO  16:47:12,133 - Method main declared on line 25
+INFO  16:47:12,133 - #43 )
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 a
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Variable a declared on line 25
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 b
+INFO  16:47:12,133 - #40 ,
+INFO  16:47:12,133 - Variable b declared on line 25
+INFO  16:47:12,133 - #17 c
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Variable c declared on line 25
+INFO  16:47:12,133 - #17 int
+INFO  16:47:12,133 - #17 drugiNiz
+INFO  16:47:12,133 - #44 [
+INFO  16:47:12,133 - #45 ]
+INFO  16:47:12,133 - #39 ;
+INFO  16:47:12,133 - Array drugiNiz declared on line 25
+INFO  16:47:12,133 - #46 {
+INFO  16:47:12,133 - #47 }
+INFO  16:47:12,133 - #47 }

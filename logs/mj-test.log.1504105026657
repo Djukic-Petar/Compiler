@@ -1,0 +1,93 @@
+INFO  16:51:02,099 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:51:02,109 - #2 program
+INFO  16:51:02,109 - #17 ispravan
+INFO  16:51:02,109 - #6 const
+INFO  16:51:02,109 - #17 int
+INFO  16:51:02,109 - #17 pet
+INFO  16:51:02,109 - #31 =
+INFO  16:51:02,109 - #48 5
+INFO  16:51:02,109 - #39 ;
+INFO  16:51:02,109 - Constant pet declared on line 2
+INFO  16:51:02,110 - #6 const
+INFO  16:51:02,110 - #17 char
+INFO  16:51:02,110 - #17 aaa
+INFO  16:51:02,110 - #31 =
+INFO  16:51:02,110 - #49 b
+INFO  16:51:02,110 - #39 ;
+INFO  16:51:02,110 - Constant aaa declared on line 3
+INFO  16:51:02,110 - #17 int
+INFO  16:51:02,110 - #17 b
+INFO  16:51:02,110 - #40 ,
+INFO  16:51:02,110 - Variable b declared on line 4
+INFO  16:51:02,110 - #17 c
+INFO  16:51:02,110 - #39 ;
+INFO  16:51:02,110 - Variable c declared on line 4
+INFO  16:51:02,110 - #17 char
+INFO  16:51:02,110 - #17 ch
+INFO  16:51:02,110 - #39 ;
+INFO  16:51:02,110 - Variable ch declared on line 5
+INFO  16:51:02,110 - #17 int
+INFO  16:51:02,110 - #17 x
+INFO  16:51:02,111 - #39 ;
+INFO  16:51:02,111 - Variable x declared on line 6
+INFO  16:51:02,111 - #17 int
+INFO  16:51:02,111 - #17 prvi
+INFO  16:51:02,111 - #44 [
+INFO  16:51:02,111 - #45 ]
+INFO  16:51:02,111 - #39 ;
+INFO  16:51:02,111 - Array prvi declared on line 7
+INFO  16:51:02,111 - #17 int
+INFO  16:51:02,111 - #17 drugi
+INFO  16:51:02,111 - #44 [
+INFO  16:51:02,111 - #45 ]
+INFO  16:51:02,111 - #39 ;
+INFO  16:51:02,111 - Array drugi declared on line 8
+INFO  16:51:02,111 - #17 char
+INFO  16:51:02,111 - #17 nizch
+INFO  16:51:02,111 - #44 [
+INFO  16:51:02,111 - #45 ]
+INFO  16:51:02,111 - #39 ;
+INFO  16:51:02,111 - Array nizch declared on line 9
+INFO  16:51:02,111 - #17 bool
+INFO  16:51:02,111 - #17 boolVal
+INFO  16:51:02,111 - #39 ;
+INFO  16:51:02,111 - Variable boolVal declared on line 10
+INFO  16:51:02,111 - #46 {
+INFO  16:51:02,111 - #12 void
+INFO  16:51:02,111 - #17 main
+INFO  16:51:02,111 - #42 (
+INFO  16:51:02,112 - Method main declared on line 12
+INFO  16:51:02,112 - #43 )
+INFO  16:51:02,112 - #17 int
+INFO  16:51:02,112 - #17 a
+INFO  16:51:02,112 - #39 ;
+INFO  16:51:02,112 - Variable a declared on line 12
+INFO  16:51:02,113 - #46 {
+INFO  16:51:02,113 - #17 ch
+INFO  16:51:02,113 - #31 =
+INFO  16:51:02,113 - #17 chr
+INFO  16:51:02,113 - #42 (
+INFO  16:51:02,113 - #48 97
+INFO  16:51:02,113 - #43 )
+INFO  16:51:02,113 - #39 ;
+INFO  16:51:02,113 - #21 /
+ERROR 16:51:02,113 - 
+Sintaksna greska na liniji 14
+INFO  16:51:02,113 - #20 *
+INFO  16:51:02,113 - #17 a
+INFO  16:51:02,113 - #31 =
+INFO  16:51:02,114 - #17 ord
+INFO  16:51:02,114 - #42 (
+INFO  16:51:02,114 - #17 aaa
+INFO  16:51:02,114 - #43 )
+INFO  16:51:02,114 - #39 ;
+INFO  16:51:02,114 - #9 print
+INFO  16:51:02,114 - #42 (
+INFO  16:51:02,114 - #17 a
+INFO  16:51:02,114 - #43 )
+INFO  16:51:02,114 - #39 ;
+INFO  16:51:02,114 - #20 *
+INFO  16:51:02,114 - #21 /
+INFO  16:51:02,114 - #47 }
+INFO  16:51:02,114 - #47 }
+ERROR 16:51:02,114 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

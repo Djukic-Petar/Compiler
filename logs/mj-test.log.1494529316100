@@ -1,0 +1,52 @@
+INFO  21:01:51,007 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  21:01:51,015 - #2 program
+INFO  21:01:51,015 - #17 test
+INFO  21:01:51,015 - #17 int
+INFO  21:01:51,015 - #17 niz
+INFO  21:01:51,015 - #44 [
+INFO  21:01:51,015 - #45 ]
+INFO  21:01:51,015 - #39 ;
+INFO  21:01:51,015 - Array niz declared on line 2
+INFO  21:01:51,015 - #17 int
+INFO  21:01:51,015 - #17 x
+INFO  21:01:51,015 - #39 ;
+INFO  21:01:51,015 - Variable x declared on line 3
+INFO  21:01:51,015 - #17 int
+INFO  21:01:51,015 - #17 a
+INFO  21:01:51,015 - #39 ;
+INFO  21:01:51,015 - Variable a declared on line 4
+INFO  21:01:51,016 - #17 int
+INFO  21:01:51,016 - #17 b
+INFO  21:01:51,016 - #39 ;
+INFO  21:01:51,016 - Variable b declared on line 5
+INFO  21:01:51,016 - #46 {
+INFO  21:01:51,016 - #12 void
+INFO  21:01:51,016 - #17 main
+INFO  21:01:51,016 - #42 (
+INFO  21:01:51,017 - Method main declared on line 7
+INFO  21:01:51,017 - #43 )
+INFO  21:01:51,017 - #46 {
+INFO  21:01:51,017 - #17 niz
+INFO  21:01:51,017 - #31 =
+INFO  21:01:51,017 - #8 new
+INFO  21:01:51,017 - #17 int
+INFO  21:01:51,017 - #44 [
+INFO  21:01:51,017 - #48 5
+INFO  21:01:51,017 - #45 ]
+INFO  21:01:51,017 - #39 ;
+ERROR 21:01:51,017 - Type mismatch at designator statement. (line 8)
+INFO  21:01:51,017 - #17 a
+INFO  21:01:51,017 - #31 =
+INFO  21:01:51,017 - #48 5
+INFO  21:01:51,017 - #18 +
+INFO  21:01:51,017 - #48 2
+INFO  21:01:51,017 - #20 *
+INFO  21:01:51,017 - #48 2
+INFO  21:01:51,017 - #39 ;
+INFO  21:01:51,018 - #9 print
+INFO  21:01:51,018 - #42 (
+INFO  21:01:51,018 - #17 a
+INFO  21:01:51,018 - #43 )
+INFO  21:01:51,018 - #39 ;
+INFO  21:01:51,018 - #47 }
+INFO  21:01:51,018 - #47 }

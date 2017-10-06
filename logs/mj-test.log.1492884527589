@@ -1,0 +1,141 @@
+INFO  18:16:30,143 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  18:16:30,150 - #2 program
+INFO  18:16:30,150 - #17 Prog
+INFO  18:16:30,150 - #6 const
+INFO  18:16:30,150 - #17 int
+INFO  18:16:30,150 - #17 jedan
+INFO  18:16:30,150 - #31 =
+INFO  18:16:30,150 - #48 50
+INFO  18:16:30,150 - #39 ;
+INFO  18:16:30,150 - Constant jedan declared on line 2
+INFO  18:16:30,150 - #17 int
+INFO  18:16:30,150 - #17 niz
+INFO  18:16:30,150 - #44 [
+INFO  18:16:30,150 - #45 ]
+INFO  18:16:30,150 - #40 ,
+INFO  18:16:30,150 - Array niz declared on line 3
+INFO  18:16:30,151 - #17 t
+INFO  18:16:30,151 - #44 [
+INFO  18:16:30,151 - #45 ]
+INFO  18:16:30,151 - #39 ;
+INFO  18:16:30,151 - Array t declared on line 3
+INFO  18:16:30,151 - #6 const
+INFO  18:16:30,151 - #17 bool
+INFO  18:16:30,151 - #17 prviBool
+INFO  18:16:30,151 - #31 =
+INFO  18:16:30,151 - #50 true
+INFO  18:16:30,151 - #39 ;
+INFO  18:16:30,151 - Constant prviBool declared on line 4
+INFO  18:16:30,151 - #17 int
+INFO  18:16:30,151 - #17 prom
+INFO  18:16:30,151 - #39 ;
+INFO  18:16:30,151 - Variable prom declared on line 5
+INFO  18:16:30,151 - #17 int
+INFO  18:16:30,151 - #17 broj
+INFO  18:16:30,151 - #39 ;
+INFO  18:16:30,151 - Variable broj declared on line 6
+INFO  18:16:30,151 - #46 {
+INFO  18:16:30,152 - #17 int
+INFO  18:16:30,152 - #17 funkcija
+INFO  18:16:30,152 - #42 (
+INFO  18:16:30,152 - Method funkcija declared on line 9
+INFO  18:16:30,152 - #17 int
+INFO  18:16:30,152 - #17 a
+INFO  18:16:30,152 - #40 ,
+INFO  18:16:30,152 - #17 int
+INFO  18:16:30,152 - #17 b
+INFO  18:16:30,152 - #43 )
+INFO  18:16:30,152 - #46 {
+INFO  18:16:30,152 - #17 a
+INFO  18:16:30,152 - #31 =
+INFO  18:16:30,152 - #17 a
+INFO  18:16:30,152 - #18 +
+INFO  18:16:30,152 - #17 b
+INFO  18:16:30,152 - #39 ;
+INFO  18:16:30,152 - #9 print
+INFO  18:16:30,152 - #42 (
+INFO  18:16:30,152 - #48 45
+INFO  18:16:30,153 - #43 )
+INFO  18:16:30,153 - #39 ;
+INFO  18:16:30,153 - #47 }
+INFO  18:16:30,153 - #12 void
+INFO  18:16:30,153 - #17 main
+INFO  18:16:30,153 - #42 (
+INFO  18:16:30,153 - Method main declared on line 15
+INFO  18:16:30,153 - #43 )
+INFO  18:16:30,153 - #17 int
+INFO  18:16:30,153 - #17 a
+INFO  18:16:30,153 - #39 ;
+INFO  18:16:30,153 - Variable a declared on line 15
+INFO  18:16:30,153 - #17 int
+INFO  18:16:30,153 - #17 b
+INFO  18:16:30,153 - #40 ,
+INFO  18:16:30,153 - Variable b declared on line 15
+INFO  18:16:30,153 - #17 c
+INFO  18:16:30,153 - #39 ;
+INFO  18:16:30,153 - Variable c declared on line 15
+INFO  18:16:30,153 - #17 int
+INFO  18:16:30,153 - #17 drugiNiz
+INFO  18:16:30,153 - #44 [
+INFO  18:16:30,153 - #45 ]
+INFO  18:16:30,153 - #39 ;
+INFO  18:16:30,153 - Array drugiNiz declared on line 15
+INFO  18:16:30,153 - #46 {
+INFO  18:16:30,153 - #17 a
+INFO  18:16:30,153 - #31 =
+INFO  18:16:30,154 - #17 broj
+INFO  18:16:30,154 - #39 ;
+INFO  18:16:30,154 - #9 print
+INFO  18:16:30,154 - #42 (
+INFO  18:16:30,154 - #17 broj
+INFO  18:16:30,154 - #43 )
+INFO  18:16:30,154 - #39 ;
+INFO  18:16:30,154 - #17 funkcija
+INFO  18:16:30,154 - #42 (
+INFO  18:16:30,154 - #17 a
+INFO  18:16:30,154 - #40 ,
+INFO  18:16:30,154 - #17 b
+INFO  18:16:30,154 - #43 )
+INFO  18:16:30,154 - #39 ;
+INFO  18:16:30,154 - #11 return
+INFO  18:16:30,154 - #17 broj
+INFO  18:16:30,154 - #39 ;
+INFO  18:16:30,154 - #17 b
+INFO  18:16:30,154 - #31 =
+INFO  18:16:30,154 - #17 niz
+INFO  18:16:30,154 - #44 [
+INFO  18:16:30,154 - #48 2
+INFO  18:16:30,154 - #45 ]
+INFO  18:16:30,154 - #39 ;
+INFO  18:16:30,154 - #17 b
+INFO  18:16:30,154 - #31 =
+INFO  18:16:30,154 - #17 niz
+INFO  18:16:30,155 - #44 [
+INFO  18:16:30,155 - #17 niz
+INFO  18:16:30,155 - #44 [
+INFO  18:16:30,155 - #48 7
+INFO  18:16:30,155 - #20 *
+INFO  18:16:30,155 - #48 2
+INFO  18:16:30,155 - #19 -
+INFO  18:16:30,155 - #42 (
+INFO  18:16:30,155 - #17 drugiNiz
+INFO  18:16:30,155 - #44 [
+INFO  18:16:30,155 - #48 2
+INFO  18:16:30,155 - #45 ]
+INFO  18:16:30,155 - #22 %
+INFO  18:16:30,155 - #48 4
+INFO  18:16:30,155 - #43 )
+INFO  18:16:30,155 - #45 ]
+INFO  18:16:30,155 - #45 ]
+INFO  18:16:30,155 - #39 ;
+INFO  18:16:30,155 - #17 c
+INFO  18:16:30,155 - #31 =
+INFO  18:16:30,155 - #17 funkcija
+INFO  18:16:30,155 - #42 (
+INFO  18:16:30,156 - #48 2
+INFO  18:16:30,156 - #40 ,
+INFO  18:16:30,156 - #49 a
+INFO  18:16:30,156 - #43 )
+INFO  18:16:30,156 - #39 ;
+INFO  18:16:30,156 - #47 }
+INFO  18:16:30,156 - #47 }

@@ -1,0 +1,36 @@
+INFO  14:03:57,043 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  14:03:57,050 - #2 program
+INFO  14:03:57,051 - #17 Programcic
+INFO  14:03:57,051 - #6 const
+INFO  14:03:57,051 - #17 int
+INFO  14:03:57,051 - #17 jedan
+INFO  14:03:57,051 - #34 =
+INFO  14:03:57,051 - #18 1
+INFO  14:03:57,051 - #42 ;
+INFO  14:03:57,051 - Constant jedan declared on line 2
+INFO  14:03:57,051 - #6 const
+INFO  14:03:57,051 - #17 char
+INFO  14:03:57,051 - #17 dva
+INFO  14:03:57,051 - #34 =
+INFO  14:03:57,051 - #18 2
+INFO  14:03:57,051 - #42 ;
+INFO  14:03:57,051 - Constant dva declared on line 3
+ERROR 14:03:57,051 - Incompatible types
+INFO  14:03:57,051 - #17 int
+INFO  14:03:57,051 - #17 niz
+INFO  14:03:57,051 - #47 [
+INFO  14:03:57,051 - #48 ]
+INFO  14:03:57,052 - #43 ,
+INFO  14:03:57,052 - Array niz declared on line 4
+INFO  14:03:57,052 - #17 t
+INFO  14:03:57,052 - #47 [
+INFO  14:03:57,052 - #48 ]
+INFO  14:03:57,052 - #42 ;
+INFO  14:03:57,052 - Array t declared on line 4
+INFO  14:03:57,052 - #6 const
+INFO  14:03:57,052 - #17 bool
+INFO  14:03:57,052 - #17 prviBool
+INFO  14:03:57,052 - #34 =
+INFO  14:03:57,052 - #20 true
+INFO  14:03:57,052 - #42 ;
+INFO  14:03:57,052 - Constant prviBool declared on line 5

@@ -1,0 +1,225 @@
+INFO  16:43:57,628 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:43:57,644 - #2 program
+INFO  16:43:57,644 - #17 Prog
+INFO  16:43:57,644 - #6 const
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 jedan
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #48 5
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Constant jedan declared on line 2
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #40 ,
+INFO  16:43:57,644 - Array niz declared on line 3
+INFO  16:43:57,644 - #17 t
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Array t declared on line 3
+INFO  16:43:57,644 - #6 const
+INFO  16:43:57,644 - #17 bool
+INFO  16:43:57,644 - #17 prviBool
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #50 true
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Constant prviBool declared on line 4
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 prom
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Variable prom declared on line 5
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 broj
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Variable broj declared on line 6
+INFO  16:43:57,644 - #46 {
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 funkcija
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - Method funkcija declared on line 8
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #40 ,
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 b
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #46 {
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #18 +
+INFO  16:43:57,644 - #17 b
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #9 print
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #48 45
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #47 }
+INFO  16:43:57,644 - #17 int
+ERROR 16:43:57,644 - Method funkcija missing a return statement of type rs.etf.pp1.symboltable.concepts.Obj@20ad9418 (line 8)
+INFO  16:43:57,644 - #17 drugaF
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - Method drugaF declared on line 14
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #40 ,
+INFO  16:43:57,644 - #17 char
+INFO  16:43:57,644 - #17 b
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #46 {
+INFO  16:43:57,644 - #47 }
+INFO  16:43:57,644 - #17 int
+ERROR 16:43:57,644 - Method drugaF missing a return statement of type rs.etf.pp1.symboltable.concepts.Obj@20ad9418 (line 14)
+INFO  16:43:57,644 - #17 funkcijaSaNizom
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - Method funkcijaSaNizom declared on line 16
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #46 {
+INFO  16:43:57,644 - #11 return
+INFO  16:43:57,644 - #39 ;
+ERROR 16:43:57,644 - Incompatible types at return statement. (line 18)
+INFO  16:43:57,644 - #47 }
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 fNoParam
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - Method fNoParam declared on line 21
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #46 {
+INFO  16:43:57,644 - #47 }
+INFO  16:43:57,644 - #12 void
+INFO  16:43:57,644 - #17 voidF
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - Method voidF declared on line 23
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #46 {
+INFO  16:43:57,644 - #47 }
+INFO  16:43:57,644 - #12 void
+INFO  16:43:57,644 - #17 main
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - Method main declared on line 25
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Variable a declared on line 25
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 b
+INFO  16:43:57,644 - #40 ,
+INFO  16:43:57,644 - Variable b declared on line 25
+INFO  16:43:57,644 - #17 c
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Variable c declared on line 25
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #17 drugiNiz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - Array drugiNiz declared on line 25
+INFO  16:43:57,644 - #46 {
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #8 new
+INFO  16:43:57,644 - #17 int
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #48 5
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 funkcijaSaNizom
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #17 broj
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #48 1
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #48 5
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #48 3
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #17 broj
+INFO  16:43:57,644 - #34 *=
+INFO  16:43:57,644 - #48 2
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #9 print
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #17 broj
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 funkcija
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #17 a
+INFO  16:43:57,644 - #40 ,
+INFO  16:43:57,644 - #17 b
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #11 return
+INFO  16:43:57,644 - #17 broj
+INFO  16:43:57,644 - #39 ;
+ERROR 16:43:57,644 - Incompatible types at return statement. (line 34)
+INFO  16:43:57,644 - #17 b
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #48 2
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 b
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #48 7
+INFO  16:43:57,644 - #20 *
+INFO  16:43:57,644 - #48 2
+INFO  16:43:57,644 - #19 -
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #17 drugiNiz
+INFO  16:43:57,644 - #44 [
+INFO  16:43:57,644 - #48 2
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #22 %
+INFO  16:43:57,644 - #48 4
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #45 ]
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 c
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #17 funkcija
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #17 drugaF
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #48 2
+INFO  16:43:57,644 - #40 ,
+INFO  16:43:57,644 - #49 a
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #40 ,
+INFO  16:43:57,644 - #48 2
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #17 c
+INFO  16:43:57,644 - #31 =
+INFO  16:43:57,644 - #17 len
+INFO  16:43:57,644 - #42 (
+INFO  16:43:57,644 - #17 niz
+INFO  16:43:57,644 - #43 )
+INFO  16:43:57,644 - #39 ;
+INFO  16:43:57,644 - #47 }
+INFO  16:43:57,644 - #47 }

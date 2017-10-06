@@ -1,0 +1,143 @@
+INFO  18:10:47,228 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  18:10:47,235 - #2 program
+INFO  18:10:47,235 - #17 Prog
+INFO  18:10:47,235 - #6 const
+INFO  18:10:47,235 - #17 int
+INFO  18:10:47,235 - #17 jedan
+INFO  18:10:47,235 - #31 =
+INFO  18:10:47,236 - #48 50
+INFO  18:10:47,236 - #39 ;
+INFO  18:10:47,236 - Constant jedan declared on line 2
+INFO  18:10:47,236 - #17 int
+INFO  18:10:47,236 - #17 niz
+INFO  18:10:47,236 - #44 [
+INFO  18:10:47,236 - #45 ]
+INFO  18:10:47,236 - #40 ,
+INFO  18:10:47,236 - Array niz declared on line 3
+INFO  18:10:47,236 - #17 t
+INFO  18:10:47,236 - #44 [
+INFO  18:10:47,236 - #45 ]
+INFO  18:10:47,236 - #39 ;
+INFO  18:10:47,236 - Array t declared on line 3
+INFO  18:10:47,236 - #6 const
+INFO  18:10:47,236 - #17 bool
+INFO  18:10:47,236 - #17 prviBool
+INFO  18:10:47,237 - #31 =
+INFO  18:10:47,237 - #50 true
+INFO  18:10:47,237 - #39 ;
+INFO  18:10:47,237 - Constant prviBool declared on line 4
+INFO  18:10:47,237 - #17 int
+INFO  18:10:47,237 - #17 prom
+INFO  18:10:47,237 - #39 ;
+INFO  18:10:47,237 - Variable prom declared on line 5
+INFO  18:10:47,237 - #17 int
+INFO  18:10:47,237 - #17 broj
+INFO  18:10:47,237 - #39 ;
+INFO  18:10:47,237 - Variable broj declared on line 6
+INFO  18:10:47,237 - #46 {
+INFO  18:10:47,237 - #17 int
+INFO  18:10:47,237 - #17 funkcija
+INFO  18:10:47,237 - #42 (
+INFO  18:10:47,237 - Method funkcija declared on line 9
+INFO  18:10:47,237 - #17 int
+INFO  18:10:47,238 - #17 a
+INFO  18:10:47,238 - #40 ,
+INFO  18:10:47,238 - #17 int
+INFO  18:10:47,238 - #17 b
+INFO  18:10:47,238 - #43 )
+INFO  18:10:47,238 - #46 {
+INFO  18:10:47,238 - #17 a
+INFO  18:10:47,238 - #31 =
+INFO  18:10:47,238 - #17 a
+INFO  18:10:47,238 - #18 +
+INFO  18:10:47,238 - #17 b
+INFO  18:10:47,238 - #39 ;
+INFO  18:10:47,238 - #9 print
+INFO  18:10:47,238 - #42 (
+INFO  18:10:47,238 - #48 45
+INFO  18:10:47,238 - #43 )
+INFO  18:10:47,238 - #39 ;
+INFO  18:10:47,238 - #47 }
+INFO  18:10:47,238 - #12 void
+INFO  18:10:47,239 - #17 main
+INFO  18:10:47,239 - #42 (
+INFO  18:10:47,239 - Method main declared on line 15
+INFO  18:10:47,239 - #43 )
+INFO  18:10:47,239 - #17 int
+INFO  18:10:47,239 - #17 a
+INFO  18:10:47,239 - #39 ;
+INFO  18:10:47,239 - Variable a declared on line 15
+INFO  18:10:47,239 - #17 int
+INFO  18:10:47,239 - #17 b
+INFO  18:10:47,239 - #40 ,
+INFO  18:10:47,239 - Variable b declared on line 15
+INFO  18:10:47,239 - #17 c
+INFO  18:10:47,239 - #39 ;
+INFO  18:10:47,239 - Variable c declared on line 15
+INFO  18:10:47,239 - #17 int
+INFO  18:10:47,239 - #17 drugiNiz
+INFO  18:10:47,239 - #44 [
+INFO  18:10:47,239 - #45 ]
+INFO  18:10:47,239 - #39 ;
+INFO  18:10:47,240 - Array drugiNiz declared on line 15
+INFO  18:10:47,240 - #46 {
+INFO  18:10:47,240 - #17 a
+INFO  18:10:47,240 - #31 =
+INFO  18:10:47,240 - #17 broj
+INFO  18:10:47,240 - #39 ;
+INFO  18:10:47,240 - #9 print
+INFO  18:10:47,240 - #42 (
+INFO  18:10:47,240 - #17 broj
+INFO  18:10:47,240 - #43 )
+INFO  18:10:47,240 - #39 ;
+INFO  18:10:47,240 - #17 funkcija
+INFO  18:10:47,240 - #42 (
+INFO  18:10:47,240 - #17 a
+INFO  18:10:47,240 - #40 ,
+INFO  18:10:47,240 - #17 b
+INFO  18:10:47,240 - #43 )
+INFO  18:10:47,240 - #39 ;
+INFO  18:10:47,240 - #11 return
+INFO  18:10:47,240 - #17 broj
+INFO  18:10:47,241 - #39 ;
+INFO  18:10:47,241 - #17 b
+INFO  18:10:47,241 - #31 =
+INFO  18:10:47,241 - #17 niz
+INFO  18:10:47,241 - #44 [
+INFO  18:10:47,241 - #48 2
+INFO  18:10:47,241 - #45 ]
+INFO  18:10:47,241 - #39 ;
+INFO  18:10:47,241 - #17 b
+INFO  18:10:47,241 - #31 =
+INFO  18:10:47,241 - #17 niz
+INFO  18:10:47,241 - #44 [
+INFO  18:10:47,241 - #17 niz
+INFO  18:10:47,241 - #44 [
+INFO  18:10:47,241 - #48 7
+INFO  18:10:47,241 - #45 ]
+INFO  18:10:47,241 - #45 ]
+INFO  18:10:47,241 - #39 ;
+INFO  18:10:47,241 - #17 c
+INFO  18:10:47,241 - #31 =
+INFO  18:10:47,241 - #48 5
+INFO  18:10:47,242 - #20 *
+INFO  18:10:47,242 - #50 true
+INFO  18:10:47,242 - #39 ;
+ERROR 18:10:47,242 - Multiplication operations only available with int types! (line 22)
+INFO  18:10:47,242 - #17 b
+INFO  18:10:47,242 - #31 =
+INFO  18:10:47,242 - #19 -
+INFO  18:10:47,242 - #49 a
+INFO  18:10:47,242 - #39 ;
+ERROR 18:10:47,242 - Minus modifier can only be user with integers! (Line 23)
+INFO  18:10:47,242 - #17 c
+INFO  18:10:47,243 - #31 =
+INFO  18:10:47,243 - #17 funkcija
+INFO  18:10:47,243 - #42 (
+INFO  18:10:47,243 - #48 2
+INFO  18:10:47,243 - #40 ,
+INFO  18:10:47,243 - #49 a
+INFO  18:10:47,243 - #43 )
+INFO  18:10:47,243 - #39 ;
+INFO  18:10:47,243 - #47 }
+INFO  18:10:47,243 - #47 }

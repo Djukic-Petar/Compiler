@@ -1,0 +1,130 @@
+INFO  18:01:09,089 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  18:01:09,096 - #2 program
+INFO  18:01:09,096 - #17 Prog
+INFO  18:01:09,096 - #6 const
+INFO  18:01:09,096 - #17 int
+INFO  18:01:09,096 - #17 jedan
+INFO  18:01:09,097 - #31 =
+INFO  18:01:09,097 - #48 50
+INFO  18:01:09,097 - #39 ;
+INFO  18:01:09,097 - Constant jedan declared on line 2
+INFO  18:01:09,097 - #17 int
+INFO  18:01:09,097 - #17 niz
+INFO  18:01:09,097 - #44 [
+INFO  18:01:09,097 - #45 ]
+INFO  18:01:09,097 - #40 ,
+INFO  18:01:09,097 - Array niz declared on line 3
+INFO  18:01:09,097 - #17 t
+INFO  18:01:09,097 - #44 [
+INFO  18:01:09,097 - #45 ]
+INFO  18:01:09,097 - #39 ;
+INFO  18:01:09,097 - Array t declared on line 3
+INFO  18:01:09,097 - #6 const
+INFO  18:01:09,097 - #17 bool
+INFO  18:01:09,097 - #17 prviBool
+INFO  18:01:09,097 - #31 =
+INFO  18:01:09,097 - #50 true
+INFO  18:01:09,097 - #39 ;
+INFO  18:01:09,097 - Constant prviBool declared on line 4
+INFO  18:01:09,098 - #17 int
+INFO  18:01:09,098 - #17 prom
+INFO  18:01:09,098 - #39 ;
+INFO  18:01:09,098 - Variable prom declared on line 5
+INFO  18:01:09,098 - #17 int
+INFO  18:01:09,098 - #17 broj
+INFO  18:01:09,098 - #39 ;
+INFO  18:01:09,098 - Variable broj declared on line 6
+INFO  18:01:09,098 - #46 {
+INFO  18:01:09,098 - #17 int
+INFO  18:01:09,098 - #17 funkcija
+INFO  18:01:09,098 - #42 (
+INFO  18:01:09,098 - Method funkcija declared on line 9
+INFO  18:01:09,098 - #17 int
+INFO  18:01:09,098 - #17 a
+INFO  18:01:09,098 - #40 ,
+INFO  18:01:09,098 - #17 int
+INFO  18:01:09,098 - #17 b
+INFO  18:01:09,098 - #43 )
+INFO  18:01:09,098 - #46 {
+INFO  18:01:09,098 - #17 a
+INFO  18:01:09,098 - #31 =
+INFO  18:01:09,098 - #17 a
+INFO  18:01:09,098 - #18 +
+INFO  18:01:09,098 - #17 b
+INFO  18:01:09,099 - #39 ;
+INFO  18:01:09,099 - #9 print
+INFO  18:01:09,099 - #42 (
+INFO  18:01:09,099 - #48 45
+INFO  18:01:09,099 - #43 )
+INFO  18:01:09,099 - #39 ;
+INFO  18:01:09,099 - #47 }
+INFO  18:01:09,099 - #12 void
+INFO  18:01:09,099 - #17 main
+INFO  18:01:09,099 - #42 (
+INFO  18:01:09,099 - Method main declared on line 15
+INFO  18:01:09,099 - #43 )
+INFO  18:01:09,099 - #17 int
+INFO  18:01:09,099 - #17 a
+INFO  18:01:09,099 - #39 ;
+INFO  18:01:09,099 - Variable a declared on line 15
+INFO  18:01:09,099 - #17 int
+INFO  18:01:09,099 - #17 b
+INFO  18:01:09,099 - #40 ,
+INFO  18:01:09,099 - Variable b declared on line 15
+INFO  18:01:09,099 - #17 c
+INFO  18:01:09,099 - #39 ;
+INFO  18:01:09,099 - Variable c declared on line 15
+INFO  18:01:09,099 - #17 int
+INFO  18:01:09,100 - #17 drugiNiz
+INFO  18:01:09,100 - #44 [
+INFO  18:01:09,100 - #45 ]
+INFO  18:01:09,100 - #39 ;
+INFO  18:01:09,100 - Array drugiNiz declared on line 15
+INFO  18:01:09,100 - #46 {
+INFO  18:01:09,100 - #17 a
+INFO  18:01:09,100 - #31 =
+INFO  18:01:09,100 - #17 broj
+INFO  18:01:09,100 - #39 ;
+INFO  18:01:09,100 - #9 print
+INFO  18:01:09,100 - #42 (
+INFO  18:01:09,100 - #17 broj
+INFO  18:01:09,100 - #43 )
+INFO  18:01:09,100 - #39 ;
+INFO  18:01:09,100 - #17 funkcija
+INFO  18:01:09,100 - #42 (
+INFO  18:01:09,100 - #17 a
+INFO  18:01:09,100 - #40 ,
+INFO  18:01:09,101 - #17 b
+INFO  18:01:09,101 - #43 )
+INFO  18:01:09,101 - #39 ;
+INFO  18:01:09,101 - #11 return
+INFO  18:01:09,101 - #17 broj
+INFO  18:01:09,101 - #39 ;
+INFO  18:01:09,101 - #17 b
+INFO  18:01:09,101 - #31 =
+INFO  18:01:09,101 - #17 niz
+INFO  18:01:09,101 - #44 [
+INFO  18:01:09,101 - #48 2
+INFO  18:01:09,101 - #45 ]
+INFO  18:01:09,101 - #39 ;
+INFO  18:01:09,101 - #17 b
+INFO  18:01:09,101 - #31 =
+INFO  18:01:09,101 - #17 niz
+INFO  18:01:09,101 - #44 [
+INFO  18:01:09,101 - #17 niz
+INFO  18:01:09,101 - #44 [
+INFO  18:01:09,101 - #48 7
+INFO  18:01:09,101 - #45 ]
+INFO  18:01:09,101 - #45 ]
+INFO  18:01:09,101 - #39 ;
+INFO  18:01:09,101 - #17 c
+INFO  18:01:09,101 - #31 =
+INFO  18:01:09,102 - #17 funkcija
+INFO  18:01:09,102 - #42 (
+INFO  18:01:09,102 - #48 2
+INFO  18:01:09,102 - #40 ,
+INFO  18:01:09,102 - #49 a
+INFO  18:01:09,102 - #43 )
+INFO  18:01:09,102 - #39 ;
+INFO  18:01:09,102 - #47 }
+INFO  18:01:09,102 - #47 }

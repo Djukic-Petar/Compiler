@@ -1,0 +1,16 @@
+INFO  13:38:06,482 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  13:38:06,489 - #2 program
+INFO  13:38:06,489 - #17 Programcic
+INFO  13:38:06,489 - #6 const
+INFO  13:38:06,489 - #17 int
+INFO  13:38:06,489 - #17 jedan
+INFO  13:38:06,489 - #34 =
+INFO  13:38:06,489 - #18 1
+INFO  13:38:06,489 - #42 ;
+INFO  13:38:06,490 - Constant jedan declared on line 2
+INFO  13:38:06,490 - #17 char
+INFO  13:38:06,490 - #17 dva
+INFO  13:38:06,490 - #34 =
+ERROR 13:38:06,490 - 
+Sintaksna greska na liniji 3
+ERROR 13:38:06,490 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

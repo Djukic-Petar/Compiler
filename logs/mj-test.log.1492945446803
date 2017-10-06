@@ -1,0 +1,198 @@
+INFO  12:47:14,897 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  12:47:14,912 - #2 program
+INFO  12:47:14,912 - #17 Prog
+INFO  12:47:14,912 - #6 const
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 jedan
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #48 50
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Constant jedan declared on line 2
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 niz
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #40 ,
+INFO  12:47:14,912 - Array niz declared on line 3
+INFO  12:47:14,912 - #17 t
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Array t declared on line 3
+INFO  12:47:14,912 - #6 const
+INFO  12:47:14,912 - #17 bool
+INFO  12:47:14,912 - #17 prviBool
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #50 true
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Constant prviBool declared on line 4
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 prom
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Variable prom declared on line 5
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 broj
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Variable broj declared on line 6
+INFO  12:47:14,912 - #46 {
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 funkcija
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - Method funkcija declared on line 9
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #40 ,
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 b
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #46 {
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #18 +
+INFO  12:47:14,912 - #17 b
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #9 print
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #48 45
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #47 }
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 drugaF
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - Method drugaF declared on line 15
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #40 ,
+INFO  12:47:14,912 - #17 char
+INFO  12:47:14,912 - #17 b
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #46 {
+INFO  12:47:14,912 - #47 }
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 funkcijaSaNizom
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - Method funkcijaSaNizom declared on line 17
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #46 {
+INFO  12:47:14,912 - #47 }
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 fNoParam
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - Method fNoParam declared on line 20
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #46 {
+INFO  12:47:14,912 - #47 }
+INFO  12:47:14,912 - #12 void
+INFO  12:47:14,912 - #17 main
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - Method main declared on line 22
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Variable a declared on line 22
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 b
+INFO  12:47:14,912 - #40 ,
+INFO  12:47:14,912 - Variable b declared on line 22
+INFO  12:47:14,912 - #17 c
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Variable c declared on line 22
+INFO  12:47:14,912 - #17 int
+INFO  12:47:14,912 - #17 drugiNiz
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - Array drugiNiz declared on line 22
+INFO  12:47:14,912 - #46 {
+INFO  12:47:14,912 - #17 funkcijaSaNizom
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #17 niz
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #17 broj
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #9 print
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #17 broj
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #17 funkcija
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #17 a
+INFO  12:47:14,912 - #40 ,
+INFO  12:47:14,912 - #17 b
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #11 return
+INFO  12:47:14,912 - #17 broj
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #17 b
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #17 niz
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #48 2
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #17 b
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #17 niz
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #17 niz
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #48 7
+INFO  12:47:14,912 - #20 *
+INFO  12:47:14,912 - #48 2
+INFO  12:47:14,912 - #19 -
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #17 drugiNiz
+INFO  12:47:14,912 - #44 [
+INFO  12:47:14,912 - #48 2
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #22 %
+INFO  12:47:14,912 - #48 4
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #45 ]
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #17 c
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #17 funkcija
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #17 drugaF
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #48 2
+INFO  12:47:14,912 - #40 ,
+INFO  12:47:14,912 - #49 a
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #40 ,
+INFO  12:47:14,912 - #48 2
+INFO  12:47:14,912 - #43 )
+INFO  12:47:14,912 - #39 ;
+INFO  12:47:14,912 - #17 c
+INFO  12:47:14,912 - #31 =
+INFO  12:47:14,912 - #17 fNoParam
+INFO  12:47:14,912 - #42 (
+INFO  12:47:14,912 - #17 niz
+INFO  12:47:14,912 - #43 )
+ERROR 12:47:14,912 - Incompatible types at line 31 Found Obj name = niz
+Obj adr = 0
+Obj kind = Var 
+Obj type = Arr of int
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  12:47:14,912 - #39 ;
+ERROR 12:47:14,912 - Parameter number mismatch at line 31
+INFO  12:47:14,912 - #47 }
+INFO  12:47:14,912 - #47 }

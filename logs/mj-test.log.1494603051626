@@ -1,0 +1,44 @@
+INFO  17:30:10,872 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:30:10,880 - #2 program
+INFO  17:30:10,880 - #17 synErr
+INFO  17:30:10,880 - #46 {
+INFO  17:30:10,880 - #17 int
+INFO  17:30:10,880 - #17 a
+INFO  17:30:10,880 - #39 ;
+ERROR 17:30:10,880 - 
+Sintaksna greska na liniji 2
+INFO  17:30:10,880 - #17 int
+INFO  17:30:10,880 - #50 true
+INFO  17:30:10,880 - #39 ;
+INFO  17:30:10,881 - #17 int
+INFO  17:30:10,881 - #50 false
+INFO  17:30:10,881 - #40 ,
+INFO  17:30:10,881 - #17 b
+INFO  17:30:10,881 - #39 ;
+INFO  17:30:10,881 - #12 void
+INFO  17:30:10,881 - #17 main
+INFO  17:30:10,881 - #42 (
+INFO  17:30:10,881 - #43 )
+INFO  17:30:10,881 - #17 int
+INFO  17:30:10,881 - #9 print
+INFO  17:30:10,881 - #39 ;
+INFO  17:30:10,881 - #46 {
+INFO  17:30:10,881 - #17 a
+INFO  17:30:10,881 - #31 =
+ERROR 17:30:10,881 - Recovered from syntax error at variable declaration on line 1
+ERROR 17:30:10,881 - 
+Sintaksna greska na liniji 7
+INFO  17:30:10,881 - #48 5
+INFO  17:30:10,881 - #39 ;
+INFO  17:30:10,881 - #17 a
+INFO  17:30:10,881 - #31 =
+INFO  17:30:10,881 - #48 5
+INFO  17:30:10,882 - #19 -
+INFO  17:30:10,882 - #39 ;
+INFO  17:30:10,882 - #17 a
+INFO  17:30:10,882 - #31 =
+INFO  17:30:10,882 - #48 7
+INFO  17:30:10,882 - #39 ;
+INFO  17:30:10,882 - #47 }
+INFO  17:30:10,882 - #47 }
+ERROR 17:30:10,882 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11

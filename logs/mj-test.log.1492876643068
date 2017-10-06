@@ -1,0 +1,128 @@
+INFO  17:56:47,339 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:56:47,345 - #2 program
+INFO  17:56:47,346 - #17 Prog
+INFO  17:56:47,346 - #6 const
+INFO  17:56:47,346 - #17 int
+INFO  17:56:47,346 - #17 jedan
+INFO  17:56:47,346 - #31 =
+INFO  17:56:47,346 - #48 50
+INFO  17:56:47,346 - #39 ;
+INFO  17:56:47,346 - Constant jedan declared on line 2
+INFO  17:56:47,346 - #17 int
+INFO  17:56:47,346 - #17 niz
+INFO  17:56:47,346 - #44 [
+INFO  17:56:47,346 - #45 ]
+INFO  17:56:47,346 - #40 ,
+INFO  17:56:47,346 - Array niz declared on line 3
+INFO  17:56:47,346 - #17 t
+INFO  17:56:47,346 - #44 [
+INFO  17:56:47,346 - #45 ]
+INFO  17:56:47,346 - #39 ;
+INFO  17:56:47,346 - Array t declared on line 3
+INFO  17:56:47,347 - #6 const
+INFO  17:56:47,347 - #17 bool
+INFO  17:56:47,347 - #17 prviBool
+INFO  17:56:47,347 - #31 =
+INFO  17:56:47,347 - #50 true
+INFO  17:56:47,347 - #39 ;
+INFO  17:56:47,347 - Constant prviBool declared on line 4
+INFO  17:56:47,347 - #17 int
+INFO  17:56:47,347 - #17 prom
+INFO  17:56:47,347 - #39 ;
+INFO  17:56:47,347 - Variable prom declared on line 5
+INFO  17:56:47,347 - #17 int
+INFO  17:56:47,347 - #17 broj
+INFO  17:56:47,347 - #39 ;
+INFO  17:56:47,347 - Variable broj declared on line 6
+INFO  17:56:47,347 - #46 {
+INFO  17:56:47,347 - #17 int
+INFO  17:56:47,347 - #17 funkcija
+INFO  17:56:47,347 - #42 (
+INFO  17:56:47,347 - Method funkcija declared on line 9
+INFO  17:56:47,347 - #17 int
+INFO  17:56:47,347 - #17 a
+INFO  17:56:47,347 - #40 ,
+INFO  17:56:47,348 - #17 int
+INFO  17:56:47,348 - #17 b
+INFO  17:56:47,348 - #43 )
+INFO  17:56:47,348 - #46 {
+INFO  17:56:47,348 - #17 a
+INFO  17:56:47,348 - #31 =
+INFO  17:56:47,348 - #17 a
+INFO  17:56:47,348 - #18 +
+INFO  17:56:47,348 - #17 b
+INFO  17:56:47,348 - #39 ;
+INFO  17:56:47,348 - #9 print
+INFO  17:56:47,348 - #42 (
+INFO  17:56:47,348 - #48 45
+INFO  17:56:47,348 - #43 )
+INFO  17:56:47,348 - #39 ;
+INFO  17:56:47,349 - #47 }
+INFO  17:56:47,349 - #12 void
+INFO  17:56:47,349 - #17 main
+INFO  17:56:47,349 - #42 (
+INFO  17:56:47,349 - Method main declared on line 15
+INFO  17:56:47,349 - #43 )
+INFO  17:56:47,349 - #17 int
+INFO  17:56:47,349 - #17 a
+INFO  17:56:47,349 - #39 ;
+INFO  17:56:47,349 - Variable a declared on line 15
+INFO  17:56:47,349 - #17 int
+INFO  17:56:47,349 - #17 b
+INFO  17:56:47,349 - #40 ,
+INFO  17:56:47,349 - Variable b declared on line 15
+INFO  17:56:47,349 - #17 c
+INFO  17:56:47,349 - #39 ;
+INFO  17:56:47,349 - Variable c declared on line 15
+INFO  17:56:47,349 - #17 int
+INFO  17:56:47,349 - #17 drugiNiz
+INFO  17:56:47,349 - #44 [
+INFO  17:56:47,349 - #45 ]
+INFO  17:56:47,349 - #39 ;
+INFO  17:56:47,349 - Array drugiNiz declared on line 15
+INFO  17:56:47,349 - #46 {
+INFO  17:56:47,349 - #17 a
+INFO  17:56:47,350 - #31 =
+INFO  17:56:47,350 - #17 broj
+INFO  17:56:47,350 - #39 ;
+INFO  17:56:47,350 - #9 print
+INFO  17:56:47,350 - #42 (
+INFO  17:56:47,350 - #17 broj
+INFO  17:56:47,350 - #43 )
+INFO  17:56:47,350 - #39 ;
+INFO  17:56:47,350 - #17 funkcija
+INFO  17:56:47,350 - #42 (
+INFO  17:56:47,350 - #17 a
+INFO  17:56:47,350 - #40 ,
+INFO  17:56:47,350 - #17 b
+INFO  17:56:47,350 - #43 )
+INFO  17:56:47,350 - #39 ;
+INFO  17:56:47,350 - #11 return
+INFO  17:56:47,350 - #17 broj
+INFO  17:56:47,350 - #39 ;
+INFO  17:56:47,350 - #17 b
+INFO  17:56:47,351 - #31 =
+INFO  17:56:47,351 - #17 niz
+INFO  17:56:47,351 - #44 [
+INFO  17:56:47,351 - #48 2
+INFO  17:56:47,351 - #45 ]
+INFO  17:56:47,351 - #39 ;
+INFO  17:56:47,351 - #17 b
+INFO  17:56:47,351 - #31 =
+INFO  17:56:47,351 - #17 niz
+INFO  17:56:47,351 - #44 [
+INFO  17:56:47,351 - #49 a
+INFO  17:56:47,351 - #45 ]
+INFO  17:56:47,351 - #39 ;
+ERROR 17:56:47,351 - Indexing expression of an array must return an integer! (line 21)
+INFO  17:56:47,351 - #17 c
+INFO  17:56:47,351 - #31 =
+INFO  17:56:47,351 - #17 funkcija
+INFO  17:56:47,351 - #42 (
+INFO  17:56:47,351 - #48 2
+INFO  17:56:47,351 - #40 ,
+INFO  17:56:47,351 - #49 a
+INFO  17:56:47,351 - #43 )
+INFO  17:56:47,352 - #39 ;
+INFO  17:56:47,352 - #47 }
+INFO  17:56:47,352 - #47 }

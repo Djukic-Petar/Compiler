@@ -1,0 +1,47 @@
+INFO  16:49:41,007 - Compiling source file: /Users/branislavaivkovic/Documents/workspace/Petar projekat/test/parserTest.mj
+INFO  16:49:41,016 - #2 program
+INFO  16:49:41,016 - #17 Programcic
+INFO  16:49:41,016 - #6 const
+INFO  16:49:41,017 - #17 int
+INFO  16:49:41,017 - #17 jedan
+INFO  16:49:41,017 - #34 =
+INFO  16:49:41,017 - #18 1
+INFO  16:49:41,017 - #42 ;
+INFO  16:49:41,017 - #17 char
+INFO  16:49:41,017 - #17 dva
+INFO  16:49:41,017 - #42 ;
+INFO  16:49:41,017 - #49 {
+INFO  16:49:41,017 - #17 int
+INFO  16:49:41,017 - #17 funkcija
+INFO  16:49:41,018 - #45 (
+INFO  16:49:41,018 - #46 )
+INFO  16:49:41,018 - #49 {
+INFO  16:49:41,018 - #50 }
+INFO  16:49:41,018 - #17 int
+INFO  16:49:41,018 - #17 main
+INFO  16:49:41,018 - #45 (
+INFO  16:49:41,018 - #17 int
+INFO  16:49:41,018 - #17 broj
+INFO  16:49:41,018 - #46 )
+INFO  16:49:41,018 - #17 int
+INFO  16:49:41,018 - #17 a
+INFO  16:49:41,018 - #42 ;
+INFO  16:49:41,018 - #17 int
+INFO  16:49:41,019 - #17 b
+INFO  16:49:41,019 - #43 ,
+INFO  16:49:41,019 - #17 c
+INFO  16:49:41,019 - #42 ;
+INFO  16:49:41,019 - #49 {
+INFO  16:49:41,019 - #17 a
+INFO  16:49:41,019 - #34 =
+INFO  16:49:41,019 - #17 broj
+INFO  16:49:41,019 - #42 ;
+INFO  16:49:41,019 - #9 print
+INFO  16:49:41,019 - #45 (
+INFO  16:49:41,019 - #17 broj
+INFO  16:49:41,019 - #46 )
+INFO  16:49:41,020 - #42 ;
+INFO  16:49:41,020 - #17 funkcija
+ERROR 16:49:41,020 - 
+Sintaksna greska na liniji 14
+ERROR 16:49:41,020 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

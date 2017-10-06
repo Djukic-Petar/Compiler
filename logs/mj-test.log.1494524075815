@@ -1,0 +1,37 @@
+INFO  19:33:53,198 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  19:33:53,205 - #2 program
+INFO  19:33:53,205 - #17 test
+INFO  19:33:53,205 - #17 int
+INFO  19:33:53,206 - #17 niz
+INFO  19:33:53,206 - #44 [
+INFO  19:33:53,206 - #45 ]
+INFO  19:33:53,206 - #39 ;
+INFO  19:33:53,206 - Array niz declared on line 2
+INFO  19:33:53,206 - #17 int
+INFO  19:33:53,206 - #17 x
+INFO  19:33:53,206 - #39 ;
+INFO  19:33:53,206 - Variable x declared on line 3
+INFO  19:33:53,206 - #17 int
+INFO  19:33:53,206 - #17 a
+INFO  19:33:53,206 - #39 ;
+INFO  19:33:53,206 - Variable a declared on line 4
+INFO  19:33:53,206 - #17 int
+INFO  19:33:53,206 - #17 b
+INFO  19:33:53,206 - #39 ;
+INFO  19:33:53,206 - Variable b declared on line 5
+INFO  19:33:53,206 - #46 {
+INFO  19:33:53,206 - #12 void
+INFO  19:33:53,206 - #17 main
+INFO  19:33:53,206 - #42 (
+INFO  19:33:53,207 - Method main declared on line 7
+INFO  19:33:53,207 - #43 )
+INFO  19:33:53,207 - #46 {
+INFO  19:33:53,207 - #17 niz
+INFO  19:33:53,207 - #44 [
+INFO  19:33:53,207 - #48 2
+INFO  19:33:53,207 - #45 ]
+INFO  19:33:53,208 - #31 =
+INFO  19:33:53,208 - #17 a
+INFO  19:33:53,208 - #39 ;
+INFO  19:33:53,208 - #47 }
+INFO  19:33:53,208 - #47 }

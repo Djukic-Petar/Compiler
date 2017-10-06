@@ -1,0 +1,17 @@
+program imePr0grama_1LeXer2;
+	int prvaPromenljiva = 2;
+	char druga_promeljiva = 'a';
+	bool t3caProm = true;
+{
+	void main(int arg){
+		arg++;
+		arg += 2;
+		arg, druga_promenljiva == (2, 3); //comm
+		true && false
+		
+		//_komentar_
+		
+		_promenljiva; //greska
+		3prom;
+	}
+}

@@ -1,0 +1,197 @@
+INFO  13:04:16,758 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  13:04:16,758 - #2 program
+INFO  13:04:16,758 - #17 Prog
+INFO  13:04:16,758 - #6 const
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 jedan
+INFO  13:04:16,758 - #31 =
+INFO  13:04:16,758 - #48 50
+INFO  13:04:16,758 - #39 ;
+INFO  13:04:16,758 - Constant jedan declared on line 2
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 niz
+INFO  13:04:16,758 - #44 [
+INFO  13:04:16,758 - #45 ]
+INFO  13:04:16,758 - #40 ,
+INFO  13:04:16,758 - Array niz declared on line 3
+INFO  13:04:16,758 - #17 t
+INFO  13:04:16,758 - #44 [
+INFO  13:04:16,758 - #45 ]
+INFO  13:04:16,758 - #39 ;
+INFO  13:04:16,758 - Array t declared on line 3
+INFO  13:04:16,758 - #6 const
+INFO  13:04:16,758 - #17 bool
+INFO  13:04:16,758 - #17 prviBool
+INFO  13:04:16,758 - #31 =
+INFO  13:04:16,758 - #50 true
+INFO  13:04:16,758 - #39 ;
+INFO  13:04:16,758 - Constant prviBool declared on line 4
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 prom
+INFO  13:04:16,758 - #39 ;
+INFO  13:04:16,758 - Variable prom declared on line 5
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 broj
+INFO  13:04:16,758 - #39 ;
+INFO  13:04:16,758 - Variable broj declared on line 6
+INFO  13:04:16,758 - #46 {
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 funkcija
+INFO  13:04:16,758 - #42 (
+INFO  13:04:16,758 - Method funkcija declared on line 9
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 a
+INFO  13:04:16,758 - #40 ,
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 b
+INFO  13:04:16,758 - #43 )
+INFO  13:04:16,758 - #46 {
+INFO  13:04:16,758 - #17 a
+INFO  13:04:16,758 - #31 =
+INFO  13:04:16,758 - #17 a
+INFO  13:04:16,758 - #18 +
+INFO  13:04:16,758 - #17 b
+INFO  13:04:16,758 - #39 ;
+INFO  13:04:16,758 - #9 print
+INFO  13:04:16,758 - #42 (
+INFO  13:04:16,758 - #48 45
+INFO  13:04:16,758 - #43 )
+INFO  13:04:16,758 - #39 ;
+INFO  13:04:16,758 - #47 }
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 drugaF
+INFO  13:04:16,758 - #42 (
+INFO  13:04:16,758 - Method drugaF declared on line 15
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 a
+INFO  13:04:16,758 - #40 ,
+INFO  13:04:16,758 - #17 char
+INFO  13:04:16,758 - #17 b
+INFO  13:04:16,758 - #43 )
+INFO  13:04:16,758 - #46 {
+INFO  13:04:16,758 - #47 }
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 funkcijaSaNizom
+INFO  13:04:16,758 - #42 (
+INFO  13:04:16,758 - Method funkcijaSaNizom declared on line 17
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 a
+INFO  13:04:16,758 - #44 [
+INFO  13:04:16,758 - #45 ]
+INFO  13:04:16,758 - #43 )
+INFO  13:04:16,758 - #46 {
+INFO  13:04:16,758 - #47 }
+INFO  13:04:16,758 - #17 int
+INFO  13:04:16,758 - #17 fNoParam
+INFO  13:04:16,758 - #42 (
+INFO  13:04:16,758 - Method fNoParam declared on line 20
+INFO  13:04:16,758 - #43 )
+INFO  13:04:16,758 - #46 {
+INFO  13:04:16,758 - #47 }
+INFO  13:04:16,758 - #12 void
+INFO  13:04:16,758 - #17 main
+INFO  13:04:16,758 - #42 (
+INFO  13:04:16,774 - Method main declared on line 22
+INFO  13:04:16,774 - #43 )
+INFO  13:04:16,774 - #17 int
+INFO  13:04:16,774 - #17 a
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - Variable a declared on line 22
+INFO  13:04:16,774 - #17 int
+INFO  13:04:16,774 - #17 b
+INFO  13:04:16,774 - #40 ,
+INFO  13:04:16,774 - Variable b declared on line 22
+INFO  13:04:16,774 - #17 c
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - Variable c declared on line 22
+INFO  13:04:16,774 - #17 int
+INFO  13:04:16,774 - #17 drugiNiz
+INFO  13:04:16,774 - #44 [
+INFO  13:04:16,774 - #45 ]
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - Array drugiNiz declared on line 22
+INFO  13:04:16,774 - #46 {
+INFO  13:04:16,774 - #17 funkcijaSaNizom
+INFO  13:04:16,774 - #42 (
+INFO  13:04:16,774 - #17 niz
+INFO  13:04:16,774 - #43 )
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #17 a
+INFO  13:04:16,774 - #31 =
+INFO  13:04:16,774 - #17 broj
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #9 print
+INFO  13:04:16,774 - #42 (
+INFO  13:04:16,774 - #17 broj
+INFO  13:04:16,774 - #43 )
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #17 funkcija
+INFO  13:04:16,774 - #42 (
+INFO  13:04:16,774 - #17 a
+INFO  13:04:16,774 - #40 ,
+INFO  13:04:16,774 - #17 b
+INFO  13:04:16,774 - #43 )
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #11 return
+INFO  13:04:16,774 - #17 broj
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #17 b
+INFO  13:04:16,774 - #31 =
+INFO  13:04:16,774 - #17 niz
+INFO  13:04:16,774 - #44 [
+INFO  13:04:16,774 - #48 2
+INFO  13:04:16,774 - #45 ]
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #17 b
+INFO  13:04:16,774 - #31 =
+INFO  13:04:16,774 - #17 niz
+INFO  13:04:16,774 - #44 [
+INFO  13:04:16,774 - #17 niz
+INFO  13:04:16,774 - #44 [
+INFO  13:04:16,774 - #48 7
+INFO  13:04:16,774 - #20 *
+INFO  13:04:16,774 - #48 2
+INFO  13:04:16,774 - #19 -
+INFO  13:04:16,774 - #42 (
+INFO  13:04:16,774 - #17 drugiNiz
+INFO  13:04:16,774 - #44 [
+INFO  13:04:16,774 - #48 2
+INFO  13:04:16,774 - #45 ]
+INFO  13:04:16,774 - #22 %
+INFO  13:04:16,774 - #48 4
+INFO  13:04:16,774 - #43 )
+INFO  13:04:16,774 - #45 ]
+INFO  13:04:16,774 - #45 ]
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #17 c
+INFO  13:04:16,774 - #31 =
+INFO  13:04:16,774 - #17 funkcija
+INFO  13:04:16,774 - #42 (
+INFO  13:04:16,774 - #17 drugaF
+INFO  13:04:16,774 - #42 (
+INFO  13:04:16,774 - #48 2
+INFO  13:04:16,774 - #40 ,
+INFO  13:04:16,774 - #49 a
+INFO  13:04:16,774 - #43 )
+INFO  13:04:16,774 - #40 ,
+INFO  13:04:16,774 - #48 2
+INFO  13:04:16,774 - #43 )
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #17 c
+INFO  13:04:16,774 - #31 =
+INFO  13:04:16,774 - #17 ord
+INFO  13:04:16,774 - #42 (
+INFO  13:04:16,774 - #17 niz
+INFO  13:04:16,774 - #43 )
+ERROR 13:04:16,774 - Incompatible types at line 31 Found Obj name = niz
+Obj adr = 0
+Obj kind = Var 
+Obj type = Arr of int
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  13:04:16,774 - #39 ;
+INFO  13:04:16,774 - #47 }
+INFO  13:04:16,774 - #47 }

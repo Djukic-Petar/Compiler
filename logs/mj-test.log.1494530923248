@@ -1,0 +1,65 @@
+INFO  21:28:36,787 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  21:28:36,794 - #2 program
+INFO  21:28:36,794 - #17 test
+INFO  21:28:36,794 - #17 int
+INFO  21:28:36,794 - #17 niz
+INFO  21:28:36,794 - #44 [
+INFO  21:28:36,794 - #45 ]
+INFO  21:28:36,795 - #39 ;
+INFO  21:28:36,795 - Array niz declared on line 2
+INFO  21:28:36,795 - #17 int
+INFO  21:28:36,795 - #17 x
+INFO  21:28:36,795 - #39 ;
+INFO  21:28:36,795 - Variable x declared on line 3
+INFO  21:28:36,795 - #17 int
+INFO  21:28:36,795 - #17 a
+INFO  21:28:36,795 - #39 ;
+INFO  21:28:36,795 - Variable a declared on line 4
+INFO  21:28:36,795 - #17 int
+INFO  21:28:36,795 - #17 b
+INFO  21:28:36,795 - #39 ;
+INFO  21:28:36,795 - Variable b declared on line 5
+INFO  21:28:36,795 - #46 {
+INFO  21:28:36,795 - #12 void
+INFO  21:28:36,795 - #17 main
+INFO  21:28:36,795 - #42 (
+INFO  21:28:36,796 - Method main declared on line 7
+INFO  21:28:36,796 - #43 )
+INFO  21:28:36,796 - #46 {
+INFO  21:28:36,796 - #17 niz
+INFO  21:28:36,796 - #31 =
+INFO  21:28:36,796 - #8 new
+INFO  21:28:36,796 - #17 int
+INFO  21:28:36,796 - #44 [
+INFO  21:28:36,796 - #48 5
+INFO  21:28:36,796 - #45 ]
+INFO  21:28:36,797 - #39 ;
+ERROR 21:28:36,797 - Type mismatch at designator statement. (line 8)
+INFO  21:28:36,797 - #17 niz
+INFO  21:28:36,797 - #44 [
+INFO  21:28:36,797 - #48 1
+INFO  21:28:36,797 - #45 ]
+INFO  21:28:36,797 - #31 =
+INFO  21:28:36,797 - #48 5
+INFO  21:28:36,797 - #39 ;
+INFO  21:28:36,797 - #17 niz
+INFO  21:28:36,797 - #44 [
+INFO  21:28:36,797 - #48 2
+INFO  21:28:36,797 - #45 ]
+INFO  21:28:36,797 - #31 =
+INFO  21:28:36,797 - #48 6
+INFO  21:28:36,797 - #39 ;
+INFO  21:28:36,797 - #17 x
+INFO  21:28:36,797 - #31 =
+INFO  21:28:36,797 - #17 niz
+INFO  21:28:36,798 - #44 [
+INFO  21:28:36,798 - #48 1
+INFO  21:28:36,798 - #45 ]
+INFO  21:28:36,798 - #39 ;
+INFO  21:28:36,798 - #9 print
+INFO  21:28:36,798 - #42 (
+INFO  21:28:36,798 - #17 x
+INFO  21:28:36,798 - #43 )
+INFO  21:28:36,798 - #39 ;
+INFO  21:28:36,798 - #47 }
+INFO  21:28:36,798 - #47 }

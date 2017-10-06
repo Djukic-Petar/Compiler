@@ -1,0 +1,233 @@
+INFO  12:41:34,273 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  12:41:34,289 - #2 program
+INFO  12:41:34,289 - #17 Prog
+INFO  12:41:34,289 - #6 const
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 jedan
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #48 50
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Constant jedan declared on line 2
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 niz
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - Array niz declared on line 3
+INFO  12:41:34,289 - #17 t
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Array t declared on line 3
+INFO  12:41:34,289 - #6 const
+INFO  12:41:34,289 - #17 bool
+INFO  12:41:34,289 - #17 prviBool
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #50 true
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Constant prviBool declared on line 4
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 prom
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Variable prom declared on line 5
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 broj
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Variable broj declared on line 6
+INFO  12:41:34,289 - #46 {
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 funkcija
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - Method funkcija declared on line 9
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 b
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #46 {
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #18 +
+INFO  12:41:34,289 - #17 b
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #9 print
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #48 45
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #47 }
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 drugaF
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - Method drugaF declared on line 15
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - #17 char
+INFO  12:41:34,289 - #17 b
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #46 {
+INFO  12:41:34,289 - #47 }
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 funkcijaSaNizom
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - Method funkcijaSaNizom declared on line 17
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #46 {
+INFO  12:41:34,289 - #47 }
+INFO  12:41:34,289 - #12 void
+INFO  12:41:34,289 - #17 main
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - Method main declared on line 20
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Variable a declared on line 20
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 b
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - Variable b declared on line 20
+INFO  12:41:34,289 - #17 c
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Variable c declared on line 20
+INFO  12:41:34,289 - #17 int
+INFO  12:41:34,289 - #17 drugiNiz
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - Array drugiNiz declared on line 20
+INFO  12:41:34,289 - #46 {
+INFO  12:41:34,289 - #17 funkcijaSaNizom
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #17 niz
+INFO  12:41:34,289 - #43 )
+ERROR 12:41:34,289 - Incompatible types at line 21 Found Obj name = niz
+Obj adr = 0
+Obj kind = Var 
+Obj type = Arr of int
+ expected Obj name = a
+Obj adr = 0
+Obj kind = Var 
+Obj type = Arr of int
+
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #17 broj
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #9 print
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #17 broj
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #17 funkcija
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #17 a
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - #17 b
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #11 return
+INFO  12:41:34,289 - #17 broj
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #17 b
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #17 niz
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #48 2
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #17 b
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #17 niz
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #17 niz
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #48 7
+INFO  12:41:34,289 - #20 *
+INFO  12:41:34,289 - #48 2
+INFO  12:41:34,289 - #19 -
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #17 drugiNiz
+INFO  12:41:34,289 - #44 [
+INFO  12:41:34,289 - #48 2
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #22 %
+INFO  12:41:34,289 - #48 4
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #45 ]
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #17 c
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #17 funkcija
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #17 drugaF
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #48 2
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - #49 a
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - #48 2
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #39 ;
+INFO  12:41:34,289 - #17 c
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #17 funkcija
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #43 )
+INFO  12:41:34,289 - #39 ;
+ERROR 12:41:34,289 - Parameter number mismatch at line 29
+INFO  12:41:34,289 - #17 c
+INFO  12:41:34,289 - #31 =
+INFO  12:41:34,289 - #17 drugaF
+INFO  12:41:34,289 - #42 (
+INFO  12:41:34,289 - #48 2
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - #49 a
+INFO  12:41:34,289 - #40 ,
+INFO  12:41:34,289 - #48 3
+INFO  12:41:34,289 - #40 ,
+ERROR 12:41:34,289 - Incompatible types at line 30 Found Obj name = Temp
+Obj adr = 3
+Obj kind = Con 
+Obj type = int
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  12:41:34,289 - #48 6
+INFO  12:41:34,289 - #40 ,
+ERROR 12:41:34,289 - Incompatible types at line 30 Found Obj name = Temp
+Obj adr = 6
+Obj kind = Con 
+Obj type = int
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  12:41:34,289 - #48 4
+INFO  12:41:34,289 - #43 )
+ERROR 12:41:34,289 - Incompatible types at line 30 Found Obj name = Temp
+Obj adr = 4
+Obj kind = Con 
+Obj type = int
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  12:41:34,289 - #39 ;
+ERROR 12:41:34,289 - Parameter number mismatch at line 30
+INFO  12:41:34,289 - #47 }
+INFO  12:41:34,289 - #47 }

@@ -1,0 +1,217 @@
+INFO  13:51:35,810 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  13:51:35,816 - #2 program
+INFO  13:51:35,817 - #17 Prog
+INFO  13:51:35,817 - #6 const
+INFO  13:51:35,817 - #17 int
+INFO  13:51:35,817 - #17 jedan
+INFO  13:51:35,817 - #31 =
+INFO  13:51:35,817 - #48 5
+INFO  13:51:35,817 - #39 ;
+INFO  13:51:35,817 - Constant jedan declared on line 2
+INFO  13:51:35,817 - #17 int
+INFO  13:51:35,817 - #17 niz
+INFO  13:51:35,817 - #44 [
+INFO  13:51:35,817 - #45 ]
+INFO  13:51:35,817 - #40 ,
+INFO  13:51:35,817 - Array niz declared on line 3
+INFO  13:51:35,817 - #17 t
+INFO  13:51:35,817 - #44 [
+INFO  13:51:35,817 - #45 ]
+INFO  13:51:35,817 - #39 ;
+INFO  13:51:35,817 - Array t declared on line 3
+INFO  13:51:35,817 - #6 const
+INFO  13:51:35,818 - #17 bool
+INFO  13:51:35,818 - #17 prviBool
+INFO  13:51:35,818 - #31 =
+INFO  13:51:35,818 - #50 true
+INFO  13:51:35,818 - #39 ;
+INFO  13:51:35,818 - Constant prviBool declared on line 4
+INFO  13:51:35,818 - #17 int
+INFO  13:51:35,818 - #17 prom
+INFO  13:51:35,818 - #39 ;
+INFO  13:51:35,818 - Variable prom declared on line 5
+INFO  13:51:35,818 - #17 int
+INFO  13:51:35,818 - #17 broj
+INFO  13:51:35,818 - #39 ;
+INFO  13:51:35,818 - Variable broj declared on line 6
+INFO  13:51:35,818 - #46 {
+INFO  13:51:35,818 - #17 int
+INFO  13:51:35,818 - #17 funkcija
+INFO  13:51:35,818 - #42 (
+INFO  13:51:35,818 - Method funkcija declared on line 8
+INFO  13:51:35,818 - #17 int
+INFO  13:51:35,818 - #17 a
+INFO  13:51:35,818 - #40 ,
+INFO  13:51:35,818 - #17 int
+INFO  13:51:35,818 - #17 b
+INFO  13:51:35,818 - #43 )
+INFO  13:51:35,819 - #46 {
+INFO  13:51:35,819 - #17 a
+INFO  13:51:35,819 - #31 =
+INFO  13:51:35,819 - #17 a
+INFO  13:51:35,819 - #18 +
+INFO  13:51:35,819 - #17 b
+INFO  13:51:35,819 - #39 ;
+INFO  13:51:35,819 - #9 print
+INFO  13:51:35,819 - #42 (
+INFO  13:51:35,819 - #48 45
+INFO  13:51:35,819 - #43 )
+INFO  13:51:35,819 - #39 ;
+INFO  13:51:35,819 - #47 }
+INFO  13:51:35,819 - #17 int
+INFO  13:51:35,819 - #17 drugaF
+INFO  13:51:35,819 - #42 (
+INFO  13:51:35,819 - Method drugaF declared on line 14
+INFO  13:51:35,819 - #17 int
+INFO  13:51:35,820 - #17 a
+INFO  13:51:35,820 - #40 ,
+INFO  13:51:35,820 - #17 char
+INFO  13:51:35,820 - #17 b
+INFO  13:51:35,820 - #43 )
+INFO  13:51:35,820 - #46 {
+INFO  13:51:35,820 - #47 }
+INFO  13:51:35,820 - #17 int
+INFO  13:51:35,820 - #17 funkcijaSaNizom
+INFO  13:51:35,820 - #42 (
+INFO  13:51:35,820 - Method funkcijaSaNizom declared on line 16
+INFO  13:51:35,820 - #17 int
+INFO  13:51:35,820 - #17 a
+INFO  13:51:35,820 - #44 [
+INFO  13:51:35,820 - #45 ]
+INFO  13:51:35,820 - #43 )
+INFO  13:51:35,820 - #46 {
+INFO  13:51:35,820 - #11 return
+INFO  13:51:35,820 - #39 ;
+INFO  13:51:35,820 - #47 }
+INFO  13:51:35,820 - #17 int
+INFO  13:51:35,820 - #17 fNoParam
+INFO  13:51:35,820 - #42 (
+INFO  13:51:35,820 - Method fNoParam declared on line 21
+INFO  13:51:35,820 - #43 )
+INFO  13:51:35,820 - #46 {
+INFO  13:51:35,820 - #47 }
+INFO  13:51:35,820 - #12 void
+INFO  13:51:35,820 - #17 main
+INFO  13:51:35,821 - #42 (
+INFO  13:51:35,821 - Method main declared on line 23
+INFO  13:51:35,821 - #43 )
+INFO  13:51:35,821 - #17 int
+INFO  13:51:35,821 - #17 a
+INFO  13:51:35,821 - #39 ;
+INFO  13:51:35,821 - Variable a declared on line 23
+INFO  13:51:35,821 - #17 int
+INFO  13:51:35,821 - #17 b
+INFO  13:51:35,821 - #40 ,
+INFO  13:51:35,821 - Variable b declared on line 23
+INFO  13:51:35,821 - #17 c
+INFO  13:51:35,821 - #39 ;
+INFO  13:51:35,821 - Variable c declared on line 23
+INFO  13:51:35,821 - #17 int
+INFO  13:51:35,821 - #17 drugiNiz
+INFO  13:51:35,821 - #44 [
+INFO  13:51:35,821 - #45 ]
+INFO  13:51:35,821 - #39 ;
+INFO  13:51:35,821 - Array drugiNiz declared on line 23
+INFO  13:51:35,821 - #46 {
+INFO  13:51:35,821 - #17 funkcijaSaNizom
+INFO  13:51:35,821 - #42 (
+INFO  13:51:35,821 - #17 niz
+INFO  13:51:35,821 - #43 )
+INFO  13:51:35,821 - #39 ;
+INFO  13:51:35,821 - #17 a
+INFO  13:51:35,822 - #31 =
+INFO  13:51:35,822 - #17 broj
+INFO  13:51:35,822 - #39 ;
+INFO  13:51:35,822 - #17 niz
+INFO  13:51:35,822 - #44 [
+INFO  13:51:35,822 - #48 1
+INFO  13:51:35,822 - #45 ]
+INFO  13:51:35,822 - #31 =
+INFO  13:51:35,822 - #48 5
+INFO  13:51:35,822 - #39 ;
+INFO  13:51:35,822 - #17 a
+INFO  13:51:35,822 - #31 =
+INFO  13:51:35,822 - #17 fNoParam
+INFO  13:51:35,822 - #42 (
+INFO  13:51:35,822 - #43 )
+INFO  13:51:35,822 - #18 +
+INFO  13:51:35,822 - #48 5
+INFO  13:51:35,822 - #39 ;
+INFO  13:51:35,822 - #17 a
+INFO  13:51:35,822 - #31 =
+INFO  13:51:35,822 - #17 nesto
+INFO  13:51:35,822 - #42 (
+ERROR 13:51:35,822 - Name nesto incorrectly used or not found on line 28
+ERROR 13:51:35,822 - noObj is not a method! (line 28)
+INFO  13:51:35,822 - #43 )
+INFO  13:51:35,822 - #18 +
+ERROR 13:51:35,823 - Parameter number mismatch at line 28
+INFO  13:51:35,823 - #48 2
+INFO  13:51:35,823 - #39 ;
+ERROR 13:51:35,823 - Addition operations only available with int types! (line 28)
+INFO  13:51:35,823 - #9 print
+INFO  13:51:35,823 - #42 (
+INFO  13:51:35,823 - #17 broj
+INFO  13:51:35,823 - #43 )
+INFO  13:51:35,823 - #39 ;
+INFO  13:51:35,823 - #17 funkcija
+INFO  13:51:35,823 - #42 (
+INFO  13:51:35,823 - #17 a
+INFO  13:51:35,823 - #40 ,
+INFO  13:51:35,823 - #17 b
+INFO  13:51:35,823 - #43 )
+INFO  13:51:35,823 - #39 ;
+INFO  13:51:35,823 - #11 return
+INFO  13:51:35,823 - #17 broj
+INFO  13:51:35,823 - #39 ;
+INFO  13:51:35,823 - #17 b
+INFO  13:51:35,823 - #31 =
+INFO  13:51:35,823 - #17 niz
+INFO  13:51:35,823 - #44 [
+INFO  13:51:35,823 - #48 2
+INFO  13:51:35,823 - #45 ]
+INFO  13:51:35,823 - #39 ;
+INFO  13:51:35,823 - #17 b
+INFO  13:51:35,823 - #31 =
+INFO  13:51:35,823 - #17 niz
+INFO  13:51:35,823 - #44 [
+INFO  13:51:35,823 - #17 niz
+INFO  13:51:35,823 - #44 [
+INFO  13:51:35,823 - #48 7
+INFO  13:51:35,823 - #20 *
+INFO  13:51:35,823 - #48 2
+INFO  13:51:35,824 - #19 -
+INFO  13:51:35,824 - #42 (
+INFO  13:51:35,824 - #17 drugiNiz
+INFO  13:51:35,824 - #44 [
+INFO  13:51:35,824 - #48 2
+INFO  13:51:35,824 - #45 ]
+INFO  13:51:35,824 - #22 %
+INFO  13:51:35,824 - #48 4
+INFO  13:51:35,824 - #43 )
+INFO  13:51:35,824 - #45 ]
+INFO  13:51:35,824 - #45 ]
+INFO  13:51:35,824 - #39 ;
+INFO  13:51:35,824 - #17 c
+INFO  13:51:35,825 - #31 =
+INFO  13:51:35,825 - #17 funkcija
+INFO  13:51:35,825 - #42 (
+INFO  13:51:35,825 - #17 drugaF
+INFO  13:51:35,825 - #42 (
+INFO  13:51:35,825 - #48 2
+INFO  13:51:35,825 - #40 ,
+INFO  13:51:35,825 - #49 a
+INFO  13:51:35,825 - #43 )
+INFO  13:51:35,825 - #40 ,
+INFO  13:51:35,825 - #48 2
+INFO  13:51:35,825 - #43 )
+INFO  13:51:35,825 - #39 ;
+INFO  13:51:35,825 - #17 c
+INFO  13:51:35,825 - #31 =
+INFO  13:51:35,825 - #17 len
+INFO  13:51:35,825 - #42 (
+INFO  13:51:35,825 - #17 niz
+INFO  13:51:35,825 - #43 )
+INFO  13:51:35,825 - #39 ;
+INFO  13:51:35,825 - #47 }
+INFO  13:51:35,825 - #47 }

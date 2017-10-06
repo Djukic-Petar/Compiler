@@ -1,0 +1,89 @@
+INFO  09:06:15,662 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  09:06:15,737 - #2 program
+INFO  09:06:15,737 - #17 test
+INFO  09:06:15,737 - #17 int
+INFO  09:06:15,737 - #17 niz
+INFO  09:06:15,737 - #44 [
+INFO  09:06:15,737 - #45 ]
+INFO  09:06:15,737 - #39 ;
+INFO  09:06:15,738 - Array niz declared on line 2
+INFO  09:06:15,738 - #17 int
+INFO  09:06:15,738 - #17 x
+INFO  09:06:15,738 - #39 ;
+INFO  09:06:15,738 - Variable x declared on line 3
+INFO  09:06:15,738 - #17 int
+INFO  09:06:15,738 - #17 a
+INFO  09:06:15,738 - #39 ;
+INFO  09:06:15,738 - Variable a declared on line 4
+INFO  09:06:15,738 - #17 int
+INFO  09:06:15,738 - #17 b
+INFO  09:06:15,738 - #39 ;
+INFO  09:06:15,738 - Variable b declared on line 5
+INFO  09:06:15,738 - #46 {
+INFO  09:06:15,738 - #12 void
+INFO  09:06:15,738 - #17 main
+INFO  09:06:15,738 - #42 (
+INFO  09:06:15,739 - Method main declared on line 7
+INFO  09:06:15,739 - #43 )
+INFO  09:06:15,739 - #46 {
+INFO  09:06:15,739 - #17 niz
+INFO  09:06:15,739 - #31 =
+INFO  09:06:15,739 - #8 new
+INFO  09:06:15,739 - #17 int
+INFO  09:06:15,739 - #44 [
+INFO  09:06:15,739 - #48 5
+INFO  09:06:15,739 - #45 ]
+INFO  09:06:15,739 - #39 ;
+INFO  09:06:15,740 - #17 a
+INFO  09:06:15,740 - #31 =
+INFO  09:06:15,740 - #48 3
+INFO  09:06:15,740 - #39 ;
+ERROR 09:06:15,740 - Type mismatch at designator statement. (line 9)
+INFO  09:06:15,740 - #17 b
+INFO  09:06:15,740 - #31 =
+INFO  09:06:15,740 - #48 7
+INFO  09:06:15,740 - #39 ;
+ERROR 09:06:15,740 - Type mismatch at designator statement. (line 10)
+INFO  09:06:15,740 - #17 niz
+INFO  09:06:15,740 - #44 [
+INFO  09:06:15,740 - #48 1
+INFO  09:06:15,740 - #45 ]
+INFO  09:06:15,740 - #31 =
+INFO  09:06:15,740 - #48 5
+INFO  09:06:15,740 - #39 ;
+INFO  09:06:15,740 - #17 niz
+INFO  09:06:15,740 - #44 [
+INFO  09:06:15,741 - #48 2
+INFO  09:06:15,741 - #45 ]
+INFO  09:06:15,741 - #31 =
+INFO  09:06:15,741 - #48 6
+INFO  09:06:15,741 - #39 ;
+INFO  09:06:15,741 - #17 niz
+INFO  09:06:15,741 - #44 [
+INFO  09:06:15,741 - #48 3
+INFO  09:06:15,741 - #45 ]
+INFO  09:06:15,741 - #31 =
+INFO  09:06:15,741 - #48 2
+INFO  09:06:15,741 - #39 ;
+INFO  09:06:15,741 - #17 x
+INFO  09:06:15,741 - #31 =
+INFO  09:06:15,741 - #17 a
+INFO  09:06:15,741 - #18 +
+INFO  09:06:15,741 - #17 b
+INFO  09:06:15,741 - #39 ;
+ERROR 09:06:15,741 - Type mismatch at designator statement. (line 14)
+INFO  09:06:15,741 - #9 print
+INFO  09:06:15,741 - #42 (
+INFO  09:06:15,741 - #17 x
+INFO  09:06:15,742 - #43 )
+INFO  09:06:15,742 - #39 ;
+INFO  09:06:15,742 - #9 print
+INFO  09:06:15,742 - #42 (
+INFO  09:06:15,742 - #17 niz
+INFO  09:06:15,742 - #44 [
+INFO  09:06:15,742 - #48 1
+INFO  09:06:15,742 - #45 ]
+INFO  09:06:15,742 - #43 )
+INFO  09:06:15,742 - #39 ;
+INFO  09:06:15,742 - #47 }
+INFO  09:06:15,742 - #47 }

@@ -1,0 +1,11 @@
+program synErr
+	int a;
+	int true;
+	int b;
+{
+	void main() int print; {
+		a = 5;
+		a = 5-;
+		a = 7;
+	}
+}

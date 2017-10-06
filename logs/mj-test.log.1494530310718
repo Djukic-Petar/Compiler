@@ -1,0 +1,70 @@
+INFO  21:17:34,116 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  21:17:34,123 - #2 program
+INFO  21:17:34,123 - #17 test
+INFO  21:17:34,123 - #17 int
+INFO  21:17:34,123 - #17 niz
+INFO  21:17:34,123 - #44 [
+INFO  21:17:34,123 - #45 ]
+INFO  21:17:34,123 - #39 ;
+INFO  21:17:34,123 - Array niz declared on line 2
+INFO  21:17:34,123 - #17 int
+INFO  21:17:34,123 - #17 x
+INFO  21:17:34,123 - #39 ;
+INFO  21:17:34,124 - Variable x declared on line 3
+INFO  21:17:34,124 - #17 int
+INFO  21:17:34,124 - #17 a
+INFO  21:17:34,124 - #39 ;
+INFO  21:17:34,124 - Variable a declared on line 4
+INFO  21:17:34,124 - #17 int
+INFO  21:17:34,124 - #17 b
+INFO  21:17:34,124 - #39 ;
+INFO  21:17:34,124 - Variable b declared on line 5
+INFO  21:17:34,124 - #46 {
+INFO  21:17:34,124 - #12 void
+INFO  21:17:34,124 - #17 main
+INFO  21:17:34,124 - #42 (
+INFO  21:17:34,125 - Method main declared on line 7
+INFO  21:17:34,125 - #43 )
+INFO  21:17:34,125 - #46 {
+INFO  21:17:34,125 - #17 niz
+INFO  21:17:34,125 - #31 =
+INFO  21:17:34,125 - #8 new
+INFO  21:17:34,125 - #17 int
+INFO  21:17:34,125 - #44 [
+INFO  21:17:34,125 - #48 5
+INFO  21:17:34,125 - #45 ]
+INFO  21:17:34,125 - #39 ;
+INFO  21:17:34,125 - #17 niz
+INFO  21:17:34,125 - #44 [
+INFO  21:17:34,125 - #48 1
+INFO  21:17:34,125 - #45 ]
+INFO  21:17:34,125 - #31 =
+INFO  21:17:34,126 - #48 5
+INFO  21:17:34,126 - #39 ;
+INFO  21:17:34,126 - #17 niz
+INFO  21:17:34,126 - #44 [
+INFO  21:17:34,126 - #48 2
+INFO  21:17:34,126 - #45 ]
+INFO  21:17:34,126 - #31 =
+INFO  21:17:34,126 - #48 6
+INFO  21:17:34,126 - #39 ;
+INFO  21:17:34,126 - #17 x
+INFO  21:17:34,126 - #31 =
+INFO  21:17:34,126 - #17 niz
+INFO  21:17:34,126 - #44 [
+INFO  21:17:34,126 - #48 1
+INFO  21:17:34,126 - #45 ]
+INFO  21:17:34,126 - #18 +
+INFO  21:17:34,126 - #17 niz
+INFO  21:17:34,126 - #44 [
+INFO  21:17:34,126 - #48 2
+INFO  21:17:34,126 - #45 ]
+INFO  21:17:34,126 - #39 ;
+ERROR 21:17:34,126 - Type mismatch at designator statement. (line 11)
+INFO  21:17:34,127 - #9 print
+INFO  21:17:34,127 - #42 (
+INFO  21:17:34,127 - #17 x
+INFO  21:17:34,127 - #43 )
+INFO  21:17:34,127 - #39 ;
+INFO  21:17:34,127 - #47 }
+INFO  21:17:34,127 - #47 }

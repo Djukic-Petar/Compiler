@@ -1,0 +1,86 @@
+INFO  17:38:24,441 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:38:24,448 - #2 program
+INFO  17:38:24,448 - #17 semErr
+INFO  17:38:24,448 - #17 int
+INFO  17:38:24,448 - #17 a
+INFO  17:38:24,448 - #39 ;
+INFO  17:38:24,448 - Variable a declared on line 2
+INFO  17:38:24,448 - #17 char
+INFO  17:38:24,448 - #17 ch
+INFO  17:38:24,449 - #39 ;
+INFO  17:38:24,449 - Variable ch declared on line 3
+INFO  17:38:24,449 - #17 int
+INFO  17:38:24,449 - #17 b
+INFO  17:38:24,449 - #39 ;
+INFO  17:38:24,449 - Variable b declared on line 4
+INFO  17:38:24,449 - #17 int
+INFO  17:38:24,449 - #17 niz
+INFO  17:38:24,449 - #44 [
+INFO  17:38:24,449 - #45 ]
+INFO  17:38:24,449 - #39 ;
+INFO  17:38:24,449 - Array niz declared on line 5
+INFO  17:38:24,449 - #17 bool
+INFO  17:38:24,449 - #17 boolVal
+INFO  17:38:24,449 - #39 ;
+INFO  17:38:24,449 - Variable boolVal declared on line 6
+INFO  17:38:24,449 - #46 {
+INFO  17:38:24,449 - #12 void
+INFO  17:38:24,449 - #17 main
+INFO  17:38:24,449 - #42 (
+INFO  17:38:24,450 - Method main declared on line 8
+INFO  17:38:24,450 - #43 )
+INFO  17:38:24,450 - #46 {
+INFO  17:38:24,450 - #17 niz
+INFO  17:38:24,450 - #31 =
+INFO  17:38:24,450 - #8 new
+INFO  17:38:24,450 - #17 char
+INFO  17:38:24,450 - #44 [
+INFO  17:38:24,450 - #48 5
+INFO  17:38:24,450 - #45 ]
+INFO  17:38:24,451 - #39 ;
+ERROR 17:38:24,451 - Type mismatch at designator statement. (line 9)
+INFO  17:38:24,451 - #17 niz
+INFO  17:38:24,451 - #31 =
+INFO  17:38:24,451 - #8 new
+INFO  17:38:24,451 - #17 int
+INFO  17:38:24,451 - #44 [
+INFO  17:38:24,451 - #49 x
+INFO  17:38:24,451 - #45 ]
+INFO  17:38:24,451 - #39 ;
+ERROR 17:38:24,451 - Constructor indexing expression must return an integer. (line 10)
+INFO  17:38:24,451 - #17 niz
+INFO  17:38:24,451 - #44 [
+INFO  17:38:24,451 - #49 a
+INFO  17:38:24,451 - #45 ]
+INFO  17:38:24,451 - #31 =
+ERROR 17:38:24,451 - Indexing expression of an array must return an integer! (line 11)
+INFO  17:38:24,451 - #48 5
+INFO  17:38:24,451 - #39 ;
+INFO  17:38:24,452 - #17 niz
+INFO  17:38:24,452 - #44 [
+INFO  17:38:24,452 - #48 2
+INFO  17:38:24,452 - #45 ]
+INFO  17:38:24,452 - #31 =
+INFO  17:38:24,452 - #50 true
+INFO  17:38:24,452 - #39 ;
+ERROR 17:38:24,452 - Type mismatch at designator statement. (line 12)
+INFO  17:38:24,452 - #17 ch
+INFO  17:38:24,452 - #38 --
+INFO  17:38:24,452 - #39 ;
+ERROR 17:38:24,452 - Type mismatch at designator statement. (line 13)
+INFO  17:38:24,452 - #17 ch
+INFO  17:38:24,452 - #32 +=
+INFO  17:38:24,452 - #48 2
+INFO  17:38:24,452 - #39 ;
+ERROR 17:38:24,452 - Type mismatch at designator statement. (line 14)
+INFO  17:38:24,452 - #17 boolVal
+INFO  17:38:24,452 - #31 =
+INFO  17:38:24,452 - #48 2
+INFO  17:38:24,452 - #39 ;
+ERROR 17:38:24,452 - Type mismatch at designator statement. (line 15)
+INFO  17:38:24,453 - #17 boolVal
+INFO  17:38:24,453 - #32 +=
+INFO  17:38:24,453 - #50 true
+INFO  17:38:24,453 - #39 ;
+INFO  17:38:24,453 - #47 }
+INFO  17:38:24,453 - #47 }

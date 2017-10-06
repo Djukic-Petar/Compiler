@@ -1,0 +1,49 @@
+INFO  17:46:29,794 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:46:45,507 - #2 program
+INFO  17:46:45,507 - #17 test
+INFO  17:46:45,507 - #17 int
+INFO  17:46:45,507 - #17 x
+INFO  17:46:45,507 - #40 ,
+INFO  17:46:45,507 - Variable x declared on line 2
+INFO  17:46:45,507 - #17 y
+INFO  17:46:45,507 - #40 ,
+INFO  17:46:45,507 - Variable y declared on line 2
+INFO  17:46:45,508 - #17 z
+INFO  17:46:45,508 - #40 ,
+INFO  17:46:45,508 - Variable z declared on line 2
+INFO  17:46:45,508 - #17 t
+INFO  17:46:45,508 - #39 ;
+INFO  17:46:45,508 - Variable t declared on line 2
+INFO  17:46:45,508 - #46 {
+INFO  17:46:45,508 - #12 void
+INFO  17:46:45,508 - #17 main
+INFO  17:46:45,508 - #42 (
+INFO  17:46:45,509 - Method main declared on line 4
+INFO  17:46:45,509 - #43 )
+INFO  17:46:45,509 - #46 {
+INFO  17:46:45,509 - #17 x
+INFO  17:46:45,509 - #31 =
+INFO  17:46:45,509 - #48 3
+INFO  17:46:45,509 - #39 ;
+INFO  17:46:49,817 - #17 y
+INFO  17:46:49,817 - #31 =
+INFO  17:46:49,818 - #48 500
+INFO  17:46:49,818 - #39 ;
+INFO  17:46:51,911 - #17 z
+INFO  17:46:51,911 - #31 =
+INFO  17:46:51,911 - #48 50
+INFO  17:46:51,911 - #39 ;
+INFO  17:46:56,716 - #17 t
+INFO  17:46:56,716 - #31 =
+INFO  17:46:56,716 - #48 5
+INFO  17:46:56,716 - #39 ;
+INFO  17:47:47,359 - #17 x
+INFO  17:47:47,359 - #31 =
+INFO  17:47:47,359 - #48 2
+INFO  17:47:47,359 - #20 *
+INFO  17:47:47,359 - #17 t
+INFO  17:47:47,359 - #20 *
+INFO  17:47:47,359 - #17 z
+INFO  17:47:47,359 - #21 /
+INFO  17:47:47,360 - #48 20
+INFO  17:47:47,360 - #39 ;

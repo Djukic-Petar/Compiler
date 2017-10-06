@@ -1,0 +1,23 @@
+INFO  20:02:19,060 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  20:02:19,067 - #2 program
+INFO  20:02:19,067 - #17 test
+INFO  20:02:19,067 - #6 const
+INFO  20:02:19,068 - #17 int
+INFO  20:02:19,068 - #17 jedan
+INFO  20:02:19,068 - #31 =
+INFO  20:02:19,068 - #48 11
+INFO  20:02:19,068 - #39 ;
+INFO  20:02:19,068 - Constant jedan declared on line 2
+INFO  20:02:19,068 - #17 int
+INFO  20:02:19,068 - #17 x
+INFO  20:02:19,068 - #40 ,
+INFO  20:02:19,068 - Variable x declared on line 3
+INFO  20:02:19,068 - #17 y
+INFO  20:02:19,068 - #39 ;
+INFO  20:02:19,068 - Variable y declared on line 3
+INFO  20:02:19,068 - #17 char
+INFO  20:02:19,068 - #17 a
+INFO  20:02:19,068 - #31 =
+ERROR 20:02:19,068 - 
+Sintaksna greska na liniji 4
+ERROR 20:02:19,068 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

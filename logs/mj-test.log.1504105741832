@@ -1,0 +1,72 @@
+INFO  17:08:38,123 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:08:38,131 - #2 program
+INFO  17:08:38,131 - #17 ispravan
+INFO  17:08:38,131 - #6 const
+INFO  17:08:38,131 - #17 int
+INFO  17:08:38,131 - #17 pet
+INFO  17:08:38,131 - #31 =
+INFO  17:08:38,131 - #48 5
+INFO  17:08:38,131 - #39 ;
+INFO  17:08:38,131 - Constant pet declared on line 2
+INFO  17:08:38,131 - #6 const
+INFO  17:08:38,131 - #17 char
+INFO  17:08:38,131 - #17 aaa
+INFO  17:08:38,132 - #31 =
+INFO  17:08:38,132 - #49 b
+INFO  17:08:38,132 - #39 ;
+INFO  17:08:38,132 - Constant aaa declared on line 3
+INFO  17:08:38,132 - #17 int
+INFO  17:08:38,132 - #17 b
+INFO  17:08:38,132 - #40 ,
+INFO  17:08:38,132 - Variable b declared on line 4
+INFO  17:08:38,132 - #17 c
+INFO  17:08:38,132 - #39 ;
+INFO  17:08:38,132 - Variable c declared on line 4
+INFO  17:08:38,132 - #17 char
+INFO  17:08:38,132 - #17 ch
+INFO  17:08:38,132 - #39 ;
+INFO  17:08:38,132 - Variable ch declared on line 5
+INFO  17:08:38,132 - #17 int
+INFO  17:08:38,132 - #17 x
+INFO  17:08:38,132 - #39 ;
+INFO  17:08:38,132 - Variable x declared on line 6
+INFO  17:08:38,132 - #17 int
+INFO  17:08:38,132 - #17 prvi
+INFO  17:08:38,132 - #44 [
+INFO  17:08:38,132 - #45 ]
+INFO  17:08:38,132 - #39 ;
+INFO  17:08:38,133 - Array prvi declared on line 7
+INFO  17:08:38,133 - #17 int
+INFO  17:08:38,133 - #17 drugi
+INFO  17:08:38,133 - #44 [
+INFO  17:08:38,133 - #45 ]
+INFO  17:08:38,133 - #39 ;
+INFO  17:08:38,133 - Array drugi declared on line 8
+INFO  17:08:38,133 - #17 char
+INFO  17:08:38,133 - #17 nizch
+INFO  17:08:38,133 - #44 [
+INFO  17:08:38,133 - #45 ]
+INFO  17:08:38,133 - #39 ;
+INFO  17:08:38,133 - Array nizch declared on line 9
+INFO  17:08:38,133 - #17 bool
+INFO  17:08:38,133 - #17 boolVal
+INFO  17:08:38,133 - #39 ;
+INFO  17:08:38,133 - Variable boolVal declared on line 10
+INFO  17:08:38,133 - #46 {
+INFO  17:08:38,133 - #12 void
+INFO  17:08:38,133 - #17 main
+INFO  17:08:38,133 - #42 (
+INFO  17:08:38,134 - Method main declared on line 12
+INFO  17:08:38,134 - #43 )
+INFO  17:08:38,134 - #17 int
+INFO  17:08:38,134 - #17 a
+INFO  17:08:38,134 - #39 ;
+INFO  17:08:38,134 - Variable a declared on line 12
+INFO  17:08:38,134 - #46 {
+INFO  17:08:38,134 - #17 chr
+INFO  17:08:38,134 - #42 (
+INFO  17:08:38,135 - #48 97
+INFO  17:08:38,135 - #43 )
+INFO  17:08:38,135 - #39 ;
+INFO  17:08:38,135 - #47 }
+INFO  17:08:38,135 - #47 }

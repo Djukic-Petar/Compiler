@@ -1,0 +1,96 @@
+INFO  16:47:17,954 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:47:17,970 - #2 program
+INFO  16:47:17,970 - #17 Prog
+INFO  16:47:17,970 - #6 const
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 jedan
+INFO  16:47:17,970 - #31 =
+INFO  16:47:17,970 - #48 5
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Constant jedan declared on line 2
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 niz
+INFO  16:47:17,970 - #44 [
+INFO  16:47:17,970 - #45 ]
+INFO  16:47:17,970 - #40 ,
+INFO  16:47:17,970 - Array niz declared on line 3
+INFO  16:47:17,970 - #17 t
+INFO  16:47:17,970 - #44 [
+INFO  16:47:17,970 - #45 ]
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Array t declared on line 3
+INFO  16:47:17,970 - #6 const
+INFO  16:47:17,970 - #17 bool
+INFO  16:47:17,970 - #17 prviBool
+INFO  16:47:17,970 - #31 =
+INFO  16:47:17,970 - #50 true
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Constant prviBool declared on line 4
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 prom
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Variable prom declared on line 5
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 broj
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Variable broj declared on line 6
+INFO  16:47:17,970 - #46 {
+INFO  16:47:17,970 - #12 void
+INFO  16:47:17,970 - #17 funkcija
+INFO  16:47:17,970 - #42 (
+INFO  16:47:17,970 - Method funkcija declared on line 8
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 a
+INFO  16:47:17,970 - #40 ,
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 b
+INFO  16:47:17,970 - #43 )
+INFO  16:47:17,970 - #46 {
+INFO  16:47:17,970 - #17 a
+INFO  16:47:17,970 - #31 =
+INFO  16:47:17,970 - #17 a
+INFO  16:47:17,970 - #18 +
+INFO  16:47:17,970 - #17 b
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - #9 print
+INFO  16:47:17,970 - #42 (
+INFO  16:47:17,970 - #48 45
+INFO  16:47:17,970 - #43 )
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - #11 return
+INFO  16:47:17,970 - #48 5
+INFO  16:47:17,970 - #39 ;
+ERROR 16:47:17,970 - Incompatible types at return statement. (line 12)
+INFO  16:47:17,970 - #47 }
+INFO  16:47:17,970 - #12 void
+INFO  16:47:17,970 - #17 voidF
+INFO  16:47:17,970 - #42 (
+INFO  16:47:17,970 - Method voidF declared on line 24
+INFO  16:47:17,970 - #43 )
+INFO  16:47:17,970 - #46 {
+INFO  16:47:17,970 - #47 }
+INFO  16:47:17,970 - #12 void
+INFO  16:47:17,970 - #17 main
+INFO  16:47:17,970 - #42 (
+INFO  16:47:17,970 - Method main declared on line 26
+INFO  16:47:17,970 - #43 )
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 a
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Variable a declared on line 26
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 b
+INFO  16:47:17,970 - #40 ,
+INFO  16:47:17,970 - Variable b declared on line 26
+INFO  16:47:17,970 - #17 c
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Variable c declared on line 26
+INFO  16:47:17,970 - #17 int
+INFO  16:47:17,970 - #17 drugiNiz
+INFO  16:47:17,970 - #44 [
+INFO  16:47:17,970 - #45 ]
+INFO  16:47:17,970 - #39 ;
+INFO  16:47:17,970 - Array drugiNiz declared on line 26
+INFO  16:47:17,970 - #46 {
+INFO  16:47:17,970 - #47 }
+INFO  16:47:17,970 - #47 }

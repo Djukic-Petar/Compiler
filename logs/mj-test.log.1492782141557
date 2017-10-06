@@ -1,0 +1,10 @@
+INFO  15:40:49,262 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  15:40:49,270 - #2 program
+INFO  15:40:49,270 - #17 Programcic
+INFO  15:40:49,270 - #6 const
+INFO  15:40:49,270 - #17 int
+INFO  15:40:49,270 - #17 jedan
+INFO  15:40:49,270 - #34 =
+ERROR 15:40:49,270 - 
+Sintaksna greska na liniji 2
+ERROR 15:40:49,270 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 2

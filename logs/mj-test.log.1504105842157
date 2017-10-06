@@ -1,0 +1,85 @@
+INFO  17:10:22,754 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:10:22,762 - #2 program
+INFO  17:10:22,762 - #17 ispravan
+INFO  17:10:22,762 - #6 const
+INFO  17:10:22,762 - #17 int
+INFO  17:10:22,762 - #17 pet
+INFO  17:10:22,763 - #31 =
+INFO  17:10:22,763 - #48 5
+INFO  17:10:22,763 - #39 ;
+INFO  17:10:22,763 - Constant pet declared on line 2
+INFO  17:10:22,763 - #6 const
+INFO  17:10:22,763 - #17 char
+INFO  17:10:22,763 - #17 aaa
+INFO  17:10:22,763 - #31 =
+INFO  17:10:22,763 - #49 b
+INFO  17:10:22,763 - #39 ;
+INFO  17:10:22,763 - Constant aaa declared on line 3
+INFO  17:10:22,763 - #17 int
+INFO  17:10:22,763 - #17 b
+INFO  17:10:22,763 - #40 ,
+INFO  17:10:22,763 - Variable b declared on line 4
+INFO  17:10:22,763 - #17 c
+INFO  17:10:22,763 - #39 ;
+INFO  17:10:22,764 - Variable c declared on line 4
+INFO  17:10:22,764 - #17 char
+INFO  17:10:22,764 - #17 ch
+INFO  17:10:22,764 - #39 ;
+INFO  17:10:22,764 - Variable ch declared on line 5
+INFO  17:10:22,764 - #17 int
+INFO  17:10:22,764 - #17 x
+INFO  17:10:22,764 - #39 ;
+INFO  17:10:22,764 - Variable x declared on line 6
+INFO  17:10:22,764 - #17 int
+INFO  17:10:22,764 - #17 prvi
+INFO  17:10:22,764 - #44 [
+INFO  17:10:22,764 - #45 ]
+INFO  17:10:22,764 - #39 ;
+INFO  17:10:22,764 - Array prvi declared on line 7
+INFO  17:10:22,764 - #17 int
+INFO  17:10:22,764 - #17 drugi
+INFO  17:10:22,764 - #44 [
+INFO  17:10:22,764 - #45 ]
+INFO  17:10:22,764 - #39 ;
+INFO  17:10:22,764 - Array drugi declared on line 8
+INFO  17:10:22,764 - #17 char
+INFO  17:10:22,764 - #17 nizch
+INFO  17:10:22,764 - #44 [
+INFO  17:10:22,764 - #45 ]
+INFO  17:10:22,764 - #39 ;
+INFO  17:10:22,764 - Array nizch declared on line 9
+INFO  17:10:22,765 - #17 bool
+INFO  17:10:22,765 - #17 boolVal
+INFO  17:10:22,765 - #39 ;
+INFO  17:10:22,765 - Variable boolVal declared on line 10
+INFO  17:10:22,765 - #46 {
+INFO  17:10:22,765 - #12 void
+INFO  17:10:22,765 - #17 main
+INFO  17:10:22,765 - #42 (
+INFO  17:10:22,766 - Method main declared on line 12
+INFO  17:10:22,766 - #43 )
+INFO  17:10:22,766 - #17 int
+INFO  17:10:22,766 - #17 a
+INFO  17:10:22,766 - #39 ;
+INFO  17:10:22,766 - Variable a declared on line 12
+INFO  17:10:22,766 - #46 {
+INFO  17:10:22,766 - #17 prvi
+INFO  17:10:22,766 - #31 =
+INFO  17:10:22,766 - #8 new
+INFO  17:10:22,766 - #17 int
+INFO  17:10:22,766 - #44 [
+INFO  17:10:22,766 - #48 7
+INFO  17:10:22,766 - #45 ]
+INFO  17:10:22,766 - #39 ;
+INFO  17:10:22,766 - #9 print
+INFO  17:10:22,766 - #42 (
+INFO  17:10:22,766 - #17 len
+INFO  17:10:22,766 - #42 (
+INFO  17:10:22,767 - #17 prvi
+INFO  17:10:22,767 - #43 )
+INFO  17:10:22,767 - #40 ,
+INFO  17:10:22,767 - #48 5
+INFO  17:10:22,767 - #43 )
+INFO  17:10:22,767 - #39 ;
+INFO  17:10:22,767 - #47 }
+INFO  17:10:22,767 - #47 }

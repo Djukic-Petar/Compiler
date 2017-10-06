@@ -1,0 +1,55 @@
+INFO  16:56:49,150 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:56:49,158 - #2 program
+INFO  16:56:49,158 - #17 Programcic
+INFO  16:56:49,158 - #6 const
+INFO  16:56:49,158 - #17 int
+INFO  16:56:49,158 - #17 jedan
+INFO  16:56:49,158 - #31 =
+INFO  16:56:49,158 - #48 1
+INFO  16:56:49,158 - #39 ;
+INFO  16:56:49,158 - Constant jedan declared on line 2
+INFO  16:56:49,158 - #6 const
+INFO  16:56:49,158 - #17 int
+INFO  16:56:49,158 - #17 dva
+INFO  16:56:49,158 - #31 =
+INFO  16:56:49,158 - #48 2
+INFO  16:56:49,158 - #39 ;
+INFO  16:56:49,159 - Constant dva declared on line 3
+INFO  16:56:49,159 - #17 int
+INFO  16:56:49,159 - #17 x
+INFO  16:56:49,159 - #40 ,
+INFO  16:56:49,159 - Variable x declared on line 4
+INFO  16:56:49,159 - #17 y
+INFO  16:56:49,159 - #40 ,
+INFO  16:56:49,159 - Variable y declared on line 4
+INFO  16:56:49,159 - #17 z
+INFO  16:56:49,159 - #40 ,
+INFO  16:56:49,159 - Variable z declared on line 4
+INFO  16:56:49,159 - #17 t
+INFO  16:56:49,159 - #40 ,
+INFO  16:56:49,159 - Variable t declared on line 4
+INFO  16:56:49,159 - #17 a
+INFO  16:56:49,159 - #40 ,
+INFO  16:56:49,159 - Variable a declared on line 4
+INFO  16:56:49,159 - #17 b
+INFO  16:56:49,159 - #40 ,
+INFO  16:56:49,159 - Variable b declared on line 4
+INFO  16:56:49,159 - #17 c
+INFO  16:56:49,159 - #39 ;
+INFO  16:56:49,159 - Variable c declared on line 4
+INFO  16:56:49,159 - #17 int
+INFO  16:56:49,159 - #17 niz1
+INFO  16:56:49,159 - #44 [
+INFO  16:56:49,159 - #45 ]
+INFO  16:56:49,160 - #40 ,
+INFO  16:56:49,160 - Array niz1 declared on line 5
+INFO  16:56:49,160 - #17 niz2
+INFO  16:56:49,160 - #44 [
+INFO  16:56:49,160 - #45 ]
+INFO  16:56:49,160 - #39 ;
+INFO  16:56:49,160 - Array niz2 declared on line 5
+INFO  16:56:49,160 - #17 int
+INFO  16:56:49,160 - #40 ,
+ERROR 16:56:49,160 - 
+Sintaksna greska na liniji 6
+ERROR 16:56:49,160 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

@@ -1,0 +1,113 @@
+INFO  17:44:16,862 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:44:16,869 - #2 program
+INFO  17:44:16,869 - #17 Prog
+INFO  17:44:16,869 - #6 const
+INFO  17:44:16,869 - #17 int
+INFO  17:44:16,869 - #17 jedan
+INFO  17:44:16,869 - #31 =
+INFO  17:44:16,869 - #48 50
+INFO  17:44:16,869 - #39 ;
+INFO  17:44:16,869 - Constant jedan declared on line 2
+INFO  17:44:16,870 - #17 int
+INFO  17:44:16,870 - #17 niz
+INFO  17:44:16,870 - #44 [
+INFO  17:44:16,870 - #45 ]
+INFO  17:44:16,870 - #40 ,
+INFO  17:44:16,870 - Array niz declared on line 3
+INFO  17:44:16,870 - #17 t
+INFO  17:44:16,870 - #44 [
+INFO  17:44:16,870 - #45 ]
+INFO  17:44:16,870 - #39 ;
+INFO  17:44:16,870 - Array t declared on line 3
+INFO  17:44:16,870 - #6 const
+INFO  17:44:16,870 - #17 bool
+INFO  17:44:16,870 - #17 prviBool
+INFO  17:44:16,870 - #31 =
+INFO  17:44:16,870 - #50 true
+INFO  17:44:16,870 - #39 ;
+INFO  17:44:16,870 - Constant prviBool declared on line 4
+INFO  17:44:16,870 - #17 int
+INFO  17:44:16,870 - #17 prom
+INFO  17:44:16,870 - #39 ;
+INFO  17:44:16,870 - Variable prom declared on line 5
+INFO  17:44:16,870 - #46 {
+INFO  17:44:16,870 - #17 int
+INFO  17:44:16,871 - #17 funkcija
+INFO  17:44:16,871 - #42 (
+INFO  17:44:16,871 - Method funkcija declared on line 8
+INFO  17:44:16,871 - #17 int
+INFO  17:44:16,871 - #17 a
+INFO  17:44:16,871 - #40 ,
+INFO  17:44:16,871 - #17 int
+INFO  17:44:16,871 - #17 b
+INFO  17:44:16,871 - #43 )
+INFO  17:44:16,871 - #46 {
+INFO  17:44:16,871 - #17 a
+INFO  17:44:16,871 - #31 =
+INFO  17:44:16,871 - #17 a
+INFO  17:44:16,871 - #18 +
+INFO  17:44:16,871 - #17 b
+INFO  17:44:16,871 - #39 ;
+INFO  17:44:16,871 - #9 print
+INFO  17:44:16,871 - #42 (
+INFO  17:44:16,871 - #48 45
+INFO  17:44:16,871 - #43 )
+INFO  17:44:16,871 - #39 ;
+INFO  17:44:16,871 - #47 }
+INFO  17:44:16,871 - #12 void
+INFO  17:44:16,871 - #17 main
+INFO  17:44:16,871 - #42 (
+INFO  17:44:16,872 - Method main declared on line 14
+INFO  17:44:16,872 - #43 )
+INFO  17:44:16,872 - #17 int
+INFO  17:44:16,872 - #17 a
+INFO  17:44:16,872 - #39 ;
+INFO  17:44:16,872 - Variable a declared on line 14
+INFO  17:44:16,872 - #17 int
+INFO  17:44:16,872 - #17 b
+INFO  17:44:16,872 - #40 ,
+INFO  17:44:16,872 - Variable b declared on line 14
+INFO  17:44:16,872 - #17 c
+INFO  17:44:16,872 - #39 ;
+INFO  17:44:16,872 - Variable c declared on line 14
+INFO  17:44:16,872 - #17 int
+INFO  17:44:16,872 - #17 drugiNiz
+INFO  17:44:16,872 - #44 [
+INFO  17:44:16,872 - #45 ]
+INFO  17:44:16,872 - #39 ;
+INFO  17:44:16,872 - Array drugiNiz declared on line 14
+INFO  17:44:16,872 - #46 {
+INFO  17:44:16,872 - #17 a
+INFO  17:44:16,872 - #31 =
+INFO  17:44:16,872 - #17 broj
+INFO  17:44:16,872 - #39 ;
+ERROR 17:44:16,872 - Name broj incorrectly used or not found on line 15
+INFO  17:44:16,872 - #9 print
+INFO  17:44:16,872 - #42 (
+INFO  17:44:16,872 - #17 broj
+INFO  17:44:16,872 - #43 )
+ERROR 17:44:16,872 - Name broj incorrectly used or not found on line 16
+INFO  17:44:16,873 - #39 ;
+INFO  17:44:16,873 - #17 funkcija
+INFO  17:44:16,873 - #42 (
+INFO  17:44:16,873 - #43 )
+INFO  17:44:16,873 - #39 ;
+INFO  17:44:16,873 - #11 return
+INFO  17:44:16,873 - #17 broj
+INFO  17:44:16,873 - #39 ;
+ERROR 17:44:16,873 - Name broj incorrectly used or not found on line 18
+INFO  17:44:16,873 - #17 a
+INFO  17:44:16,873 - #31 =
+INFO  17:44:16,873 - #17 objekat
+INFO  17:44:16,873 - #41 .
+ERROR 17:44:16,873 - Name objekat incorrectly used or not found on line 19
+INFO  17:44:16,873 - #17 atribut
+INFO  17:44:16,873 - #39 ;
+ERROR 17:44:16,873 - Classes and objects have not been implemented!
+INFO  17:44:16,873 - #17 b
+INFO  17:44:16,873 - #31 =
+INFO  17:44:16,873 - #17 niz
+INFO  17:44:16,873 - #44 [
+INFO  17:44:16,873 - #48 2
+INFO  17:44:16,873 - #45 ]
+INFO  17:44:16,873 - #39 ;

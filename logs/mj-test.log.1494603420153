@@ -1,0 +1,77 @@
+INFO  17:35:39,526 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:35:39,534 - #2 program
+INFO  17:35:39,534 - #17 semErr
+INFO  17:35:39,534 - #17 int
+INFO  17:35:39,534 - #17 a
+INFO  17:35:39,534 - #39 ;
+INFO  17:35:39,534 - Variable a declared on line 2
+INFO  17:35:39,534 - #17 char
+INFO  17:35:39,534 - #17 ch
+INFO  17:35:39,534 - #39 ;
+INFO  17:35:39,534 - Variable ch declared on line 3
+INFO  17:35:39,534 - #17 int
+INFO  17:35:39,534 - #17 b
+INFO  17:35:39,534 - #39 ;
+INFO  17:35:39,534 - Variable b declared on line 4
+INFO  17:35:39,534 - #17 int
+INFO  17:35:39,534 - #17 niz
+INFO  17:35:39,534 - #44 [
+INFO  17:35:39,534 - #45 ]
+INFO  17:35:39,534 - #39 ;
+INFO  17:35:39,534 - Array niz declared on line 5
+INFO  17:35:39,535 - #46 {
+INFO  17:35:39,535 - #12 void
+INFO  17:35:39,535 - #17 main
+INFO  17:35:39,535 - #42 (
+INFO  17:35:39,535 - Method main declared on line 7
+INFO  17:35:39,535 - #43 )
+INFO  17:35:39,535 - #46 {
+INFO  17:35:39,535 - #17 niz
+INFO  17:35:39,536 - #31 =
+INFO  17:35:39,536 - #8 new
+INFO  17:35:39,536 - #17 char
+INFO  17:35:39,536 - #44 [
+INFO  17:35:39,536 - #48 5
+INFO  17:35:39,536 - #45 ]
+INFO  17:35:39,536 - #39 ;
+ERROR 17:35:39,536 - Type mismatch at designator statement. (line 8)
+INFO  17:35:39,536 - #17 niz
+INFO  17:35:39,536 - #31 =
+INFO  17:35:39,536 - #8 new
+INFO  17:35:39,536 - #17 int
+INFO  17:35:39,536 - #44 [
+INFO  17:35:39,536 - #49 x
+INFO  17:35:39,536 - #45 ]
+INFO  17:35:39,536 - #39 ;
+ERROR 17:35:39,536 - Constructor indexing expression must return an integer. (line 9)
+INFO  17:35:39,536 - #17 niz
+INFO  17:35:39,536 - #44 [
+INFO  17:35:39,536 - #49 a
+INFO  17:35:39,537 - #45 ]
+INFO  17:35:39,537 - #31 =
+ERROR 17:35:39,537 - Indexing expression of an array must return an integer! (line 10)
+INFO  17:35:39,537 - #48 5
+INFO  17:35:39,537 - #39 ;
+INFO  17:35:39,537 - #17 niz
+INFO  17:35:39,537 - #44 [
+INFO  17:35:39,537 - #48 2
+INFO  17:35:39,537 - #45 ]
+INFO  17:35:39,537 - #31 =
+INFO  17:35:39,537 - #50 true
+INFO  17:35:39,537 - #39 ;
+ERROR 17:35:39,537 - Type mismatch at designator statement. (line 11)
+INFO  17:35:39,537 - #17 ch
+INFO  17:35:39,537 - #38 --
+INFO  17:35:39,537 - #39 ;
+ERROR 17:35:39,537 - Type mismatch at designator statement. (line 12)
+INFO  17:35:39,537 - #17 ch
+INFO  17:35:39,537 - #32 +=
+INFO  17:35:39,537 - #48 2
+INFO  17:35:39,537 - #39 ;
+ERROR 17:35:39,538 - Type mismatch at designator statement. (line 13)
+INFO  17:35:39,538 - #17 ch
+INFO  17:35:39,538 - #32 +=
+INFO  17:35:39,538 - #49 a
+INFO  17:35:39,538 - #39 ;
+INFO  17:35:39,538 - #47 }
+INFO  17:35:39,538 - #47 }

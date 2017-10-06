@@ -1,0 +1,83 @@
+INFO  17:35:14,894 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:35:14,902 - #2 program
+INFO  17:35:14,902 - #17 semErr
+INFO  17:35:14,902 - #17 int
+INFO  17:35:14,902 - #17 a
+INFO  17:35:14,902 - #39 ;
+INFO  17:35:14,902 - Variable a declared on line 2
+INFO  17:35:14,902 - #17 char
+INFO  17:35:14,902 - #17 ch
+INFO  17:35:14,902 - #39 ;
+INFO  17:35:14,902 - Variable ch declared on line 3
+INFO  17:35:14,902 - #17 int
+INFO  17:35:14,902 - #17 b
+INFO  17:35:14,902 - #39 ;
+INFO  17:35:14,902 - Variable b declared on line 4
+INFO  17:35:14,902 - #17 int
+INFO  17:35:14,902 - #17 niz
+INFO  17:35:14,902 - #44 [
+INFO  17:35:14,902 - #45 ]
+INFO  17:35:14,902 - #39 ;
+INFO  17:35:14,903 - Array niz declared on line 5
+INFO  17:35:14,903 - #46 {
+INFO  17:35:14,903 - #12 void
+INFO  17:35:14,903 - #17 main
+INFO  17:35:14,903 - #42 (
+INFO  17:35:14,903 - Method main declared on line 7
+INFO  17:35:14,904 - #43 )
+INFO  17:35:14,904 - #17 int
+INFO  17:35:14,904 - #9 print
+ERROR 17:35:14,904 - 
+Sintaksna greska na liniji 7
+INFO  17:35:14,904 - #39 ;
+INFO  17:35:14,904 - #46 {
+INFO  17:35:14,904 - #17 niz
+INFO  17:35:14,904 - #31 =
+ERROR 17:35:14,904 - Recovered from syntax error at variable declaration on line 7
+INFO  17:35:14,904 - #8 new
+INFO  17:35:14,904 - #17 char
+INFO  17:35:14,904 - #44 [
+INFO  17:35:14,904 - #48 5
+INFO  17:35:14,904 - #45 ]
+INFO  17:35:14,904 - #39 ;
+ERROR 17:35:14,905 - Type mismatch at designator statement. (line 8)
+INFO  17:35:14,905 - #17 niz
+INFO  17:35:14,905 - #31 =
+INFO  17:35:14,905 - #8 new
+INFO  17:35:14,905 - #17 int
+INFO  17:35:14,905 - #44 [
+INFO  17:35:14,905 - #49 x
+INFO  17:35:14,905 - #45 ]
+INFO  17:35:14,905 - #39 ;
+ERROR 17:35:14,905 - Constructor indexing expression must return an integer. (line 9)
+INFO  17:35:14,905 - #17 niz
+INFO  17:35:14,905 - #44 [
+INFO  17:35:14,905 - #49 a
+INFO  17:35:14,905 - #45 ]
+INFO  17:35:14,905 - #31 =
+ERROR 17:35:14,905 - Indexing expression of an array must return an integer! (line 10)
+INFO  17:35:14,905 - #48 5
+INFO  17:35:14,905 - #39 ;
+INFO  17:35:14,905 - #17 niz
+INFO  17:35:14,905 - #44 [
+INFO  17:35:14,906 - #48 2
+INFO  17:35:14,906 - #45 ]
+INFO  17:35:14,906 - #31 =
+INFO  17:35:14,906 - #50 true
+INFO  17:35:14,906 - #39 ;
+ERROR 17:35:14,906 - Type mismatch at designator statement. (line 11)
+INFO  17:35:14,906 - #17 ch
+INFO  17:35:14,906 - #38 --
+INFO  17:35:14,906 - #39 ;
+ERROR 17:35:14,906 - Type mismatch at designator statement. (line 12)
+INFO  17:35:14,906 - #17 ch
+INFO  17:35:14,906 - #32 +=
+INFO  17:35:14,906 - #48 2
+INFO  17:35:14,906 - #39 ;
+ERROR 17:35:14,906 - Type mismatch at designator statement. (line 13)
+INFO  17:35:14,906 - #17 ch
+INFO  17:35:14,906 - #32 +=
+INFO  17:35:14,906 - #49 a
+INFO  17:35:14,906 - #39 ;
+INFO  17:35:14,906 - #47 }
+INFO  17:35:14,906 - #47 }

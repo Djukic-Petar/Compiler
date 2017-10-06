@@ -1,0 +1,106 @@
+INFO  15:14:25,988 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  15:14:25,995 - #2 program
+INFO  15:14:25,996 - #17 Programcic
+INFO  15:14:25,996 - #6 const
+INFO  15:14:25,996 - #17 int
+INFO  15:14:25,996 - #17 jedan
+INFO  15:14:25,996 - #31 =
+INFO  15:14:25,996 - #48 1
+INFO  15:14:25,996 - #39 ;
+INFO  15:14:25,996 - Constant jedan declared on line 2
+INFO  15:14:25,996 - #6 const
+INFO  15:14:25,996 - #17 int
+INFO  15:14:25,996 - #17 dva
+INFO  15:14:25,996 - #31 =
+INFO  15:14:25,996 - #48 2
+INFO  15:14:25,996 - #39 ;
+INFO  15:14:25,996 - Constant dva declared on line 3
+INFO  15:14:25,996 - #17 int
+INFO  15:14:25,996 - #17 x
+INFO  15:14:25,996 - #40 ,
+INFO  15:14:25,996 - Variable x declared on line 4
+INFO  15:14:25,996 - #17 y
+INFO  15:14:25,996 - #40 ,
+INFO  15:14:25,997 - Variable y declared on line 4
+INFO  15:14:25,997 - #17 z
+INFO  15:14:25,997 - #40 ,
+INFO  15:14:25,997 - Variable z declared on line 4
+INFO  15:14:25,997 - #17 t
+INFO  15:14:25,997 - #39 ;
+INFO  15:14:25,997 - Variable t declared on line 4
+INFO  15:14:25,997 - #17 int
+INFO  15:14:25,997 - #17 prvi
+INFO  15:14:25,997 - #44 [
+INFO  15:14:25,997 - #45 ]
+INFO  15:14:25,997 - #40 ,
+INFO  15:14:25,997 - Array prvi declared on line 5
+INFO  15:14:25,997 - #17 drugi
+INFO  15:14:25,997 - #44 [
+INFO  15:14:25,997 - #45 ]
+INFO  15:14:25,997 - #39 ;
+INFO  15:14:25,997 - Array drugi declared on line 5
+INFO  15:14:25,997 - #46 {
+INFO  15:14:25,997 - #12 void
+INFO  15:14:25,997 - #17 main
+INFO  15:14:25,997 - #42 (
+INFO  15:14:25,998 - Method main declared on line 7
+INFO  15:14:25,998 - #43 )
+INFO  15:14:25,998 - #46 {
+INFO  15:14:25,998 - #17 prvi
+INFO  15:14:25,998 - #31 =
+INFO  15:14:25,998 - #8 new
+INFO  15:14:25,998 - #17 int
+INFO  15:14:25,998 - #44 [
+INFO  15:14:25,998 - #48 5
+INFO  15:14:25,998 - #45 ]
+INFO  15:14:25,998 - #39 ;
+INFO  15:14:25,999 - #17 drugi
+INFO  15:14:25,999 - #31 =
+INFO  15:14:25,999 - #8 new
+INFO  15:14:25,999 - #17 int
+INFO  15:14:25,999 - #44 [
+INFO  15:14:25,999 - #48 10
+INFO  15:14:25,999 - #45 ]
+INFO  15:14:25,999 - #39 ;
+INFO  15:14:25,999 - #17 prvi
+INFO  15:14:25,999 - #44 [
+INFO  15:14:25,999 - #48 3
+INFO  15:14:25,999 - #45 ]
+INFO  15:14:25,999 - #31 =
+INFO  15:14:25,999 - #48 5
+INFO  15:14:25,999 - #39 ;
+INFO  15:14:25,999 - #17 x
+INFO  15:14:25,999 - #31 =
+INFO  15:14:25,999 - #48 3
+INFO  15:14:25,999 - #39 ;
+INFO  15:14:25,999 - #17 drugi
+INFO  15:14:25,999 - #44 [
+INFO  15:14:25,999 - #48 6
+INFO  15:14:25,999 - #45 ]
+INFO  15:14:26,000 - #31 =
+INFO  15:14:26,000 - #48 7
+INFO  15:14:26,000 - #39 ;
+INFO  15:14:26,000 - #17 x
+INFO  15:14:26,000 - #31 =
+INFO  15:14:26,000 - #17 prvi
+INFO  15:14:26,000 - #44 [
+INFO  15:14:26,000 - #48 3
+INFO  15:14:26,000 - #45 ]
+INFO  15:14:26,000 - #34 *=
+INFO  15:14:26,000 - #17 drugi
+INFO  15:14:26,000 - #44 [
+INFO  15:14:26,000 - #48 6
+INFO  15:14:26,000 - #45 ]
+INFO  15:14:26,000 - #32 +=
+INFO  15:14:26,000 - #17 prvi
+INFO  15:14:26,000 - #44 [
+INFO  15:14:26,000 - #48 3
+INFO  15:14:26,000 - #45 ]
+INFO  15:14:26,000 - #39 ;
+INFO  15:14:26,000 - #9 print
+INFO  15:14:26,000 - #42 (
+INFO  15:14:26,000 - #17 x
+INFO  15:14:26,000 - #43 )
+INFO  15:14:26,000 - #39 ;
+INFO  15:14:26,001 - #47 }
+INFO  15:14:26,001 - #47 }

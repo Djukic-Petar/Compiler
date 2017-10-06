@@ -1,0 +1,65 @@
+INFO  20:03:59,778 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  20:03:59,786 - #2 program
+INFO  20:03:59,786 - #17 test
+INFO  20:03:59,786 - #6 const
+INFO  20:03:59,786 - #17 int
+INFO  20:03:59,786 - #17 jedan
+INFO  20:03:59,786 - #31 =
+INFO  20:03:59,786 - #48 11
+INFO  20:03:59,786 - #39 ;
+INFO  20:03:59,787 - Constant jedan declared on line 2
+INFO  20:03:59,787 - #17 int
+INFO  20:03:59,787 - #17 x
+INFO  20:03:59,787 - #40 ,
+INFO  20:03:59,787 - Variable x declared on line 3
+INFO  20:03:59,787 - #17 y
+INFO  20:03:59,787 - #39 ;
+INFO  20:03:59,787 - Variable y declared on line 3
+INFO  20:03:59,787 - #17 char
+INFO  20:03:59,787 - #17 a
+INFO  20:03:59,787 - #39 ;
+INFO  20:03:59,787 - Variable a declared on line 4
+INFO  20:03:59,787 - #46 {
+INFO  20:03:59,787 - #12 void
+INFO  20:03:59,787 - #17 main
+INFO  20:03:59,787 - #42 (
+INFO  20:03:59,788 - Method main declared on line 7
+INFO  20:03:59,788 - #43 )
+INFO  20:03:59,788 - #46 {
+INFO  20:03:59,788 - #17 y
+INFO  20:03:59,789 - #31 =
+INFO  20:03:59,789 - #48 45
+INFO  20:03:59,789 - #39 ;
+INFO  20:03:59,789 - #9 print
+INFO  20:03:59,789 - #42 (
+INFO  20:03:59,789 - #17 y
+INFO  20:03:59,789 - #43 )
+INFO  20:03:59,789 - #39 ;
+INFO  20:03:59,789 - #9 print
+INFO  20:03:59,789 - #42 (
+INFO  20:03:59,789 - #17 y
+INFO  20:03:59,789 - #40 ,
+INFO  20:03:59,789 - #48 8
+INFO  20:03:59,789 - #43 )
+INFO  20:03:59,789 - #39 ;
+INFO  20:03:59,789 - #17 a
+INFO  20:03:59,789 - #31 =
+INFO  20:03:59,789 - #49 b
+INFO  20:03:59,789 - #39 ;
+INFO  20:03:59,789 - #9 print
+INFO  20:03:59,790 - #42 (
+INFO  20:03:59,790 - #17 a
+INFO  20:03:59,790 - #43 )
+INFO  20:03:59,790 - #39 ;
+INFO  20:03:59,790 - #9 print
+INFO  20:03:59,790 - #42 (
+INFO  20:03:59,790 - #49 c
+INFO  20:03:59,790 - #43 )
+INFO  20:03:59,790 - #39 ;
+INFO  20:03:59,790 - #9 print
+INFO  20:03:59,790 - #42 (
+INFO  20:03:59,790 - #50 true
+INFO  20:03:59,790 - #43 )
+INFO  20:03:59,790 - #39 ;
+INFO  20:03:59,790 - #47 }
+INFO  20:03:59,790 - #47 }

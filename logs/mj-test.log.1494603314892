@@ -1,0 +1,50 @@
+INFO  17:32:34,046 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  17:32:34,054 - #2 program
+INFO  17:32:34,054 - #17 synErr
+INFO  17:32:34,054 - #17 int
+INFO  17:32:34,054 - #17 a
+INFO  17:32:34,054 - #39 ;
+INFO  17:32:34,054 - Variable a declared on line 2
+INFO  17:32:34,054 - #17 int
+INFO  17:32:34,054 - #50 true
+ERROR 17:32:34,054 - 
+Sintaksna greska na liniji 3
+INFO  17:32:34,054 - #39 ;
+INFO  17:32:34,054 - #17 int
+INFO  17:32:34,054 - #17 b
+INFO  17:32:34,055 - #39 ;
+ERROR 17:32:34,055 - Recovered from syntax error at variable declaration on line 3
+INFO  17:32:34,055 - Variable b declared on line 4
+INFO  17:32:34,055 - #46 {
+INFO  17:32:34,055 - #12 void
+INFO  17:32:34,055 - #17 main
+INFO  17:32:34,055 - #42 (
+INFO  17:32:34,056 - Method main declared on line 6
+INFO  17:32:34,056 - #43 )
+INFO  17:32:34,056 - #17 int
+INFO  17:32:34,056 - #9 print
+ERROR 17:32:34,056 - 
+Sintaksna greska na liniji 6
+INFO  17:32:34,056 - #40 ,
+INFO  17:32:34,056 - #17 broj
+INFO  17:32:34,056 - #39 ;
+INFO  17:32:34,056 - #46 {
+INFO  17:32:34,056 - #17 a
+INFO  17:32:34,056 - #31 =
+ERROR 17:32:34,056 - Recovered from syntax error at variable declaration on line 6
+INFO  17:32:34,056 - #48 5
+INFO  17:32:34,056 - #39 ;
+INFO  17:32:34,056 - #17 a
+INFO  17:32:34,056 - #31 =
+INFO  17:32:34,056 - #48 5
+INFO  17:32:34,056 - #19 -
+INFO  17:32:34,056 - #39 ;
+ERROR 17:32:34,056 - 
+Sintaksna greska na liniji 8
+INFO  17:32:34,057 - #17 a
+INFO  17:32:34,057 - #31 =
+INFO  17:32:34,057 - #48 7
+ERROR 17:32:34,057 - Recovered from syntax error at designator statement on line 8
+INFO  17:32:34,057 - #39 ;
+INFO  17:32:34,057 - #47 }
+INFO  17:32:34,057 - #47 }

@@ -1,0 +1,74 @@
+INFO  16:45:28,851 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:45:28,859 - #2 program
+INFO  16:45:28,859 - #17 ispravan
+INFO  16:45:28,860 - #6 const
+INFO  16:45:28,860 - #17 int
+INFO  16:45:28,860 - #17 pet
+INFO  16:45:28,860 - #31 =
+INFO  16:45:28,860 - #48 5
+INFO  16:45:28,860 - #39 ;
+INFO  16:45:28,860 - Constant pet declared on line 2
+INFO  16:45:28,860 - #17 int
+INFO  16:45:28,860 - #17 b
+INFO  16:45:28,860 - #40 ,
+INFO  16:45:28,860 - Variable b declared on line 3
+INFO  16:45:28,860 - #17 c
+INFO  16:45:28,860 - #39 ;
+INFO  16:45:28,860 - Variable c declared on line 3
+INFO  16:45:28,860 - #17 char
+INFO  16:45:28,860 - #17 ch
+INFO  16:45:28,860 - #39 ;
+INFO  16:45:28,860 - Variable ch declared on line 4
+INFO  16:45:28,860 - #17 int
+INFO  16:45:28,861 - #17 x
+INFO  16:45:28,861 - #39 ;
+INFO  16:45:28,861 - Variable x declared on line 5
+INFO  16:45:28,861 - #17 int
+INFO  16:45:28,861 - #17 prvi
+INFO  16:45:28,861 - #44 [
+INFO  16:45:28,861 - #45 ]
+INFO  16:45:28,861 - #39 ;
+INFO  16:45:28,861 - Array prvi declared on line 6
+INFO  16:45:28,861 - #17 int
+INFO  16:45:28,861 - #17 drugi
+INFO  16:45:28,861 - #44 [
+INFO  16:45:28,861 - #45 ]
+INFO  16:45:28,861 - #39 ;
+INFO  16:45:28,861 - Array drugi declared on line 7
+INFO  16:45:28,861 - #17 char
+INFO  16:45:28,861 - #17 nizch
+INFO  16:45:28,861 - #44 [
+INFO  16:45:28,861 - #45 ]
+INFO  16:45:28,861 - #39 ;
+INFO  16:45:28,861 - Array nizch declared on line 8
+INFO  16:45:28,861 - #17 bool
+INFO  16:45:28,861 - #17 boolVal
+INFO  16:45:28,861 - #39 ;
+INFO  16:45:28,861 - Variable boolVal declared on line 9
+INFO  16:45:28,861 - #46 {
+INFO  16:45:28,861 - #12 void
+INFO  16:45:28,862 - #17 main
+INFO  16:45:28,862 - #42 (
+INFO  16:45:28,862 - Method main declared on line 11
+INFO  16:45:28,862 - #43 )
+INFO  16:45:28,862 - #17 int
+INFO  16:45:28,862 - #17 a
+INFO  16:45:28,863 - #39 ;
+INFO  16:45:28,863 - Variable a declared on line 11
+INFO  16:45:28,863 - #46 {
+INFO  16:45:28,863 - #17 chr
+INFO  16:45:28,863 - #42 (
+INFO  16:45:28,863 - #49 a
+INFO  16:45:28,863 - #43 )
+ERROR 16:45:28,863 - Incompatible types at line 12 Found Obj name = Temp
+Obj adr = 97
+Obj kind = Con 
+Obj type = char
+ expected Obj name = i
+Obj adr = 0
+Obj kind = Var 
+Obj type = int
+
+INFO  16:45:28,863 - #39 ;
+INFO  16:45:28,863 - #47 }
+INFO  16:45:28,863 - #47 }

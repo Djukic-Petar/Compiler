@@ -1,0 +1,21 @@
+program semErr
+	int a;
+	char ch;
+	int b;
+	int niz[];
+	char nizch[];
+	bool boolVal;
+{
+	void main() {
+		niz = new char[5];
+		niz = new int['x'];
+		niz['a'] = 5;
+		niz[2] = true;
+		ch--;
+		ch += 2;
+		boolVal = 2;
+		niz = nizch;
+		boolVal = -true;
+		return 2;
+	}
+}

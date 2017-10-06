@@ -1,0 +1,236 @@
+INFO  16:45:59,907 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:45:59,923 - #2 program
+INFO  16:45:59,923 - #17 Prog
+INFO  16:45:59,923 - #6 const
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 jedan
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #48 5
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Constant jedan declared on line 2
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #40 ,
+INFO  16:45:59,923 - Array niz declared on line 3
+INFO  16:45:59,923 - #17 t
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Array t declared on line 3
+INFO  16:45:59,923 - #6 const
+INFO  16:45:59,923 - #17 bool
+INFO  16:45:59,923 - #17 prviBool
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #50 true
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Constant prviBool declared on line 4
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 prom
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Variable prom declared on line 5
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 broj
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Variable broj declared on line 6
+INFO  16:45:59,923 - #46 {
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 funkcija
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - Method funkcija declared on line 8
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 a
+INFO  16:45:59,923 - #40 ,
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 b
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #46 {
+INFO  16:45:59,923 - #17 a
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #17 a
+INFO  16:45:59,923 - #18 +
+INFO  16:45:59,923 - #17 b
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #9 print
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - #48 45
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #11 return
+INFO  16:45:59,923 - #50 true
+INFO  16:45:59,923 - #39 ;
+ERROR 16:45:59,923 - Incompatible types at return statement. (line 12)
+INFO  16:45:59,923 - #47 }
+INFO  16:45:59,923 - #12 void
+INFO  16:45:59,923 - #17 voidF
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - Method voidF declared on line 24
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #46 {
+INFO  16:45:59,923 - #47 }
+INFO  16:45:59,923 - #12 void
+INFO  16:45:59,923 - #17 main
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - Method main declared on line 26
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 a
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Variable a declared on line 26
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 b
+INFO  16:45:59,923 - #40 ,
+INFO  16:45:59,923 - Variable b declared on line 26
+INFO  16:45:59,923 - #17 c
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Variable c declared on line 26
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #17 drugiNiz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - Array drugiNiz declared on line 26
+INFO  16:45:59,923 - #46 {
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #8 new
+INFO  16:45:59,923 - #17 int
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #48 5
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #17 funkcijaSaNizom
+INFO  16:45:59,923 - #42 (
+ERROR 16:45:59,923 - Name funkcijaSaNizom incorrectly used or not found on line 28
+ERROR 16:45:59,923 - noObj is not a method! (line 28)
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #43 )
+ERROR 16:45:59,923 - Incompatible types at line 28 Found Obj name = niz
+Obj adr = 0
+Obj kind = Var 
+Obj type = Arr of int
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  16:45:59,923 - #39 ;
+ERROR 16:45:59,923 - Parameter number mismatch at line 28
+INFO  16:45:59,923 - #17 a
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #17 broj
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #48 1
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #48 5
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #48 3
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #17 broj
+INFO  16:45:59,923 - #34 *=
+INFO  16:45:59,923 - #48 2
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #9 print
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - #17 broj
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #17 funkcija
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - #17 a
+INFO  16:45:59,923 - #40 ,
+INFO  16:45:59,923 - #17 b
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #11 return
+INFO  16:45:59,923 - #17 broj
+INFO  16:45:59,923 - #39 ;
+ERROR 16:45:59,923 - Incompatible types at return statement. (line 35)
+INFO  16:45:59,923 - #17 b
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #48 2
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #17 b
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #48 7
+INFO  16:45:59,923 - #20 *
+INFO  16:45:59,923 - #48 2
+INFO  16:45:59,923 - #19 -
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - #17 drugiNiz
+INFO  16:45:59,923 - #44 [
+INFO  16:45:59,923 - #48 2
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #22 %
+INFO  16:45:59,923 - #48 4
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #45 ]
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #17 c
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #17 funkcija
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - #17 drugaF
+INFO  16:45:59,923 - #42 (
+ERROR 16:45:59,923 - Name drugaF incorrectly used or not found on line 38
+ERROR 16:45:59,923 - noObj is not a method! (line 38)
+INFO  16:45:59,923 - #48 2
+INFO  16:45:59,923 - #40 ,
+ERROR 16:45:59,923 - Incompatible types at line 38 Found Obj name = Temp
+Obj adr = 2
+Obj kind = Con 
+Obj type = int
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  16:45:59,923 - #49 a
+INFO  16:45:59,923 - #43 )
+ERROR 16:45:59,923 - Incompatible types at line 38 Found Obj name = Temp
+Obj adr = 97
+Obj kind = Con 
+Obj type = char
+ expected Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+
+INFO  16:45:59,923 - #40 ,
+ERROR 16:45:59,923 - Parameter number mismatch at line 38
+ERROR 16:45:59,923 - Incompatible types at line 38 Found Obj name = noObj
+Obj adr = -1
+Obj kind = Var 
+Obj type = notype
+ expected Obj name = a
+Obj adr = 0
+Obj kind = Var 
+Obj type = int
+
+INFO  16:45:59,923 - #48 2
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #17 c
+INFO  16:45:59,923 - #31 =
+INFO  16:45:59,923 - #17 len
+INFO  16:45:59,923 - #42 (
+INFO  16:45:59,923 - #17 niz
+INFO  16:45:59,923 - #43 )
+INFO  16:45:59,923 - #39 ;
+INFO  16:45:59,923 - #47 }
+INFO  16:45:59,923 - #47 }

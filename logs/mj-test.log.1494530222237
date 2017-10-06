@@ -1,0 +1,54 @@
+INFO  21:14:33,948 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  21:14:33,955 - #2 program
+INFO  21:14:33,955 - #17 test
+INFO  21:14:33,955 - #17 int
+INFO  21:14:33,955 - #17 niz
+INFO  21:14:33,955 - #44 [
+INFO  21:14:33,955 - #45 ]
+INFO  21:14:33,955 - #39 ;
+INFO  21:14:33,955 - Array niz declared on line 2
+INFO  21:14:33,956 - #17 int
+INFO  21:14:33,956 - #17 x
+INFO  21:14:33,956 - #39 ;
+INFO  21:14:33,956 - Variable x declared on line 3
+INFO  21:14:33,956 - #17 int
+INFO  21:14:33,956 - #17 a
+INFO  21:14:33,956 - #39 ;
+INFO  21:14:33,956 - Variable a declared on line 4
+INFO  21:14:33,956 - #17 int
+INFO  21:14:33,956 - #17 b
+INFO  21:14:33,956 - #39 ;
+INFO  21:14:33,956 - Variable b declared on line 5
+INFO  21:14:33,956 - #46 {
+INFO  21:14:33,956 - #12 void
+INFO  21:14:33,956 - #17 main
+INFO  21:14:33,956 - #42 (
+INFO  21:14:33,957 - Method main declared on line 7
+INFO  21:14:33,957 - #43 )
+INFO  21:14:33,957 - #46 {
+INFO  21:14:33,957 - #17 niz
+INFO  21:14:33,957 - #31 =
+INFO  21:14:33,957 - #8 new
+INFO  21:14:33,957 - #17 int
+INFO  21:14:33,957 - #44 [
+INFO  21:14:33,957 - #48 5
+INFO  21:14:33,957 - #45 ]
+INFO  21:14:33,957 - #39 ;
+INFO  21:14:33,957 - #17 niz
+INFO  21:14:33,958 - #44 [
+INFO  21:14:33,958 - #48 1
+INFO  21:14:33,958 - #45 ]
+INFO  21:14:33,958 - #31 =
+INFO  21:14:33,958 - #48 5
+INFO  21:14:33,958 - #39 ;
+INFO  21:14:33,958 - #9 print
+INFO  21:14:33,958 - #42 (
+INFO  21:14:33,958 - #17 niz
+INFO  21:14:33,958 - #44 [
+INFO  21:14:33,958 - #48 1
+INFO  21:14:33,958 - #45 ]
+INFO  21:14:33,958 - #43 )
+INFO  21:14:33,958 - #39 ;
+ERROR 21:14:33,958 - Print statement can only read int char or bool types (line 10)
+INFO  21:14:33,958 - #47 }
+INFO  21:14:33,958 - #47 }

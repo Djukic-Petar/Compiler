@@ -1,0 +1,16 @@
+program ispravan
+	const int pet = 5;
+	const char aaa = 'b';
+	int b, c;
+	char ch;
+	int x;
+	int prvi[];
+	int drugi[];
+	char nizch[];
+	bool boolVal;
+{
+	void main() int a; {
+		ch = 'a';
+		ord(ch);
+	}
+}

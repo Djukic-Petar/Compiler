@@ -1,0 +1,65 @@
+INFO  16:45:47,705 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  16:45:47,721 - #2 program
+INFO  16:45:47,721 - #17 Prog
+INFO  16:45:47,721 - #6 const
+INFO  16:45:47,721 - #17 int
+INFO  16:45:47,721 - #17 jedan
+INFO  16:45:47,721 - #31 =
+INFO  16:45:47,721 - #48 5
+INFO  16:45:47,721 - #39 ;
+INFO  16:45:47,721 - Constant jedan declared on line 2
+INFO  16:45:47,721 - #17 int
+INFO  16:45:47,721 - #17 niz
+INFO  16:45:47,721 - #44 [
+INFO  16:45:47,721 - #45 ]
+INFO  16:45:47,721 - #40 ,
+INFO  16:45:47,721 - Array niz declared on line 3
+INFO  16:45:47,721 - #17 t
+INFO  16:45:47,721 - #44 [
+INFO  16:45:47,721 - #45 ]
+INFO  16:45:47,721 - #39 ;
+INFO  16:45:47,721 - Array t declared on line 3
+INFO  16:45:47,721 - #6 const
+INFO  16:45:47,721 - #17 bool
+INFO  16:45:47,721 - #17 prviBool
+INFO  16:45:47,721 - #31 =
+INFO  16:45:47,721 - #50 true
+INFO  16:45:47,721 - #39 ;
+INFO  16:45:47,721 - Constant prviBool declared on line 4
+INFO  16:45:47,721 - #17 int
+INFO  16:45:47,721 - #17 prom
+INFO  16:45:47,721 - #39 ;
+INFO  16:45:47,721 - Variable prom declared on line 5
+INFO  16:45:47,721 - #17 int
+INFO  16:45:47,721 - #17 broj
+INFO  16:45:47,721 - #39 ;
+INFO  16:45:47,721 - Variable broj declared on line 6
+INFO  16:45:47,721 - #46 {
+INFO  16:45:47,721 - #17 int
+INFO  16:45:47,721 - #17 funkcija
+INFO  16:45:47,721 - #42 (
+INFO  16:45:47,721 - Method funkcija declared on line 8
+INFO  16:45:47,721 - #17 int
+INFO  16:45:47,721 - #17 a
+INFO  16:45:47,721 - #40 ,
+INFO  16:45:47,721 - #17 int
+INFO  16:45:47,721 - #17 b
+INFO  16:45:47,721 - #43 )
+INFO  16:45:47,721 - #46 {
+INFO  16:45:47,721 - #17 a
+INFO  16:45:47,721 - #31 =
+INFO  16:45:47,721 - #17 a
+INFO  16:45:47,721 - #18 +
+INFO  16:45:47,721 - #17 b
+INFO  16:45:47,721 - #39 ;
+INFO  16:45:47,721 - #9 print
+INFO  16:45:47,721 - #42 (
+INFO  16:45:47,721 - #48 45
+INFO  16:45:47,721 - #43 )
+INFO  16:45:47,721 - #39 ;
+INFO  16:45:47,721 - #11 return
+INFO  16:45:47,721 - #50 true
+INFO  16:45:47,721 - #47 }
+ERROR 16:45:47,721 - 
+Sintaksna greska na liniji 13
+ERROR 16:45:47,721 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 13

@@ -1,0 +1,35 @@
+INFO  16:50:50,336 - Compiling source file: /Users/branislavaivkovic/Documents/workspace/Petar projekat/test/parserTest.mj
+INFO  16:50:50,344 - #2 program
+INFO  16:50:50,344 - #17 Programcic
+INFO  16:50:50,344 - #6 const
+INFO  16:50:50,344 - #17 int
+INFO  16:50:50,344 - #17 jedan
+INFO  16:50:50,345 - #34 =
+INFO  16:50:50,345 - #18 1
+INFO  16:50:50,345 - #42 ;
+INFO  16:50:50,345 - #17 char
+INFO  16:50:50,345 - #17 dva
+INFO  16:50:50,345 - #42 ;
+INFO  16:50:50,345 - #49 {
+INFO  16:50:50,345 - #17 int
+INFO  16:50:50,345 - #17 funkcija
+INFO  16:50:50,345 - #45 (
+INFO  16:50:50,345 - #46 )
+INFO  16:50:50,345 - #49 {
+INFO  16:50:50,346 - #17 a
+INFO  16:50:50,346 - #34 =
+INFO  16:50:50,346 - #17 a
+INFO  16:50:50,346 - #21 +
+INFO  16:50:50,346 - #17 b
+INFO  16:50:50,346 - #42 ;
+INFO  16:50:50,346 - #9 print
+INFO  16:50:50,346 - #45 (
+INFO  16:50:50,346 - #18 45
+INFO  16:50:50,346 - #43 ,
+INFO  16:50:50,346 - #18 45
+INFO  16:50:50,346 - #46 )
+INFO  16:50:50,346 - #42 ;
+INFO  16:50:50,347 - #50 }
+ERROR 16:50:50,347 - 
+Sintaksna greska na liniji 10
+ERROR 16:50:50,347 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

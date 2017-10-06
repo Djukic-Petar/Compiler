@@ -1,0 +1,126 @@
+INFO  13:44:32,698 - Compiling source file: D:\Petar\Fax\PP1\Novi proj\PP1Proj\test\parserTest.mj
+INFO  13:44:32,714 - #2 program
+INFO  13:44:32,714 - #17 Prog
+INFO  13:44:32,714 - #6 const
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 jedan
+INFO  13:44:32,714 - #31 =
+INFO  13:44:32,714 - #48 5
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Constant jedan declared on line 2
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 niz
+INFO  13:44:32,714 - #44 [
+INFO  13:44:32,714 - #45 ]
+INFO  13:44:32,714 - #40 ,
+INFO  13:44:32,714 - Array niz declared on line 3
+INFO  13:44:32,714 - #17 t
+INFO  13:44:32,714 - #44 [
+INFO  13:44:32,714 - #45 ]
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Array t declared on line 3
+INFO  13:44:32,714 - #6 const
+INFO  13:44:32,714 - #17 bool
+INFO  13:44:32,714 - #17 prviBool
+INFO  13:44:32,714 - #31 =
+INFO  13:44:32,714 - #50 true
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Constant prviBool declared on line 4
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 prom
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Variable prom declared on line 5
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 broj
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Variable broj declared on line 6
+INFO  13:44:32,714 - #46 {
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 funkcija
+INFO  13:44:32,714 - #42 (
+INFO  13:44:32,714 - Method funkcija declared on line 8
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 a
+INFO  13:44:32,714 - #40 ,
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 b
+INFO  13:44:32,714 - #43 )
+INFO  13:44:32,714 - #46 {
+INFO  13:44:32,714 - #17 a
+INFO  13:44:32,714 - #31 =
+INFO  13:44:32,714 - #17 a
+INFO  13:44:32,714 - #18 +
+INFO  13:44:32,714 - #17 b
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - #9 print
+INFO  13:44:32,714 - #42 (
+INFO  13:44:32,714 - #48 45
+INFO  13:44:32,714 - #43 )
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - #47 }
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 drugaF
+INFO  13:44:32,714 - #42 (
+INFO  13:44:32,714 - Method drugaF declared on line 14
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 a
+INFO  13:44:32,714 - #40 ,
+INFO  13:44:32,714 - #17 char
+INFO  13:44:32,714 - #17 b
+INFO  13:44:32,714 - #43 )
+INFO  13:44:32,714 - #46 {
+INFO  13:44:32,714 - #47 }
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 funkcijaSaNizom
+INFO  13:44:32,714 - #42 (
+INFO  13:44:32,714 - Method funkcijaSaNizom declared on line 16
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 a
+INFO  13:44:32,714 - #44 [
+INFO  13:44:32,714 - #45 ]
+INFO  13:44:32,714 - #43 )
+INFO  13:44:32,714 - #46 {
+INFO  13:44:32,714 - #47 }
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 fNoParam
+INFO  13:44:32,714 - #42 (
+INFO  13:44:32,714 - Method fNoParam declared on line 19
+INFO  13:44:32,714 - #43 )
+INFO  13:44:32,714 - #46 {
+INFO  13:44:32,714 - #47 }
+INFO  13:44:32,714 - #12 void
+INFO  13:44:32,714 - #17 main
+INFO  13:44:32,714 - #42 (
+INFO  13:44:32,714 - Method main declared on line 21
+INFO  13:44:32,714 - #43 )
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 a
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Variable a declared on line 21
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 b
+INFO  13:44:32,714 - #40 ,
+INFO  13:44:32,714 - Variable b declared on line 21
+INFO  13:44:32,714 - #17 c
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Variable c declared on line 21
+INFO  13:44:32,714 - #17 int
+INFO  13:44:32,714 - #17 drugiNiz
+INFO  13:44:32,714 - #44 [
+INFO  13:44:32,714 - #45 ]
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - Array drugiNiz declared on line 21
+INFO  13:44:32,714 - #46 {
+INFO  13:44:32,714 - #17 funkcijaSaNizom
+INFO  13:44:32,714 - #42 (
+INFO  13:44:32,714 - #17 niz
+INFO  13:44:32,714 - #43 )
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - #17 a
+INFO  13:44:32,714 - #31 =
+INFO  13:44:32,714 - #17 broj
+INFO  13:44:32,714 - #39 ;
+INFO  13:44:32,714 - #50 true
+ERROR 13:44:32,714 - 
+Sintaksna greska na liniji 24
+ERROR 13:44:32,714 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 24
